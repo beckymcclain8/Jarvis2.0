@@ -1,5 +1,5 @@
 import React from "react";
-import "./Occupation.css";
+import "./Profile.css";
 import "../../App.css";
 import "../../index.css";
 
