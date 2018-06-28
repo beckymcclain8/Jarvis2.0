@@ -1,71 +1,63 @@
- import React, { Component } from "react";
- import Navbar from "../../StaticComponents/NavBar";
- import Carousel from "../../Components/Carousel";
- import { Login, SubmitBtn } from "../../Components/Login";
- import Input from "../../Components/FormInput";
- import Button from "../../Components/Button";
- import Footer from "../../StaticComponents/Footer";
- 
- class Jarvis extends Component {
+import React, { Component } from "react";
+import "../../App.css";
+import "../../index.css";
+import Navbar from "../../StaticComponents/Navbar";
+// import Carousel from "../../components/Carousel";
+// import { Login, SubmitBtn } from "../../components/Login";
+// import Input from "../../components/FormInput";
+// import Button from "../../components/Button";
+// import Options from "../../components/Options";
+import Footer from "../../StaticComponents/Footer";
 
-search = ()  => {
- //go to /search page
-}
+class Home extends Component {
+  search = () => {
+    //go to /search page
+  };
 
-patientProfile = ()  => {
-//go to /patientProfile
-}
+  patientProfile = () => {
+    //go to /patientProfile
+  };
 
-providerInfo = ()  => {
-//go to /providerInfo
-}
+  providerInfo = () => {
+    //go to /providerInfo
+  };
 
-costMap = ()  => {
-//go to /costMap
-}
+  costMap = () => {
+    //go to /costMap
+  };
 
- render() {
-     return (
+  render() {
+    return (
+      <div className="Home">
         <Navbar />
-        <Carousel />
+        {/* <Carousel />
         <form>
-        <Login/>
-        <Input/>
-            //add login stuff... need more info about facebook/google or do we just want input fields for username and password
-        <SubmitBtn>
-        </SubmitBtn>
+          <Login />
+          <Input />
+          //add login stuff... need more info about facebook/google or do we
+          just want input fields for username and password
+          <SubmitBtn />
         </form>
         <Options>
-             <img> # </img>
-             <Button
-                 onClick={this.search} >
-                 Search
-             </Button>
+          <img> # </img>
+          <Button onClick={this.search}>Search</Button>
         </Options>
         <Options>
-            <img> # </img>
-            <Button
-                 onClick={this.patientProfile} >
-                 User Profile
-             </Button>
+          <img> # </img>
+          <Button onClick={this.patientProfile}>User Profile</Button>
         </Options>
         <Options>
-            <img> # </img>
-            <Button
-                 onClick={this.providerInfo} >
-                 Provider
-             </Button>
+          <img> # </img>
+          <Button onClick={this.providerInfo}>Provider</Button>
         </Options>
         <Options>
-             <img> # </img>
-             <Button
-                 onClick={this.costMap} >
-                 Cost Map
-             </Button>
-        </Options>
-        <Footer/>
-     );
- }
+          <img> # </img>
+          <Button onClick={this.costMap}>Cost Map</Button>
+        </Options> */}
+        <Footer />
+      </div>
+    );
+  }
 }
 
-export default Jarvis;
+export default Home;

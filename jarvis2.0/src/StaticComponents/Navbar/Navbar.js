@@ -1,10 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./Navbar.css";
+import "../../App.css";
+import "../../index.css";
 
 const Navbar = props => (
-    <nav className="navbar">
-    <Link className="logo" to="/">
+  <nav className="navbar">
+    NAVBAR
+    {/* <Link className="logo" to="/">
     Jarvis
     </Link>
     <div> 
@@ -76,8 +79,8 @@ const Navbar = props => (
           </Link>
         </li>
       </ul>
-    </div>
-    </nav>
+    </div> */}
+  </nav>
 );
 
 export default Navbar;
