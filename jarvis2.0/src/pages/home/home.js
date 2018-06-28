@@ -8,6 +8,22 @@
  
  class Jarvis extends Component {
 
+search = ()  => {
+ //go to /search page
+}
+
+patientProfile = ()  => {
+//go to /patientProfile
+}
+
+providerInfo = ()  => {
+//go to /providerInfo
+}
+
+costMap = ()  => {
+//go to /costMap
+}
+
  render() {
      return (
         <Navbar />
@@ -21,19 +37,31 @@
         </form>
         <Options>
              <img> # </img>
-             <Button> Search </Button>
+             <Button
+                 onClick={this.search} >
+                 Search
+             </Button>
         </Options>
         <Options>
             <img> # </img>
-                <Button> User Profile </Button>
+            <Button
+                 onClick={this.patientProfile} >
+                 User Profile
+             </Button>
         </Options>
         <Options>
             <img> # </img>
-            <Button> Provider </Button>
+            <Button
+                 onClick={this.providerInfo} >
+                 Provider
+             </Button>
         </Options>
         <Options>
              <img> # </img>
-             <Button> Cost Map </Button>
+             <Button
+                 onClick={this.costMap} >
+                 Cost Map
+             </Button>
         </Options>
         <Footer/>
      );
