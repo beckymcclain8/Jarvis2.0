@@ -40,35 +40,11 @@ class Home extends Component {
         <Navbar />
         <Header />
         <Carousel />
-        {/*<form>*/}
         <Login />
         <Feature className="feature-a" />
         <Feature className="feature-b" />
         <Feature className="feature-c" />
         <Feature className="feature-d" />
-        {/* <Selection /> */}
-        {/* <Option src={"`https://placeimg.com/100/100/tech"} /> */}
-        {/* <Input />
-          //add login stuff... need more info about facebook/google or do we
-          just want input fields for username and password */}
-        {/* <SubmitBtn /> */}
-        {/* </form> */}
-        {/* <Option
-          src={"https://placeimg.com/100/100/tech"}
-          <Button onClick={this.search}>Search</Button> 
-        />
-        <Option
-          src={"https://placeimg.com/100/100/tech"}
-          <Button onClick={this.patientProfile}>User Profile</Button> 
-        />
-        <Option
-          src={"https://placeimg.com/100/100/tech"}
-          <Button onClick={this.providerInfo}>Provider</Button> 
-        />
-        <Option
-          src={"https://placeimg.com/100/100/tech"}
-          <Button onClick={this.costMap}>Cost Map</Button> 
-        /> */}
         <Footer />
       </div>
     );
