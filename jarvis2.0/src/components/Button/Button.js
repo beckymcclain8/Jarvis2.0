@@ -4,7 +4,7 @@ import "../../App.css";
 import "../../index.css";
 
 const Button = props => {
-  return <div className="button">Button</div>;
+  return <button className="button">Button</button>;
 };
 
 export default Button;
