@@ -18,7 +18,7 @@ body {
   margin: 10px;
 }
 
-.container > div:nth-child(1n) {
+.navbar {
   background-color: #96ceb4;
 }
 
@@ -34,6 +34,6 @@ body {
   background-color: #ff6f69;
 }
 
-.container > footer {
+footer {
   background-color: #ffcc5c;
 }
