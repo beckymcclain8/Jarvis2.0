@@ -4,7 +4,9 @@
 }
 
 .container > div,
-footer {
+footer,
+.navbar,
+.header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +25,7 @@ body {
 }
 
 .header {
-  background-color: #88d8b0;
+  background-color: #48d8b0;
 }
 
 footer {
