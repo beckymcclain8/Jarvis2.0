@@ -22,16 +22,8 @@ body {
   background-color: #96ceb4;
 }
 
-.container > div:nth-child(3n) {
+.header {
   background-color: #88d8b0;
-}
-
-.container > div:nth-child(3n) > div {
-  background-color: #95d888;
-}
-
-.container > div:nth-child(2n) {
-  background-color: #ff6f69;
 }
 
 footer {

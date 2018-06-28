@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import "../../App.css";
+import "../../index.css";
 import Navbar from "../../StaticComponents/Navbar";
 // import Carousel from "../../components/Carousel";
 // import { Login, SubmitBtn } from "../../components/Login";
@@ -6,8 +8,6 @@ import Navbar from "../../StaticComponents/Navbar";
 // import Button from "../../components/Button";
 // import Options from "../../components/Options";
 import Footer from "../../StaticComponents/Footer";
-import "../../App.css";
-import "../../index.css";
 
 class Home extends Component {
   search = () => {

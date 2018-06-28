@@ -1,5 +1,7 @@
 import React from "react";
 import "./SubmitBtn.css";
+import "../../App.css";
+import "../../index.css";
 
 const SubmitBtn = props => {
   return (
