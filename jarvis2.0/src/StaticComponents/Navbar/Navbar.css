@@ -1,3 +1,18 @@
+/* .container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1f;
+  grid-gap: 5px;
+  margin-bottom: 0;
+} */
+
 .navbar {
-    margin-bottom: 0;
-  }
+  margin-bottom: 0;
+}
+
+/* .nav-link {
+  grid-column: span 1;
+  justify-content: center;
+
+} */
+
