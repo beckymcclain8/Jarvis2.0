@@ -6,7 +6,7 @@ import "../../index.css";
 import Navbar from "../../StaticComponents/Navbar";
 import Header from "../../components/Header";
 import Carousel from "../../components/Carousel";
-import Login from "../../components/Login";
+// import Login from "../../components/Login";
 import Feature from "../../components/Feature";
 // import Input from "../../components/FormInput";
 // import Button from "../../components/Button";
@@ -40,7 +40,7 @@ class Home extends Component {
         <Navbar />
         <Header />
         <Carousel />
-        <Login />
+        {/* <Login /> */}
         <Feature className="feature-a" />
         <Feature className="feature-b" />
         <Feature className="feature-c" />
