@@ -14,6 +14,8 @@ import Feature from "../../components/Feature";
 import Footer from "../../StaticComponents/Footer";
 
 class Home extends Component {
+
+
   search = () => {
     //go to /search page
     console.log("Let get Searching");
@@ -34,17 +36,23 @@ class Home extends Component {
     console.log("Let's checkout the Map");
   };
 
-  render() {
+  render(props) {
     return (
       <div className="container">
         <Navbar />
         <Header />
         <Carousel />
-        {/* <Login /> */}
-        <Feature className="feature-a" />
-        <Feature className="feature-b" />
-        <Feature className="feature-c" />
-        <Feature className="feature-d" />
+
+        <Login />
+        <Feature className="feature-a" src={"https://image.flaticon.com/icons/png/512/49/49116.png"} title={"search"} >
+        </Feature>
+        <Feature className="feature-b" title={"Patient Profile"} >
+        </Feature>
+        <Feature className="feature-c" title={"Provider"} >
+        </Feature>
+        <Feature className="feature-d" src={"https://www.teamusa.org/content/images/media/usa_map.png"} title={"Cost Map"}>
+        </Feature>
+
         <Footer />
       </div>
     );

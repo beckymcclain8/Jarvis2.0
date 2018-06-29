@@ -9,11 +9,12 @@ const Feature = props => {
   return (
     <div className={props.className} {...props}>
       {" "}
-      Feature Selection
-      <Image />
-      <Button />
+      <Image src={props.src}/>
+      <br />
+      {/* <h4>{props.title}</h4> */}
+      <Button title= {props.title}/>
     </div>
   );
-};
+}; 
 
 export default Feature;

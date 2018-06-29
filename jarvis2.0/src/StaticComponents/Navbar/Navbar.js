@@ -10,7 +10,7 @@ const Navbar = props => (
             window.location.pathname === "/" 
               ? "nav-item active"
               : "nav-item"
-          } >
+          } id="home">
           <Link to="/" className="nav-link">
             Home
           </Link>
@@ -19,7 +19,7 @@ const Navbar = props => (
             window.location.pathname === "/map"
               ? "nav-item active"
               : "nav-item"
-          } >
+          } id="map">
           <Link to="/map" className="nav-link">
             Map
           </Link>
@@ -28,7 +28,7 @@ const Navbar = props => (
             window.location.pathname === "/search"
               ? "nav-item active"
               : "nav-item"
-          } >
+          } id="search">
           <Link to="/search" className="nav-link">
             Search
           </Link>
@@ -37,8 +37,8 @@ const Navbar = props => (
             window.location.pathname === "/patient"
               ? "nav-item active"
               : "nav-item"
-          } >
-          <Link to="/patient" className="nav-link">
+          } id= "patient">
+          <Link to="/:id/patient" className="nav-link">
             Patient
           </Link>
 </div>
@@ -46,7 +46,7 @@ const Navbar = props => (
             window.location.pathname === "/provider"
               ? "nav-item active"
               : "nav-item"
-          } >
+          } id="provider">
           <Link to="/provider" className="nav-link">
             Provider
           </Link>
@@ -55,8 +55,8 @@ const Navbar = props => (
             window.location.pathname === "/logout"
               ? "nav-item active"
               : "nav-item"
-          } >
-          <Link to="/logout" className="nav-link">
+          } id="logOut">
+          <Link to="/" className="nav-link">
             Log Out
           </Link>
 </div>
