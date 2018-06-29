@@ -5,11 +5,34 @@ const mongoose = require("mongoose");
 //            creates new instance of googleStrategy
 const User = mongoose.model("users");
 
+passport.serializeUser((user, done) => {
+  done(null, user.id);
+});
+
+passport.deserializeUser((id, done) => {
+  User.findById(id)
+  .then(user => {
+    done(null, user);
+  })
+});
+
 passport.use(new GoogleStrategy({
-    clientID: keys.googleClientID,
-    clientSecret: keys.googleClientSecret,
-    callbackURL: "/auth/google/callback"
+  clientID: keys.googleClientID,
+  clientSecret: keys.googleClientSecret,
+  callbackURL: "/auth/google/callback"
 }, (accessToken, refreshToken, profile, done) => {
-  new User({ googleID: profile.id }).save();
-})
+User.findOne({ googleID: profile.id })
+.then(existingUser => {
+  if(existingUser) {
+//we already have a record with the given profile ID
+done(null, existingUser);
+  } else {
+//we dont have a user record with this ID, make new record
+new User({ googleID: profile.id })
+.save()
+.then(user => done(null, user));
+  }
+});
+}
+)
 );
