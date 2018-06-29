@@ -13,6 +13,9 @@ body {
 }
 
 .navbar {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-items: center;
   grid-column: 5/-1;
   grid-row: 1/2;
 }
