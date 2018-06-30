@@ -19,7 +19,7 @@ class About extends Component {
       <div className="container">
         <Navbar />
         <Header />
-        <Carousel />
+        <Carousel className="carousel-about" />
         <Footer />
       </div>
     );

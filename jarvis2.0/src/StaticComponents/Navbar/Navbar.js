@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./Navbar.css"; 
 import "../../App.css";
 import "../../index.css";
 
@@ -58,7 +58,7 @@ const Navbar = props => (
           } id="logOut">
           <Link to="/" className="nav-link">
             Log Out
-          </Link>
+          </Link> 
 </div>
   </nav>
 );
