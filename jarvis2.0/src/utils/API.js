@@ -18,7 +18,7 @@ export default class Result extends React.Component {
     return (
       <ul>
         { this.state.hospitals.map(hospital => <li>{hospital.provider_name}</li>
-    <li>{hospital.provider_street_address}, {hospital.provider_state} {hospital.provider_zip_code}</li>)})}
+    <li>{hospital.provider_street_address}, {hospital.provider_state} {hospital.provider_zip_code}</li>}
       </ul>
     )
   }

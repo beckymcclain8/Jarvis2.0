@@ -43,7 +43,6 @@ class Home extends Component {
         <Header />
         <Carousel />
 
-        <Login />
         <Feature className="feature-a" src={"https://image.flaticon.com/icons/png/512/49/49116.png"} title={"search"} >
         </Feature>
         <Feature className="feature-b" title={"Patient Profile"} >
