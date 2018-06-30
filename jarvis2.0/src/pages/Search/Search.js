@@ -4,13 +4,14 @@ import "../../App.css";
 import "../../index.css";
 import Navbar from "../../StaticComponents/Navbar";
 import Header from "../../components/Header";
-import Feature from "../../components/Feature";
+import Carousel from "../../components/Carousel";
 import Footer from "../../StaticComponents/Footer";
+import FormInput from "../../components/FormInput/FormInput";
 
 class Search extends Component {
-  matches = () => {
+  scroll = () => {
     //go to /search page
-    console.log("See some matches");
+    console.log("Scroll the carousel");
   };
 
   render() {
@@ -18,7 +19,7 @@ class Search extends Component {
       <div className="container">
         <Navbar />
         <Header />
-        <Feature className="feature-a" />
+<FormInput />
         <Footer />
       </div>
     );
