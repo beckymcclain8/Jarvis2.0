@@ -1,6 +1,4 @@
-.carousel {
-  background-color: #96ceb4;
-}
+
 .login {
   background-color: #96a5ce;
 }
@@ -11,3 +9,20 @@
 .feature-d {
   background-color: #ce96c7;
 }
+
+.carousel-home h1 {
+  padding-top: 2em;
+  font-size: xx-large;
+  color: #ffeead;
+}
+
+.carousel-home p {
+  font-size: large;
+  padding: 50px;
+  color: #ffeead;
+}
+
+.carousel-home button {
+  margin: 2em;
+}
+ 

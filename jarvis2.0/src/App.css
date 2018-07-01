@@ -2,8 +2,13 @@
   margin: 0;
   padding: 0;
 }
-
-.container > div,
+/* .container > div */
+.login,
+.googleOauth,
+.feature-a,
+.feature-b,
+.feature-c,
+.feature-d, 
 footer,
 .navbar,
 .header {
@@ -31,3 +36,5 @@ body {
 footer {
   background-color: #ffcc5c;
 }
+
+
