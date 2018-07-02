@@ -5,9 +5,14 @@
 
 .feature-a,
 .feature-b,
-.feature-c,
+.feature-c, 
 .feature-d {
   background-color: #ce96c7;
+}
+
+.feature-link {
+  color: #ffeead;
+  text-decoration: none;
 }
 
 .carousel-home h1 {
@@ -15,6 +20,8 @@
   font-size: xx-large;
   color: #ffeead;
 }
+
+
 
 .carousel-home p {
   font-size: large;

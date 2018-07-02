@@ -4,7 +4,8 @@
   }
 
 .nav-link {
-text-decoration: none;
+  color: #ffeead;
+  text-decoration: none;
 }; 
  
 /* #home {

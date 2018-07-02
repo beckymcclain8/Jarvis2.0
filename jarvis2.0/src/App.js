@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Patient from "./pages/Patient";
 import Search from "./pages/Search";
-
+ 
 // import Provider from "./pages/Provider";
 import NoMatch from "./pages/NoMatch";
 

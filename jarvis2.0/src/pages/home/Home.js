@@ -15,25 +15,6 @@ import Feature from "../../components/Feature";
 import Footer from "../../StaticComponents/Footer";
 
 class Home extends Component {
-  search = () => {
-    //go to /search page
-    console.log("Let get Searching");
-  };
-
-  patientProfile = () => {
-    //go to /patientProfile
-    console.log("Let's checkout your patient profile");
-  };
-
-  providerInfo = () => {
-    //go to /providerInfo
-    console.log("Let's checkout your provider profile");
-  };
-
-  costMap = () => {
-    //go to /costMap
-    console.log("Let's checkout the Map");
-  };
 
   render(props) {
     return (
@@ -50,24 +31,24 @@ class Home extends Component {
         <Feature
           className="feature-a"
           src={"https://image.flaticon.com/icons/png/512/49/49116.png"}
-          title={"Search"}
-          onClick={this.search}
-        />
+          title = {"Search"} 
+          link={"/search"} />
+
         <Feature className="feature-b" 
         src={"https://cdn4.iconfinder.com/data/icons/follower/512/login-man-person-human-body-512.png"}
         title={"Patient Profile"} 
-        onClick={this.patientProfile} />
+        link={"/:id/patient"} />
+        
         <Feature className="feature-c" 
         src={"https://d30y9cdsu7xlg0.cloudfront.net/png/126327-200.png"}
         title={"Provider"} 
-        onClick={this.providerInfo} 
-        />
+        link={"/:id/provider"} />
+
         <Feature
           className="feature-d"
           src={"https://d30y9cdsu7xlg0.cloudfront.net/png/565973-200.png"}
-          title={"Cost Map"}
-          onClick={this.costMap}
-        />
+          title={"Cost Map"} 
+          link={"/map"} />
 
         <Footer />
       </div>
