@@ -1,3 +1,4 @@
+
 import React, { Component } from "react";
 import "../../App.css"; 
 import "./Home.css";
@@ -25,7 +26,8 @@ class Home extends Component {
           carousel="carousel-home"
           heading="What is Jarvis?"
           info="The cost of medical procedures varies greatly by provider.  Jarvis helps take the guesswork out of finding the right hospital for you.  We know that you might be able to save money if you're willing to travel to a hospital outside your local radius.  Enter your information and we will search our database for hospitals that can perform your procedure at the lowest cost."
-          title="Get Started Now!"
+          link={"/search"}
+          title="Get Started!"
         />
         <Login />
         <Feature
