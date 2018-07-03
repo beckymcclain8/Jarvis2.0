@@ -10,26 +10,41 @@
   background-color: #ce96c7;
 }
 
+
 .feature-link {
   color: #ffeead;
   text-decoration: none;
 }
 
-.carousel-home h1 {
-  padding-top: 2em;
-  font-size: xx-large;
+/* .carousel-link {
+  padding: 1em;
+  font-size: 300%;
   color: #ffeead;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: #ce96c7;
+  border-radius: 8px;
+} */
+
+.carousel-home h1 {
+  padding-top: 1em;
+  font-size: 350%;
+  color: #ffeead;
+  text-shadow: 3px 2px rgb(139, 129, 129);
 }
-
-
 
 .carousel-home p {
-  font-size: large;
-  padding: 50px;
+  font-size: x-large;
+  padding: 1em 2em;
   color: #ffeead;
 }
 
-.carousel-home button {
-  margin: 2em;
+.carousel-link {
+  background-color: white;
+  border-radius: 8px;
+  padding:3em;
+  margin: 2em 0em;
+  font-size: 100%;
+  text-decoration: none;
 }
  
