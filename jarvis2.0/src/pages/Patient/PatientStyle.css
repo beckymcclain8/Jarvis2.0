@@ -7,9 +7,16 @@
 
 #fav {
   padding: 1em 1em 1em 2em;
-  background-color: #96a5ce;
+  /* background-color: #96a5ce; */
   color: black;
   font-size: 200%;
+}
+
+#greeting {
+    padding: 1em 1em 1em 2em;
+    /* background-color: #96a5ce; */
+    color: black;
+    font-size: 200%;
 }
 
 .result-a,
@@ -19,7 +26,23 @@
 .result-e,
 .result-f {
   padding: 1em;
+  /* background-color: #96a5ce; */
+  color: black;
+}
+
+.calender {
+  padding: 1em 1em 1em 2em;
   background-color: #96a5ce;
+  color: black;
+  font-size: 200%;
+}
+.calender h5, h6 {
   color: black;
 }
  
+.starVote {
+  padding: 1em 1em 1em 2em;
+  background-color: #96a5ce;
+  color: black;
+  font-size: 200%;
+}

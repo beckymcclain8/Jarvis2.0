@@ -1,1 +1,1 @@
-export { default } from "./StarVotes";
+export { default } from "./StarVote";

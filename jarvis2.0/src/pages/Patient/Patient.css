@@ -21,6 +21,21 @@ body {
   grid-row: 1/2;
 }
 
+.calender {
+  grid-column: 9/12;
+  grid-row: 3/6;
+}
+
+#greeting {
+  grid-column: 9/12;
+  grid-row: 2/3;
+}
+
+.starVote {
+  grid-column: 9/12;
+  grid-row: 7/9;
+}
+
 .googleOauth, 
 .login {
   grid-column: 9/-1;
