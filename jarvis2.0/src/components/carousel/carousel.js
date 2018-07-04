@@ -1,6 +1,6 @@
 import React from "react";
-import "./Carousel.css";
 import "../../App.css";
+import "./Carousel.css";
 import "../../index.css";
 
 const Carousel = props => {
