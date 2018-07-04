@@ -21,28 +21,43 @@ body {
   grid-row: 1/2;
 }
 
-.googleOauth,
+.googleOauth, 
 .login {
   grid-column: 9/-1;
   grid-row: 2/7;
 }
 
-.feature-a {
+#fav {
+  grid-column: 3/6;
+  grid-row: 2/3;
+}
+
+.result-a {
+  grid-column: 1/4;
+  grid-row: 3/5;
+}
+.result-b {
+  grid-column: 5/8;
+  grid-row: 3/5;
+}
+.result-c {
+  grid-column: 1/4;
+  grid-row: 5/7;
+}
+.result-d {
+  grid-column: 5/8;
+  grid-row: 5/7;
+ }
+
+.result-e {
   grid-column: 1/4;
   grid-row: 7/9;
 }
-.feature-b {
-  grid-column: 4/7;
+.result-f {
+  grid-column: 5/8;
   grid-row: 7/9;
-}
-.feature-c {
-  grid-column: 7/10;
-  grid-row: 7/9;
-}
-.feature-d {
-  grid-column: 10/-1;
-  grid-row: 7/9;
-}
+} 
+
 footer {
   grid-column: 1/-1;
   grid-row: 9/10;
