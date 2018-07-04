@@ -8,7 +8,8 @@ import Header from "../../components/Header";
 import Result from "../../components/Result";
 // import Feature from "../../components/Feature";
 import Footer from "../../StaticComponents/Footer";
-
+import Calender from "../../components/Calender";
+import StarVote from "../../components/StarVotes";
 
 class Patient extends Component {
   matches = () => {
@@ -22,6 +23,9 @@ class Patient extends Component {
         <Navbar />
         <Header />
         <h1 id="fav">Your Favorites</h1>
+        <h1 id="greeting">Hello!</h1>
+        <Calender />
+        <StarVote />
         <Result 
         className = "result-a"
         hospital = {"Best Hospital"}

@@ -4,7 +4,7 @@ import "../../App.css";
 import "../../index.css";
 
 const Calender = props => {
-  return <div className="calender">Calender</div>;
+  return <div className="calender">Calendar</div>;
 };
 
-export default Calender;
+export default Calender; 
