@@ -5,7 +5,7 @@ import "./index.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Patient from "./pages/Patient";
-import Map from "./pages/Map";
+import Map from "./pages/MapView";
 import Search from "./pages/Search";
 import Provider from "./pages/Provider";
 // import Provider from "./pages/Provider";
