@@ -6,10 +6,10 @@ import "../../index.css";
 const ContactBadge = props => (
 
   <div className={props.className} {...props}>
-  <h1>{props.genre}</h1>
-  <h2>{props.doctor}</h2>
-  <h3>{props.address}</h3>
-  <h3>{props.rating}</h3>
+  <h2>{props.genre}</h2>
+  <h3>{props.doctor}</h3>
+  <h4>{props.address}</h4>
+  <h4>{props.rating}</h4>
  
   </div>
 );

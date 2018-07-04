@@ -5,10 +5,10 @@ import "../../index.css";
 
 const StarVote = props => {
 
-  return <div className="starVote"> 
+  return <div className={props.className}> 
   <h5>How did you like Jarvis? </h5>
   <h6>Please rate our app</h6>
-  <img src="http://via.placeholder.com/50x50" className="starVote2" />
+  <img src="http://via.placeholder.com/50x50" className="img" />
   </div>
 };
 
