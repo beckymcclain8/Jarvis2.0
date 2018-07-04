@@ -1,6 +1,5 @@
-
 import React, { Component } from "react";
-import "../../App.css"; 
+import "../../App.css";
 import "./Home.css";
 import "./HomeStyle.css";
 
@@ -16,7 +15,6 @@ import Feature from "../../components/Feature";
 import Footer from "../../StaticComponents/Footer";
 
 class Home extends Component {
-
   render(props) {
     return (
       <div className="container">
@@ -33,24 +31,32 @@ class Home extends Component {
         <Feature
           className="feature-a"
           src={"https://image.flaticon.com/icons/png/512/49/49116.png"}
-          title = {"Search"} 
-          link={"/search"} />
+          title={"Search"}
+          link={"/search"}
+        />
 
-        <Feature className="feature-b" 
-        src={"https://cdn4.iconfinder.com/data/icons/follower/512/login-man-person-human-body-512.png"}
-        title={"Patient Profile"} 
-        link={"/:id/patient"} />
-        
-        <Feature className="feature-c" 
-        src={"https://d30y9cdsu7xlg0.cloudfront.net/png/126327-200.png"}
-        title={"Provider"} 
-        link={"/:id/provider"} />
+        <Feature
+          className="feature-b"
+          src={
+            "https://cdn4.iconfinder.com/data/icons/follower/512/login-man-person-human-body-512.png"
+          }
+          title={"Patient Profile"}
+          link={"/:id/patient"}
+        />
+
+        <Feature
+          className="feature-c"
+          src={"https://d30y9cdsu7xlg0.cloudfront.net/png/126327-200.png"}
+          title={"Provider"}
+          link={"/:id/provider"}
+        />
 
         <Feature
           className="feature-d"
           src={"https://d30y9cdsu7xlg0.cloudfront.net/png/565973-200.png"}
-          title={"Cost Map"} 
-          link={"/map"} />
+          title={"Cost Map"}
+          link={"/api/map"}
+        />
 
         <Footer />
       </div>

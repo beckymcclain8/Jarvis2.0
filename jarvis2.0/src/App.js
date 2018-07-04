@@ -5,9 +5,10 @@ import "./index.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Patient from "./pages/Patient";
+import Map from "./pages/Map";
 import Search from "./pages/Search";
 import Provider from "./pages/Provider";
- // import Provider from "./pages/Provider";
+// import Provider from "./pages/Provider";
 import NoMatch from "./pages/NoMatch";
 
 class App extends Component {
@@ -20,7 +21,7 @@ class App extends Component {
           <Route exact path="/about" component={About} />
           <Route exact path="/:id/patient" component={Patient} />
           <Route exact path="/search" component={Search} />
-
+          <Route exact path="/api/map" component={Map} />
           <Route exact path="/:id/provider" component={Provider} />
           {/* <Route  exact path="/:id/provider" component={Provider} />
           Will need second provider page after all so that the patient
