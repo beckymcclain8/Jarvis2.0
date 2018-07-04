@@ -8,12 +8,12 @@ const Result = props => (
  
     <div className={props.className} {...props}>
       <h1> {props.hospital} </h1>
-      <h3> {props.address} </h3>
-      <h3> {props.city} </h3>
-      <h2> Distance: {props.distance} </h2>
-      <h2> Cost of Procedure: {props.procedureCost} </h2>
-      <h2> Driving Cost: {props.driveCost} </h2>
-      <h1> Total Cost: {props.totalCost} </h1>
+      <h2> {props.address} </h2>
+      <h2> {props.city} </h2>
+      <h3> Distance: {props.distance} </h3>
+      <h3> Cost of Procedure: {props.procedureCost} </h3>
+      <h3> Driving Cost: {props.driveCost} </h3>
+      <h2> Total Cost: {props.totalCost} </h2>
 
       {/* <SubmitBtn> {props.title} </SubmitBtn> */}
     </div>

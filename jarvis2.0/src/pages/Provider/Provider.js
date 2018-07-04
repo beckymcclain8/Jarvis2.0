@@ -16,16 +16,42 @@ render() {
         <div className="container">
         <Navbar />
         <Header />
-        <h1 id="fav">Recommended Partners</h1>
-        <h1 id="greeting">Welcome to Dr. McClain's Page!</h1>
-        <StarVote />
+        <h2 id="rec">Recommended Partners</h2>
+        <h2 id="greeting2">Welcome to Dr. McClain's Page!</h2>
+        <StarVote 
+        className={"starVote2"}/>
         <ContactBadge 
-        className="contactBadge"
+        className="contactBadge-a"
         genre="Physical Therapy"
         doctor="Dr. McClain"
         address="123 Get Better Way"
         rating="Five Stars" 
         />
+
+        <ContactBadge 
+        className="contactBadge-b"
+        genre="Knee Joint Replacement"
+        doctor="Dr. McClain"
+        address="123 Get Better Way"
+        rating="Five Stars" 
+        />
+
+        <ContactBadge 
+        className="contactBadge-c"
+        genre="Orthopedics"
+        doctor="Dr. McClain"
+        address="123 Get Better Way"
+        rating="Five Stars" 
+        />
+
+        <ContactBadge 
+        className="contactBadge-d"
+        genre="Massage"
+        doctor="Dr. McClain"
+        address="123 Get Better Way"
+        rating="Five Stars" 
+        />
+        
         <Footer />
         </div>
     );
