@@ -5,9 +5,21 @@
   background-color: #96a5ce;
 }
 
-.feature-a,
-.feature-b,
-.feature-c,
-.feature-d {
-  background-color: #361371;
+#fav {
+  padding: 1em 1em 1em 2em;
+  background-color: #96a5ce;
+  color: black;
+  font-size: 200%;
 }
+
+.result-a,
+.result-b,
+.result-c,
+.result-d,
+.result-e,
+.result-f {
+  padding: 1em;
+  background-color: #96a5ce;
+  color: black;
+}
+ 
