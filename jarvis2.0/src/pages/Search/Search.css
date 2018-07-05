@@ -1,0 +1,10 @@
+.formInput {
+    grid-column: 2/6;
+    grid-column: 2/6;
+    background-color: #96a5ce; 
+    color: black;
+}
+
+.address {
+    grid-column: 2/6;
+}

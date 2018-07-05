@@ -1,20 +1,22 @@
 .contactBadge {
   padding: 1em 1em 1em 2em;
-  background-color: #96a5ce;
+  background-color: #96a5ce; 
   color: black;
   font-size: 200%;
 }
 
 #rec {
-  /* padding: 1em 1em 1em 2em; */
-  /* background-color: #96a5ce; */
-  color: black;
-  font-size: 200%;
+  padding: 1em 1em 0em 2em;
+  /* color: black; */
 }
 
 #greeting2 {
-  /* padding: 1em 1em 1em 2em; */
-  /* background-color: #96a5ce; */
+  padding: 1em 1em 0em 2em;
+  /* color: black; */
+}
+
+.testimonial {
+  background-color: #96a5ce; 
   color: black;
   font-size: 200%;
 }
@@ -36,5 +38,4 @@
   /* padding: 1em 1em 1em 2em; */
   background-color: #96a5ce;
   color: black;
-  font-size: 200%;
 }

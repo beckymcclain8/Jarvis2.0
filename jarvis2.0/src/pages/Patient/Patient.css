@@ -4,25 +4,9 @@ body {
   font-family: sans-serif;
   overflow: hidden;
 }
-.container {
-  display: grid;
-  grid-gap: 3px;
 
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-}
-
-.navbar {
-  grid-column: 5/-1;
-  grid-row: 1/2;
-}
-.header {
-  grid-column: 1/5;
-  grid-row: 1/2;
-}
-
-.calender {
-  grid-column: 9/12;
+.react-calendar {
+  grid-column: 9/-1;
   grid-row: 3/6;
 }
 
@@ -32,8 +16,8 @@ body {
 }
 
 .starVote {
-  grid-column: 9/12;
-  grid-row: 7/9;
+  grid-column: 8/12;
+  grid-row: 7/8;
 }
 
 .googleOauth, 
@@ -73,7 +57,3 @@ body {
   grid-row: 7/9;
 } 
 
-footer {
-  grid-column: 1/-1;
-  grid-row: 9/10;
-}

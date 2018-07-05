@@ -7,7 +7,7 @@ import "../../index.css";
 const Result = props => (
  
     <div className={props.className} {...props}>
-      <h1> {props.hospital} </h1>
+      <h2> {props.hospital} </h2>
       <h2> {props.address} </h2>
       <h2> {props.city} </h2>
       <h3> Distance: {props.distance} </h3>

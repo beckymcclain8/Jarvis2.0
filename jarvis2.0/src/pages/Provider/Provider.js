@@ -8,16 +8,18 @@ import Header from "../../components/Header";
 import Footer from "../../StaticComponents/Footer";
 import StarVote from "../../components/StarVotes";
 import ContactBadge from "../../components/ContactBadge";
+import Testimonial from "../../components/Testimonial";
 
 class Provider extends Component {
 
 render() {
-    return (
+    return ( 
         <div className="container">
         <Navbar />
         <Header />
-        <h2 id="rec">Recommended Partners</h2>
-        <h2 id="greeting2">Welcome to Dr. McClain's Page!</h2>
+        <h1 id="rec">Recommended Partners</h1>
+        <h1 id="greeting2">Welcome to Dr. McClain's Page!</h1>
+        <Testimonial />
         <StarVote 
         className={"starVote2"}/>
         <ContactBadge 

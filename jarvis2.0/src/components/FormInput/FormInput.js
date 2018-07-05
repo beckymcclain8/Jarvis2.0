@@ -12,7 +12,7 @@ class FormInput extends Component {
     city: "",
     state: "",
     zipCode: "",
-    radius: "",
+    radius: "", 
     procedure: ""
   };
 
@@ -35,16 +35,18 @@ class FormInput extends Component {
   render() {
     // Notice how each input has a `value`, `name`, and `onChange` prop
     return (
-      <div>
+      <div className="formInput">
        
         <form className="form">
           <input
+          className="address"
             value={this.state.address}
             name="address"
             onChange={this.handleInputChange}
             type="text"
             placeholder="Enter your address"
           />
+          <br></br>
           <input
             value={this.state.city}
             name="city"
