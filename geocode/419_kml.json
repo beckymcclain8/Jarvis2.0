@@ -1,0 +1,1748 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "Name": "1108 ROSS CLARK CIRCLE,DOTHAN,AL,36301", "Description": "1" }, "geometry": { "type": "Point", "coordinates": [ -85.36152, 31.21544, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "50 MEDICAL PARK EAST DRIVE,BIRMINGHAM,AL,35235", "Description": "2" }, "geometry": { "type": "Point", "coordinates": [ -86.64833, 33.62411, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 FIRST STREET NORTH,ALABASTER,AL,35007", "Description": "3" }, "geometry": { "type": "Point", "coordinates": [ -86.81348, 33.25215, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1300 SOUTH MONTGOMERY AVENUE,SHEFFIELD,AL,35660", "Description": "4" }, "geometry": { "type": "Point", "coordinates": [ -87.69899, 34.74589, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2105 EAST SOUTH BOULEVARD,MONTGOMERY,AL,36116", "Description": "5" }, "geometry": { "type": "Point", "coordinates": [ -86.27747, 32.32761, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1725 PINE STREET,MONTGOMERY,AL,36106", "Description": "6" }, "geometry": { "type": "Point", "coordinates": [ -86.28512, 32.36693, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2000 PEPPERELL PARKWAY,OPELIKA,AL,36801", "Description": "7" }, "geometry": { "type": "Point", "coordinates": [ -85.40548, 32.63807, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "619 SOUTH 19TH STREET,BIRMINGHAM,AL,35233", "Description": "8" }, "geometry": { "type": "Point", "coordinates": [ -86.80183, 33.50618, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "101 SIVLEY RD,HUNTSVILLE,AL,35801", "Description": "9" }, "geometry": { "type": "Point", "coordinates": [ -86.58058, 34.72092, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1007 GOODYEAR AVENUE,GADSDEN,AL,35903", "Description": "10" }, "geometry": { "type": "Point", "coordinates": [ -85.97095, 34.00935, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "600 SOUTH THIRD STREET,GADSDEN,AL,35901", "Description": "11" }, "geometry": { "type": "Point", "coordinates": [ -86.00387, 34.00505, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4370 WEST MAIN STREET,DOTHAN,AL,36305", "Description": "12" }, "geometry": { "type": "Point", "coordinates": [ -85.45795, 31.23611, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "810 ST VINCENT'S DRIVE,BIRMINGHAM,AL,35205", "Description": "13" }, "geometry": { "type": "Point", "coordinates": [ -86.78907, 33.50713, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1613 NORTH MCKENZIE STREET,FOLEY,AL,36535", "Description": "14" }, "geometry": { "type": "Point", "coordinates": [ -87.6833, 30.42501, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6801 AIRPORT BOULEVARD,MOBILE,AL,36608", "Description": "15" }, "geometry": { "type": "Point", "coordinates": [ -88.19926, 30.67939, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "809 UNIVERSITY BOULEVARD EAST,TUSCALOOSA,AL,35401", "Description": "16" }, "geometry": { "type": "Point", "coordinates": [ -87.52546, 33.20521, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "750 MORPHY AVENUE,FAIRHOPE,AL,36532", "Description": "17" }, "geometry": { "type": "Point", "coordinates": [ -87.88955, 30.51988, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5 MOBILE INFIRMARY CIRCLE,MOBILE,AL,36652", "Description": "18" }, "geometry": { "type": "Point", "coordinates": [ -88.08027, 30.69672, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE HOSPITAL DR SE,HUNTSVILLE,AL,35801", "Description": "19" }, "geometry": { "type": "Point", "coordinates": [ -86.57249, 34.69337, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2010 BROOKWOOD MEDICAL CENTER DRIVE,BIRMINGHAM,AL,35209", "Description": "20" }, "geometry": { "type": "Point", "coordinates": [ -86.77656, 33.46315, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "400 TAYLOR ROAD,MONTGOMERY,AL,36117", "Description": "21" }, "geometry": { "type": "Point", "coordinates": [ -86.1749, 32.37619, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "BOX 196604,ANCHORAGE,AK,99519", "Description": "22" }, "geometry": { "type": "Point", "coordinates": [ -146.3247, 68.94222, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5301 EAST GRANT ROAD,TUCSON,AZ,85712", "Description": "23" }, "geometry": { "type": "Point", "coordinates": [ -110.879, 32.25239, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1601 WEST ST MARY'S ROAD,TUCSON,AZ,85745", "Description": "24" }, "geometry": { "type": "Point", "coordinates": [ -111.0001, 32.2282, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "350 NORTH WILMOT ROAD,TUCSON,AZ,85711", "Description": "25" }, "geometry": { "type": "Point", "coordinates": [ -110.8557, 32.22721, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1003 WILLOW CREEK ROAD,PRESCOTT,AZ,86301", "Description": "26" }, "geometry": { "type": "Point", "coordinates": [ -112.4819, 34.55899, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2400 SOUTH AVENUE A,YUMA,AZ,85364", "Description": "27" }, "geometry": { "type": "Point", "coordinates": [ -114.6354, 32.68215, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1800 EAST FLORENCE BOULEVARD,CASA GRANDE,AZ,85222", "Description": "28" }, "geometry": { "type": "Point", "coordinates": [ -111.7109, 32.88131, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1200 NORTH BEAVER STREET,FLAGSTAFF,AZ,86001", "Description": "29" }, "geometry": { "type": "Point", "coordinates": [ -111.6451, 35.20858, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "807 SOUTH PONDEROSA DRIVE,PAYSON,AZ,85541", "Description": "30" }, "geometry": { "type": "Point", "coordinates": [ -111.3211, 34.2304, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7400 EAST OSBORN ROAD,SCOTTSDALE,AZ,85251", "Description": "31" }, "geometry": { "type": "Point", "coordinates": [ -111.9229, 33.48843, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3269 STOCKTON HILL ROAD,KINGMAN,AZ,86409", "Description": "32" }, "geometry": { "type": "Point", "coordinates": [ -114.0354, 35.21635, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "10401 WEST THUNDERBIRD BOULEVARD,SUN CITY,AZ,85351", "Description": "33" }, "geometry": { "type": "Point", "coordinates": [ -112.2825, 33.60326, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1400 SOUTH  DOBSON ROAD,MESA,AZ,85202", "Description": "34" }, "geometry": { "type": "Point", "coordinates": [ -111.8762, 33.38808, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "101 CIVIC CENTER LANE,LAKE HAVASU CIT,AZ,86403", "Description": "35" }, "geometry": { "type": "Point", "coordinates": [ -114.3396, 34.47978, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6200 NORTH LA CHOLLA BOULEVARD,TUCSON,AZ,85741", "Description": "36" }, "geometry": { "type": "Point", "coordinates": [ -111.0121, 32.31467, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "9003 EAST SHEA BOULEVARD,SCOTTSDALE,AZ,85260", "Description": "37" }, "geometry": { "type": "Point", "coordinates": [ -111.8853, 33.58059, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6644 EAST BAYWOOD AVENUE,MESA,AZ,85206", "Description": "38" }, "geometry": { "type": "Point", "coordinates": [ -111.6881, 33.4106, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "19829 NORTH 27TH AVENUE,PHOENIX,AZ,85027", "Description": "39" }, "geometry": { "type": "Point", "coordinates": [ -112.1159, 33.6659, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "14502 WEST MEEKER BOULEVARD,SUN CITY WEST,AZ,85375", "Description": "40" }, "geometry": { "type": "Point", "coordinates": [ -112.373, 33.65978, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "18701 NORTH 67TH AVENUE,GLENDALE,AZ,85308", "Description": "41" }, "geometry": { "type": "Point", "coordinates": [ -112.2018, 33.65507, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2735 SILVER CREEK ROAD,BULLHEAD CITY,AZ,86442", "Description": "42" }, "geometry": { "type": "Point", "coordinates": [ -114.5542, 35.10992, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5777 EAST MAYO BOULEVARD,PHOENIX,AZ,85054", "Description": "43" }, "geometry": { "type": "Point", "coordinates": [ -111.954, 33.65779, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1551 EAST TANGERINE ROAD,ORO VALLEY,AZ,85755", "Description": "44" }, "geometry": { "type": "Point", "coordinates": [ -110.9493, 32.42847, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "9201 WEST THOMAS ROAD,PHOENIX,AZ,85037", "Description": "45" }, "geometry": { "type": "Point", "coordinates": [ -112.2574, 33.47818, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1301 SOUTH CRISMON ROAD,MESA,AZ,85209", "Description": "46" }, "geometry": { "type": "Point", "coordinates": [ -111.612, 33.39183, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1900 NORTH HIGLEY ROAD,GILBERT,AZ,85234", "Description": "47" }, "geometry": { "type": "Point", "coordinates": [ -111.722, 33.38439, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3215 N NORTH HILLS BLVD,FAYETTEVILLE,AR,72703", "Description": "48" }, "geometry": { "type": "Point", "coordinates": [ -94.16001, 36.10929, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3214 EAST RACE AVENUE,SEARCY,AR,72143", "Description": "49" }, "geometry": { "type": "Point", "coordinates": [ -91.69483, 35.25051, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "225 E JACKSON,JONESBORO,AR,72401", "Description": "50" }, "geometry": { "type": "Point", "coordinates": [ -90.70171, 35.83597, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "609 WEST MAPLE AVENUE,SPRINGDALE,AR,72764", "Description": "51" }, "geometry": { "type": "Point", "coordinates": [ -94.13539, 36.18126, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "300 WERNER STREET,HOT SPRINGS,AR,71903", "Description": "52" }, "geometry": { "type": "Point", "coordinates": [ -93.06633, 34.46783, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "624 HOSPITAL DRIVE,MOUNTAIN HOME,AR,72653", "Description": "53" }, "geometry": { "type": "Point", "coordinates": [ -92.39586, 36.34298, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3333 SPRINGHILL DRIVE,NORTH LITTLE RO,AR,72117", "Description": "54" }, "geometry": { "type": "Point", "coordinates": [ -92.22308, 34.7837, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1001 TOWSON AVENUE,FORT SMITH,AR,72901", "Description": "55" }, "geometry": { "type": "Point", "coordinates": [ -94.42123, 35.37495, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7301 ROGERS AVE,FORT SMITH,AR,72917", "Description": "56" }, "geometry": { "type": "Point", "coordinates": [ -94.35132, 35.35301, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "9601 INTERSTATE 630 EXIT 7,LITTLE ROCK,AR,72205", "Description": "57" }, "geometry": { "type": "Point", "coordinates": [ -92.3263, 34.69463, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1710 HARRISON STREET,BATESVILLE,AR,72503", "Description": "58" }, "geometry": { "type": "Point", "coordinates": [ -91.6329, 35.76945, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "345 S HALCYON RD,ARROYO GRANDE,CA,93420", "Description": "59" }, "geometry": { "type": "Point", "coordinates": [ -120.5906, 35.11342, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5555 GROSSMONT CENTER DRIVE BOX 58,LA MESA,CA,91942", "Description": "60" }, "geometry": { "type": "Point", "coordinates": [ -117.0082, 32.77911, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "420 34TH ST BOX 1888,BAKERSFIELD,CA,93301", "Description": "61" }, "geometry": { "type": "Point", "coordinates": [ -119.0069, 35.39238, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1531 ESPLANADE,CHICO,CA,95926", "Description": "62" }, "geometry": { "type": "Point", "coordinates": [ -121.8499, 39.74216, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2333 BUCHANAN STREET,SAN FRANCISCO,CA,94115", "Description": "63" }, "geometry": { "type": "Point", "coordinates": [ -122.4314, 37.79062, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1600 W AVE J,LANCASTER,CA,93534", "Description": "64" }, "geometry": { "type": "Point", "coordinates": [ -118.1601, 34.68925, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "400 W MINERAL KING AVE,VISALIA,CA,93291", "Description": "65" }, "geometry": { "type": "Point", "coordinates": [ -119.2951, 36.32745, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2823 FRESNO STREET,FRESNO,CA,93715", "Description": "66" }, "geometry": { "type": "Point", "coordinates": [ -119.7835, 36.74313, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1300 N VERMONT AVE,LOS ANGELES,CA,90028", "Description": "67" }, "geometry": { "type": "Point", "coordinates": [ -118.2915, 34.09579, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4077 5TH AVE,SAN DIEGO,CA,92103", "Description": "68" }, "geometry": { "type": "Point", "coordinates": [ -117.1611, 32.75133, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1300 W 7TH ST,SAN PEDRO,CA,90732", "Description": "69" }, "geometry": { "type": "Point", "coordinates": [ -118.3046, 33.7379, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1600 N ROSE AVE,OXNARD,CA,93030", "Description": "70" }, "geometry": { "type": "Point", "coordinates": [ -119.1562, 34.21684, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1800 N CALIFORNIA ST,STOCKTON,CA,95204", "Description": "71" }, "geometry": { "type": "Point", "coordinates": [ -121.2882, 37.97056, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1303 E HERNDON AVE,FRESNO,CA,93710", "Description": "72" }, "geometry": { "type": "Point", "coordinates": [ -119.7653, 36.83683, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "999 SAN BERNARDINO RD,UPLAND,CA,91786", "Description": "73" }, "geometry": { "type": "Point", "coordinates": [ -117.6362, 34.10231, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7901 FROST ST,SAN DIEGO,CA,92123", "Description": "74" }, "geometry": { "type": "Point", "coordinates": [ -117.1551, 32.80017, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "555 E VALLEY PARKWAY,ESCONDIDO,CA,92025", "Description": "75" }, "geometry": { "type": "Point", "coordinates": [ -117.0759, 33.12623, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "18300 ROSCOE BLVD,NORTHRIDGE,CA,91325", "Description": "76" }, "geometry": { "type": "Point", "coordinates": [ -118.532, 34.22062, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "115 MALL DRIVE,HANFORD,CA,93230", "Description": "77" }, "geometry": { "type": "Point", "coordinates": [ -119.623, 36.28801, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "225 N JACKSON AVENUE,SAN JOSE,CA,95116", "Description": "78" }, "geometry": { "type": "Point", "coordinates": [ -121.8493, 37.36247, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "726 4TH ST,MARYSVILLE,CA,95901", "Description": "79" }, "geometry": { "type": "Point", "coordinates": [ -121.5945, 39.13851, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "23625 W R HOLMAN HIGHWAY,MONTEREY,CA,93940", "Description": "80" }, "geometry": { "type": "Point", "coordinates": [ -121.8446, 36.58033, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2105 FOREST AVENUE,SAN JOSE,CA,95128", "Description": "81" }, "geometry": { "type": "Point", "coordinates": [ -121.937, 37.32793, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "12401 E WASHINGTON BLVD,WHITTIER,CA,90602", "Description": "82" }, "geometry": { "type": "Point", "coordinates": [ -118.0494, 33.9698, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1165 MONTGOMERY DR,SANTA ROSA,CA,95405", "Description": "83" }, "geometry": { "type": "Point", "coordinates": [ -122.7014, 38.4438, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "825 DELBON AVE,TURLOCK,CA,95382", "Description": "84" }, "geometry": { "type": "Point", "coordinates": [ -120.838, 37.51164, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1601 YGNACIO VALLEY RD,WALNUT CREEK,CA,94598", "Description": "85" }, "geometry": { "type": "Point", "coordinates": [ -122.0408, 37.91304, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "75 NIELSON STREET,WATSONVILLE,CA,95076", "Description": "86" }, "geometry": { "type": "Point", "coordinates": [ -121.7935, 36.92652, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "751 MEDICAL CENTER COURT,CHULA VISTA,CA,91911", "Description": "87" }, "geometry": { "type": "Point", "coordinates": [ -117.0235, 32.61893, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE HOAG DRIVE,NEWPORT BEACH,CA,92663", "Description": "88" }, "geometry": { "type": "Point", "coordinates": [ -117.9306, 33.62552, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1798 N GAREY AVE,POMONA,CA,91767", "Description": "89" }, "geometry": { "type": "Point", "coordinates": [ -117.7522, 34.07717, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "501 SOUTH BUENA VISTA,BURBANK,CA,91505", "Description": "90" }, "geometry": { "type": "Point", "coordinates": [ -118.3468, 34.17476, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "300 W HUNTINGTON DR,ARCADIA,CA,91006", "Description": "91" }, "geometry": { "type": "Point", "coordinates": [ -118.0422, 34.13402, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1509 E WILSON TERRACE,GLENDALE,CA,91206", "Description": "92" }, "geometry": { "type": "Point", "coordinates": [ -118.2299, 34.15107, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1555 SOQUEL DRIVE,SANTA CRUZ,CA,95065", "Description": "93" }, "geometry": { "type": "Point", "coordinates": [ -121.9836, 36.99013, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "350 TERRACINA BLVD,REDLANDS,CA,92373", "Description": "94" }, "geometry": { "type": "Point", "coordinates": [ -117.2065, 34.03771, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2175 ROSALINE AVE CLAIRMONT HGTS,REDDING,CA,96001", "Description": "95" }, "geometry": { "type": "Point", "coordinates": [ -122.3952, 40.57186, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2500 GRANT ROAD,MOUNTAIN VIEW,CA,94040", "Description": "96" }, "geometry": { "type": "Point", "coordinates": [ -122.0827, 37.37062, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE MEDICAL PLAZA,ROSEVILLE,CA,95661", "Description": "97" }, "geometry": { "type": "Point", "coordinates": [ -121.2493, 38.76616, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "450 EAST ROMIE LANE,SALINAS,CA,93901", "Description": "98" }, "geometry": { "type": "Point", "coordinates": [ -121.6463, 36.6591, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3330 LOMITA BLVD,TORRANCE,CA,90509", "Description": "99" }, "geometry": { "type": "Point", "coordinates": [ -118.344, 33.81267, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4101 TORRANCE BLVD,TORRANCE,CA,90503", "Description": "100" }, "geometry": { "type": "Point", "coordinates": [ -118.3568, 33.83891, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1200 B  GALE WILSON BLVD,FAIRFIELD,CA,94533", "Description": "101" }, "geometry": { "type": "Point", "coordinates": [ -122.0466, 38.26174, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2425 SAMARITAN DRIVE,SAN JOSE,CA,95124", "Description": "102" }, "geometry": { "type": "Point", "coordinates": [ -121.9465, 37.25169, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "210 W  SAN BERNARDINO ROAD,COVINA,CA,91723", "Description": "103" }, "geometry": { "type": "Point", "coordinates": [ -117.8934, 34.08802, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "147 N BRENT ST,VENTURA,CA,93003", "Description": "104" }, "geometry": { "type": "Point", "coordinates": [ -119.2581, 34.27459, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "400 WEST PUEBLO,SANTA BARBARA,CA,93102", "Description": "105" }, "geometry": { "type": "Point", "coordinates": [ -119.7232, 34.42949, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 W  CALIFORNIA BLVD,PASADENA,CA,91109", "Description": "106" }, "geometry": { "type": "Point", "coordinates": [ -118.1532, 34.13567, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "333 MERCY AVENUE,MERCED,CA,95340", "Description": "107" }, "geometry": { "type": "Point", "coordinates": [ -120.4671, 37.34002, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2801 ATLANTIC AVE,LONG BEACH,CA,90806", "Description": "108" }, "geometry": { "type": "Point", "coordinates": [ -118.1872, 33.8076, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "47-111 MONROE STREET,INDIO,CA,92201", "Description": "109" }, "geometry": { "type": "Point", "coordinates": [ -116.2354, 33.70616, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "215 W JANSS RD,THOUSAND OAKS,CA,91360", "Description": "110" }, "geometry": { "type": "Point", "coordinates": [ -118.8822, 34.20756, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1700 COFFEE RD,MODESTO,CA,95355", "Description": "111" }, "geometry": { "type": "Point", "coordinates": [ -120.9734, 37.66867, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "27700 MEDICAL CENTER RD,MISSION VIEJO,CA,92691", "Description": "112" }, "geometry": { "type": "Point", "coordinates": [ -117.667, 33.56131, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "39-000 BOB HOPE DRIVE,RANCHO MIRAGE,CA,92270", "Description": "113" }, "geometry": { "type": "Point", "coordinates": [ -116.4074, 33.76419, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "8700 BEVERLY BLVD,LOS ANGELES,CA,90048", "Description": "114" }, "geometry": { "type": "Point", "coordinates": [ -118.3805, 34.07666, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1100 LAS TABLAS RD,TEMPLETON,CA,93465", "Description": "115" }, "geometry": { "type": "Point", "coordinates": [ -120.7197, 35.55532, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "15615 POMERADO ROAD,POWAY,CA,92064", "Description": "116" }, "geometry": { "type": "Point", "coordinates": [ -117.0579, 32.9977, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "9920 TALBERT AVENUE,FOUNTAIN VALLEY,CA,92708", "Description": "117" }, "geometry": { "type": "Point", "coordinates": [ -117.9558, 33.70157, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "25500 MEDICAL CENTER DRIVE,MURRIETA,CA,92562", "Description": "118" }, "geometry": { "type": "Point", "coordinates": [ -117.1837, 33.55891, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6655 ALVARADO ROAD,SAN DIEGO,CA,92120", "Description": "119" }, "geometry": { "type": "Point", "coordinates": [ -117.0574, 32.7761, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "18321 CLARK STREET,TARZANA,CA,91356", "Description": "120" }, "geometry": { "type": "Point", "coordinates": [ -118.5312, 34.16988, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1801 16TH STREET,GREELEY,CO,80631", "Description": "121" }, "geometry": { "type": "Point", "coordinates": [ -104.7089, 40.41482, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "800 S 3RD ST,MONTROSE,CO,81401", "Description": "122" }, "geometry": { "type": "Point", "coordinates": [ -107.869, 38.48008, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1024 S LEMAY AVE,FORT COLLINS,CO,80524", "Description": "123" }, "geometry": { "type": "Point", "coordinates": [ -105.0556, 40.57177, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1400 E BOULDER ST,COLORADO SPRING,CO,80909", "Description": "124" }, "geometry": { "type": "Point", "coordinates": [ -104.7994, 38.83891, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2635 N 7TH STREET,GRAND JUNCTION,CO,81502", "Description": "125" }, "geometry": { "type": "Point", "coordinates": [ -108.563, 39.09033, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2222 N NEVADA AVE,COLORADO SPRING,CO,80907", "Description": "126" }, "geometry": { "type": "Point", "coordinates": [ -104.8201, 38.86458, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "114 WOODLAND STREET,HARTFORD,CT,6105", "Description": "127" }, "geometry": { "type": "Point", "coordinates": [ -72.69875, 41.77553, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "365 MONTAUK AVE,NEW LONDON,CT,6320", "Description": "128" }, "geometry": { "type": "Point", "coordinates": [ -72.10368, 41.33699, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "56 FRANKLIN ST,WATERBURY,CT,6706", "Description": "129" }, "geometry": { "type": "Point", "coordinates": [ -73.0367, 41.55278, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "435 LEWIS AVE,MERIDEN,CT,6450", "Description": "130" }, "geometry": { "type": "Point", "coordinates": [ -72.80237, 41.54987, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5 PERRYRIDGE RD,GREENWICH,CT,6830", "Description": "131" }, "geometry": { "type": "Point", "coordinates": [ -73.6302, 41.03432, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "28 CRESCENT ST,MIDDLETOWN,CT,6457", "Description": "132" }, "geometry": { "type": "Point", "coordinates": [ -72.64725, 41.55419, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "20 YORK ST,NEW HAVEN,CT,6504", "Description": "133" }, "geometry": { "type": "Point", "coordinates": [ -72.93539, 41.30416, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "326 WASHINGTON ST,NORWICH,CT,6360", "Description": "134" }, "geometry": { "type": "Point", "coordinates": [ -72.08997, 41.54232, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "80 SEYMOUR STREET,HARTFORD,CT,6102", "Description": "135" }, "geometry": { "type": "Point", "coordinates": [ -72.67989, 41.75429, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "24 HOSPITAL AVE,DANBURY,CT,6810", "Description": "136" }, "geometry": { "type": "Point", "coordinates": [ -73.44673, 41.40591, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "24 STEVENS STREET,NORWALK,CT,6856", "Description": "137" }, "geometry": { "type": "Point", "coordinates": [ -73.42341, 41.1102, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 GRAND STREET,NEW BRITAIN,CT,6050", "Description": "138" }, "geometry": { "type": "Point", "coordinates": [ -72.7866, 41.66148, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4755 OGLETOWN-STANTON ROAD,NEWARK,DE,19718", "Description": "139" }, "geometry": { "type": "Point", "coordinates": [ -75.66798, 39.68793, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "640 S STATE STREET,DOVER,DE,19901", "Description": "140" }, "geometry": { "type": "Point", "coordinates": [ -75.52352, 39.15063, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "424 SAVANNAH RD,LEWES,DE,19958", "Description": "141" }, "geometry": { "type": "Point", "coordinates": [ -75.14271, 38.77139, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5255 LOUGHBORO RD NW,WASHINGTON,DC,20016", "Description": "142" }, "geometry": { "type": "Point", "coordinates": [ -77.10883, 38.93617, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "110 IRVING ST NW,WASHINGTON,DC,20010", "Description": "143" }, "geometry": { "type": "Point", "coordinates": [ -77.01634, 38.92955, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2815 S SEACREST BLVD,BOYNTON BEACH,FL,33435", "Description": "144" }, "geometry": { "type": "Point", "coordinates": [ -80.07025, 26.50519, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1414 S KUHL AVE,ORLANDO,FL,32806", "Description": "145" }, "geometry": { "type": "Point", "coordinates": [ -81.37841, 28.52529, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "601 E ROLLINS ST,ORLANDO,FL,32803", "Description": "146" }, "geometry": { "type": "Point", "coordinates": [ -81.36974, 28.57325, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "8900 N KENDALL DR,MIAMI,FL,33176", "Description": "147" }, "geometry": { "type": "Point", "coordinates": [ -80.33894, 25.68445, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1400 NW 12TH AVE,MIAMI,FL,33136", "Description": "148" }, "geometry": { "type": "Point", "coordinates": [ -80.21564, 25.78835, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2776 CLEVELAND AVE,FORT MYERS,FL,33901", "Description": "149" }, "geometry": { "type": "Point", "coordinates": [ -81.87423, 26.62849, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "303 N CLYDE MORRIS BLVD,DAYTONA BEACH,FL,32114", "Description": "150" }, "geometry": { "type": "Point", "coordinates": [ -81.05418, 29.20107, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "350 7TH ST N,NAPLES,FL,34102", "Description": "151" }, "geometry": { "type": "Point", "coordinates": [ -81.79872, 26.15064, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1350 S HICKORY ST,MELBOURNE,FL,32901", "Description": "152" }, "geometry": { "type": "Point", "coordinates": [ -80.61432, 28.08772, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1611 NW 12TH AVE,MIAMI,FL,33136", "Description": "153" }, "geometry": { "type": "Point", "coordinates": [ -80.21207, 25.79112, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "502 HIGHLAND BLVD,INVERNESS,FL,34452", "Description": "154" }, "geometry": { "type": "Point", "coordinates": [ -82.33585, 28.83309, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "615 N BONITA AVE,PANAMA CITY,FL,32401", "Description": "155" }, "geometry": { "type": "Point", "coordinates": [ -85.64766, 30.15968, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4300 ALTON RD,MIAMI BEACH,FL,33140", "Description": "156" }, "geometry": { "type": "Point", "coordinates": [ -80.13821, 25.81546, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "206 2ND ST E,BRADENTON,FL,34208", "Description": "157" }, "geometry": { "type": "Point", "coordinates": [ -82.56209, 27.49752, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3501 JOHNSON ST,HOLLYWOOD,FL,33021", "Description": "158" }, "geometry": { "type": "Point", "coordinates": [ -80.18074, 26.01831, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1 SHIRCLIFF WAY,JACKSONVILLE,FL,32204", "Description": "159" }, "geometry": { "type": "Point", "coordinates": [ -81.68999, 30.30623, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "200 SE HOSPITAL AVE,STUART,FL,34995", "Description": "160" }, "geometry": { "type": "Point", "coordinates": [ -80.2431, 27.19842, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7050 GALL BLVD,ZEPHYRHILLS,FL,33541", "Description": "161" }, "geometry": { "type": "Point", "coordinates": [ -82.1853, 28.26134, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1475 W 49TH ST,HIALEAH,FL,33012", "Description": "162" }, "geometry": { "type": "Point", "coordinates": [ -80.31229, 25.86885, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "200 AVE F NE,WINTER HAVEN,FL,33881", "Description": "163" }, "geometry": { "type": "Point", "coordinates": [ -81.72684, 28.0276, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "651 E 25TH ST,HIALEAH,FL,33013", "Description": "164" }, "geometry": { "type": "Point", "coordinates": [ -80.26841, 25.84541, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 WATERMAN WAY,TAVARES,FL,32778", "Description": "165" }, "geometry": { "type": "Point", "coordinates": [ -81.71078, 28.82354, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3663 S MIAMI AVE,MIAMI,FL,33133", "Description": "166" }, "geometry": { "type": "Point", "coordinates": [ -80.21665, 25.74198, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1500 SW 1ST AVE,OCALA,FL,34474", "Description": "167" }, "geometry": { "type": "Point", "coordinates": [ -82.13891, 29.17498, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "301 MEMORIAL MEDICAL PARKWAY,DAYTONA BEACH,FL,32117", "Description": "168" }, "geometry": { "type": "Point", "coordinates": [ -81.1078, 29.24361, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "540 THE RIALTO,VENICE,FL,34285", "Description": "169" }, "geometry": { "type": "Point", "coordinates": [ -82.44498, 27.091, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "17240 CORTEZ BLVD,BROOKSVILLE,FL,34601", "Description": "170" }, "geometry": { "type": "Point", "coordinates": [ -82.44314, 28.53858, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4725 N FEDERAL HWY,FORT LAUDERDALE,FL,33308", "Description": "171" }, "geometry": { "type": "Point", "coordinates": [ -80.11945, 26.18707, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3001 W MARTIN LUTHER KING JR BLVD,TAMPA,FL,33677", "Description": "172" }, "geometry": { "type": "Point", "coordinates": [ -82.52019, 27.96623, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2500 HARBOR BLVD,PORT CHARLOTTE,FL,33952", "Description": "173" }, "geometry": { "type": "Point", "coordinates": [ -82.09561, 26.98899, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "600 E DIXIE AVE,LEESBURG,FL,34748", "Description": "174" }, "geometry": { "type": "Point", "coordinates": [ -81.86922, 28.80882, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1700 S TAMIAMI TRL,SARASOTA,FL,34239", "Description": "175" }, "geometry": { "type": "Point", "coordinates": [ -82.53279, 27.31881, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "800 PRUDENTIAL DR,JACKSONVILLE,FL,32207", "Description": "176" }, "geometry": { "type": "Point", "coordinates": [ -81.6641, 30.31533, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "400 HEALTH PARK BLVD,SAINT AUGUSTINE,FL,32086", "Description": "177" }, "geometry": { "type": "Point", "coordinates": [ -81.31717, 29.86337, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "110 LONGWOOD AVE,ROCKLEDGE,FL,32955", "Description": "178" }, "geometry": { "type": "Point", "coordinates": [ -80.7232, 28.33523, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 36TH ST,VERO BEACH,FL,32960", "Description": "179" }, "geometry": { "type": "Point", "coordinates": [ -80.39388, 27.6586, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4200 SUN N' LAKE BLVD,SEBRING,FL,33871", "Description": "180" }, "geometry": { "type": "Point", "coordinates": [ -81.50916, 27.5396, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "700 WEST OAK STREET,KISSIMMEE,FL,34741", "Description": "181" }, "geometry": { "type": "Point", "coordinates": [ -81.4093, 28.29971, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "60 MEMORIAL MEDICAL PKWY,PALM COAST,FL,32164", "Description": "182" }, "geometry": { "type": "Point", "coordinates": [ -81.18926, 29.47938, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "151 REDSTONE AVE SE,CRESTVIEW,FL,32539", "Description": "183" }, "geometry": { "type": "Point", "coordinates": [ -86.56171, 30.7354, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "20900 BISCAYNE BLVD,AVENTURA,FL,33180", "Description": "184" }, "geometry": { "type": "Point", "coordinates": [ -80.14534, 25.97005, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1300 MICCOSUKEE RD,TALLAHASSEE,FL,32308", "Description": "185" }, "geometry": { "type": "Point", "coordinates": [ -84.26244, 30.4556, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "40100 US HWY 27 N,DAVENPORT,FL,33837", "Description": "186" }, "geometry": { "type": "Point", "coordinates": [ -81.64004, 28.1829, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "340 NW COMMERCE DR,LAKE CITY,FL,32055", "Description": "187" }, "geometry": { "type": "Point", "coordinates": [ -82.62541, 30.2702, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1324 LAKELAND HILLS BLVD,LAKELAND,FL,33805", "Description": "188" }, "geometry": { "type": "Point", "coordinates": [ -81.95354, 28.06087, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "800 MEADOWS RD,BOCA RATON,FL,33486", "Description": "189" }, "geometry": { "type": "Point", "coordinates": [ -80.1035, 26.35849, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3100 E FLETCHER AVE,TAMPA,FL,33613", "Description": "190" }, "geometry": { "type": "Point", "coordinates": [ -82.42493, 28.07081, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3360 BURNS RD,PALM BEACH GARD,FL,33410", "Description": "191" }, "geometry": { "type": "Point", "coordinates": [ -80.08662, 26.82962, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2001 W 68TH ST,HIALEAH,FL,33016", "Description": "192" }, "geometry": { "type": "Point", "coordinates": [ -80.32655, 25.88595, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2801 N STATE RD 7,MARGATE,FL,33063", "Description": "193" }, "geometry": { "type": "Point", "coordinates": [ -80.20296, 26.26304, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "9330 SR 54,TRINITY,FL,34655", "Description": "194" }, "geometry": { "type": "Point", "coordinates": [ -82.66024, 28.20411, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6500 NEWBERRY RD,GAINESVILLE,FL,32605", "Description": "195" }, "geometry": { "type": "Point", "coordinates": [ -82.41177, 29.66084, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2901 SWANN AVE,TAMPA,FL,33609", "Description": "196" }, "geometry": { "type": "Point", "coordinates": [ -82.48991, 27.93805, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "11750 BIRD RD,MIAMI,FL,33175", "Description": "197" }, "geometry": { "type": "Point", "coordinates": [ -80.40676, 25.73406, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1431 SW 1ST AVE,OCALA,FL,34478", "Description": "198" }, "geometry": { "type": "Point", "coordinates": [ -82.13663, 29.17547, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2020 59TH ST W,BRADENTON,FL,34209", "Description": "199" }, "geometry": { "type": "Point", "coordinates": [ -82.62339, 27.48205, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "13695 US HWY 1,SEBASTIAN,FL,32978", "Description": "200" }, "geometry": { "type": "Point", "coordinates": [ -80.48876, 27.84382, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "13681 DOCTOR'S WAY,FORT MYERS,FL,33912", "Description": "201" }, "geometry": { "type": "Point", "coordinates": [ -81.85003, 26.54415, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2001 KINGSLEY AVE,ORANGE PARK,FL,32073", "Description": "202" }, "geometry": { "type": "Point", "coordinates": [ -81.73762, 30.16597, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "8201 W BROWARD BLVD,PLANTATION,FL,33324", "Description": "203" }, "geometry": { "type": "Point", "coordinates": [ -80.25951, 26.12354, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "8383 N DAVIS HWY,PENSACOLA,FL,32514", "Description": "204" }, "geometry": { "type": "Point", "coordinates": [ -87.21856, 30.51623, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "21298 OLEAN BLVD,PORT CHARLOTTE,FL,33952", "Description": "205" }, "geometry": { "type": "Point", "coordinates": [ -82.09798, 26.98858, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "119 OAKFIELD DR,BRANDON,FL,33511", "Description": "206" }, "geometry": { "type": "Point", "coordinates": [ -82.28714, 27.93363, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "636 DEL PRADO BLVD,CAPE CORAL,FL,33990", "Description": "207" }, "geometry": { "type": "Point", "coordinates": [ -81.94324, 26.63944, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "201 14TH ST SW,LARGO,FL,33770", "Description": "208" }, "geometry": { "type": "Point", "coordinates": [ -82.80331, 27.91417, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1210 S OLD DIXIE HWY,JUPITER,FL,33458", "Description": "209" }, "geometry": { "type": "Point", "coordinates": [ -80.09599, 26.92301, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "14000 FIVAY ROAD,HUDSON,FL,34667", "Description": "210" }, "geometry": { "type": "Point", "coordinates": [ -82.6882, 28.3613, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5352 LINTON BLVD,DELRAY BEACH,FL,33484", "Description": "211" }, "geometry": { "type": "Point", "coordinates": [ -80.12727, 26.43709, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4016 SUN CITY CENTER BLVD,SUN CITY CENTER,FL,33573", "Description": "212" }, "geometry": { "type": "Point", "coordinates": [ -82.36538, 27.7133, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "11375 CORTEZ BLVD,BROOKSVILLE,FL,34613", "Description": "213" }, "geometry": { "type": "Point", "coordinates": [ -82.53412, 28.53615, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "10101 FOREST HILL BLVD,WELLINGTON,FL,33414", "Description": "214" }, "geometry": { "type": "Point", "coordinates": [ -80.20496, 26.6518, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "703 N FLAMINGO RD,PEMBROKE PINES,FL,33028", "Description": "215" }, "geometry": { "type": "Point", "coordinates": [ -80.3103, 26.01212, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1901 SW 172ND AVE,MIRAMAR,FL,33029", "Description": "216" }, "geometry": { "type": "Point", "coordinates": [ -80.36217, 25.99137, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6101 PINE RIDGE ROAD,NAPLES,FL,34119", "Description": "217" }, "geometry": { "type": "Point", "coordinates": [ -81.73273, 26.21393, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1309 N FLAGLER DR,WEST PALM BEACH,FL,33401", "Description": "218" }, "geometry": { "type": "Point", "coordinates": [ -80.05168, 26.72517, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1451 EL CAMINO REAL,THE VILLAGES,FL,32159", "Description": "219" }, "geometry": { "type": "Point", "coordinates": [ -81.95847, 28.95049, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "410 DARLING AVENUE,WAYCROSS,GA,31501", "Description": "220" }, "geometry": { "type": "Point", "coordinates": [ -82.34749, 31.22424, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1200 NORTHSIDE FORSYTH DRIVE,CUMMING,GA,30041", "Description": "221" }, "geometry": { "type": "Point", "coordinates": [ -84.1402, 34.17875, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5353 REYNOLDS STREET,SAVANNAH,GA,31412", "Description": "222" }, "geometry": { "type": "Point", "coordinates": [ -81.09172, 32.07653, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2415 PARKWOOD DRIVE,BRUNSWICK,GA,31520", "Description": "223" }, "geometry": { "type": "Point", "coordinates": [ -81.48325, 31.1737, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1350 WALTON WAY,AUGUSTA,GA,30901", "Description": "224" }, "geometry": { "type": "Point", "coordinates": [ -81.98266, 33.47061, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "743 SPRING STREET,GAINESVILLE,GA,30501", "Description": "225" }, "geometry": { "type": "Point", "coordinates": [ -83.81737, 34.30335, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "960 JOE FRANK HARRIS PARKWAY,CARTERSVILLE,GA,30120", "Description": "226" }, "geometry": { "type": "Point", "coordinates": [ -84.79325, 34.19891, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "601 SOUTH 8TH STREET,GRIFFIN,GA,30223", "Description": "227" }, "geometry": { "type": "Point", "coordinates": [ -84.26579, 33.23972, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "677 CHURCH STREET,MARIETTA,GA,30060", "Description": "228" }, "geometry": { "type": "Point", "coordinates": [ -84.55125, 33.96874, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4700 WATERS AVENUE,SAVANNAH,GA,31403", "Description": "229" }, "geometry": { "type": "Point", "coordinates": [ -81.09154, 32.03234, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2260 WRIGHTSBORO RD,AUGUSTA,GA,30904", "Description": "230" }, "geometry": { "type": "Point", "coordinates": [ -82.01817, 33.4656, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "11705 MERCY BOULEVARD,SAVANNAH,GA,31419", "Description": "231" }, "geometry": { "type": "Point", "coordinates": [ -81.15521, 31.98552, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1601 WATSON BOULEVARD,WARNER ROBINS,GA,31093", "Description": "232" }, "geometry": { "type": "Point", "coordinates": [ -83.63046, 32.61812, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1199 PRINCE AVENUE,ATHENS,GA,30606", "Description": "233" }, "geometry": { "type": "Point", "coordinates": [ -83.39832, 33.96118, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1499 FAIR ROAD,STATESBORO,GA,30458", "Description": "234" }, "geometry": { "type": "Point", "coordinates": [ -81.76988, 32.41685, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 MEDICAL CENTER BOULEVARD,LAWRENCEVILLE,GA,30045", "Description": "235" }, "geometry": { "type": "Point", "coordinates": [ -83.93, 33.93125, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1101 OCILLA ROAD,DOUGLAS,GA,31533", "Description": "236" }, "geometry": { "type": "Point", "coordinates": [ -82.86769, 31.51127, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "901 E 18TH STREET,TIFTON,GA,31793", "Description": "237" }, "geometry": { "type": "Point", "coordinates": [ -83.49142, 31.47051, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2501 NORTH PATTERSON STREET PO BOX 1727,VALDOSTA,GA,31603", "Description": "238" }, "geometry": { "type": "Point", "coordinates": [ -83.2888, 30.86162, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3950 AUSTELL RD,AUSTELL,GA,30106", "Description": "239" }, "geometry": { "type": "Point", "coordinates": [ -84.60069, 33.85812, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "350 HOSPITAL DRIVE,MACON,GA,31217", "Description": "240" }, "geometry": { "type": "Point", "coordinates": [ -83.61797, 32.84579, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3651 WHEELER ROAD,AUGUSTA,GA,30909", "Description": "241" }, "geometry": { "type": "Point", "coordinates": [ -82.09418, 33.48604, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1255 HIGHWAY 54 WEST,FAYETTEVILLE,GA,30214", "Description": "242" }, "geometry": { "type": "Point", "coordinates": [ -84.50822, 33.45271, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "98-1079 MOANALUA ROAD,AIEA,HI,96701", "Description": "243" }, "geometry": { "type": "Point", "coordinates": [ -157.8977, 21.39683, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "801 POLE LINE ROAD WEST,TWIN FALLS,ID,83301", "Description": "244" }, "geometry": { "type": "Point", "coordinates": [ -114.4642, 42.59209, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "190 EAST BANNOCK STREET,BOISE,ID,83712", "Description": "245" }, "geometry": { "type": "Point", "coordinates": [ -116.1917, 43.61237, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1055 NORTH CURTIS ROAD,BOISE,ID,83706", "Description": "246" }, "geometry": { "type": "Point", "coordinates": [ -116.2552, 43.61395, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3100 CHANNING WAY,IDAHO FALLS,ID,83404", "Description": "247" }, "geometry": { "type": "Point", "coordinates": [ -111.9922, 43.47, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2003 KOOTENAI HEALTH WAY,COEUR D'ALENE,ID,83814", "Description": "248" }, "geometry": { "type": "Point", "coordinates": [ -116.7521, 47.63963, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "333 N MADISON,JOLIET,IL,60435", "Description": "249" }, "geometry": { "type": "Point", "coordinates": [ -88.13539, 41.52789, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2650 RIDGE AVE,EVANSTON,IL,60201", "Description": "250" }, "geometry": { "type": "Point", "coordinates": [ -87.68395, 42.06601, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "BROADWAY AT 11TH STREET,QUINCY,IL,62301", "Description": "251" }, "geometry": { "type": "Point", "coordinates": [ -91.38663, 39.93163, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2000 OGDEN AVENUE,AURORA,IL,60504", "Description": "252" }, "geometry": { "type": "Point", "coordinates": [ -88.27071, 41.72869, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1425 NORTH RANDALL ROAD,ELGIN,IL,60123", "Description": "253" }, "geometry": { "type": "Point", "coordinates": [ -88.33117, 42.07005, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "400 NORTH PLEASANT AVENUE,CENTRALIA,IL,62801", "Description": "254" }, "geometry": { "type": "Point", "coordinates": [ -89.11611, 38.52906, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3 ERIE COURT,OAK PARK,IL,60302", "Description": "255" }, "geometry": { "type": "Point", "coordinates": [ -87.77605, 41.89174, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "9600 GROSS POINT ROAD,SKOKIE,IL,60076", "Description": "256" }, "geometry": { "type": "Point", "coordinates": [ -87.74009, 42.05623, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3249 SOUTH OAK PARK AVENUE,BERWYN,IL,60402", "Description": "257" }, "geometry": { "type": "Point", "coordinates": [ -87.79222, 41.83261, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "12251 SOUTH 80TH AVENUE,PALOS HEIGHTS,IL,60463", "Description": "258" }, "geometry": { "type": "Point", "coordinates": [ -87.81347, 41.66916, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "530 NE GLEN OAK AVE,PEORIA,IL,61637", "Description": "259" }, "geometry": { "type": "Point", "coordinates": [ -89.58958, 40.7025, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1324 NORTH SHERIDAN ROAD,WAUKEGAN,IL,60085", "Description": "260" }, "geometry": { "type": "Point", "coordinates": [ -87.83236, 42.37819, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "611 WEST PARK STREET,URBANA,IL,61801", "Description": "261" }, "geometry": { "type": "Point", "coordinates": [ -88.2151, 40.11699, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "812 N LOGAN,DANVILLE,IL,61832", "Description": "262" }, "geometry": { "type": "Point", "coordinates": [ -87.64499, 40.13545, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "150 W HIGH ST,MORRIS,IL,60450", "Description": "263" }, "geometry": { "type": "Point", "coordinates": [ -88.42564, 41.36904, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5145 N CALIFORNIA AVE,CHICAGO,IL,60625", "Description": "264" }, "geometry": { "type": "Point", "coordinates": [ -87.69863, 41.97535, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4201 MEDICAL CENTER DRIVE,MCHENRY,IL,60050", "Description": "265" }, "geometry": { "type": "Point", "coordinates": [ -88.2779, 42.31796, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7435 W TALCOTT AVENUE,CHICAGO,IL,60631", "Description": "266" }, "geometry": { "type": "Point", "coordinates": [ -87.8131, 41.9875, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "12935 S GREGORY,BLUE ISLAND,IL,60406", "Description": "267" }, "geometry": { "type": "Point", "coordinates": [ -87.6782, 41.6587, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2300 NORTH EDWARD STREET,DECATUR,IL,62526", "Description": "268" }, "geometry": { "type": "Point", "coordinates": [ -88.96093, 39.86728, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "701 N FIRST ST,SPRINGFIELD,IL,62781", "Description": "269" }, "geometry": { "type": "Point", "coordinates": [ -89.65469, 39.81047, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "20201 S CRAWFORD AVENUE,OLYMPIA FIELDS,IL,60461", "Description": "270" }, "geometry": { "type": "Point", "coordinates": [ -87.71315, 41.52391, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1325 N HIGHLAND AVENUE,AURORA,IL,60506", "Description": "271" }, "geometry": { "type": "Point", "coordinates": [ -88.3256, 41.78575, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2233 W DIVISION ST,CHICAGO,IL,60622", "Description": "272" }, "geometry": { "type": "Point", "coordinates": [ -87.68336, 41.90251, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4500 MEMORIAL DRIVE,BELLEVILLE,IL,62226", "Description": "273" }, "geometry": { "type": "Point", "coordinates": [ -90.02145, 38.5502, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "350 N WALL ST,KANKAKEE,IL,60901", "Description": "274" }, "geometry": { "type": "Point", "coordinates": [ -87.88563, 41.12337, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE INGALLS DRIVE,HARVEY,IL,60426", "Description": "275" }, "geometry": { "type": "Point", "coordinates": [ -87.65939, 41.60693, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "155 EAST BRUSH HILL ROAD,ELMHURST,IL,60126", "Description": "276" }, "geometry": { "type": "Point", "coordinates": [ -87.94126, 41.8625, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "801 S MILWAUKEE AVE,LIBERTYVILLE,IL,60048", "Description": "277" }, "geometry": { "type": "Point", "coordinates": [ -87.95766, 42.2745, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4440 W 95TH STREET,OAK LAWN,IL,60453", "Description": "278" }, "geometry": { "type": "Point", "coordinates": [ -87.73267, 41.72092, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "221 N E GLEN OAK AVE,PEORIA,IL,61636", "Description": "279" }, "geometry": { "type": "Point", "coordinates": [ -89.59859, 40.7002, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "300 RANDALL RD,GENEVA,IL,60134", "Description": "280" }, "geometry": { "type": "Point", "coordinates": [ -88.34344, 41.88653, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1900 SILVER CROSS BLVD,NEW LENOX,IL,60451", "Description": "281" }, "geometry": { "type": "Point", "coordinates": [ -87.98331, 41.54461, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1775 DEMPSTER ST,PARK RIDGE,IL,60068", "Description": "282" }, "geometry": { "type": "Point", "coordinates": [ -87.84757, 42.03847, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "801 SOUTH WASHINGTON,NAPERVILLE,IL,60540", "Description": "283" }, "geometry": { "type": "Point", "coordinates": [ -88.15179, 41.76065, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5666 EAST STATE STREET,ROCKFORD,IL,61108", "Description": "284" }, "geometry": { "type": "Point", "coordinates": [ -89.00776, 42.26998, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "25 NORTH WINFIELD ROAD,WINFIELD,IL,60190", "Description": "285" }, "geometry": { "type": "Point", "coordinates": [ -88.15709, 41.87512, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "17800 S KEDZIE AVE,HAZEL CREST,IL,60429", "Description": "286" }, "geometry": { "type": "Point", "coordinates": [ -87.69442, 41.56647, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "800 W CENTRAL ROAD,ARLINGTON HEIGH,IL,60005", "Description": "287" }, "geometry": { "type": "Point", "coordinates": [ -87.99255, 42.068, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "800 W BIESTERFIELD RD,ELK GROVE VILLA,IL,60007", "Description": "288" }, "geometry": { "type": "Point", "coordinates": [ -88.01681, 42.0047, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2160 S 1ST AVENUE,MAYWOOD,IL,60153", "Description": "289" }, "geometry": { "type": "Point", "coordinates": [ -87.83476, 41.86109, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2701 17TH ST,ROCK ISLAND,IL,61201", "Description": "290" }, "geometry": { "type": "Point", "coordinates": [ -90.5727, 41.48339, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "251 E HURON ST,CHICAGO,IL,60611", "Description": "291" }, "geometry": { "type": "Point", "coordinates": [ -87.6209, 41.89457, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3815 HIGHLAND AVENUE,DOWNERS GROVE,IL,60515", "Description": "292" }, "geometry": { "type": "Point", "coordinates": [ -88.01014, 41.81853, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1555 N BARRINGTON RD,HOFFMAN ESTATES,IL,60194", "Description": "293" }, "geometry": { "type": "Point", "coordinates": [ -88.14138, 42.05234, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "8 DOCTORS PARK ROAD,MOUNT VERNON,IL,62864", "Description": "294" }, "geometry": { "type": "Point", "coordinates": [ -88.93655, 38.31148, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1220 MISSOURI AVE,JEFFERSONVILLE,IN,47130", "Description": "295" }, "geometry": { "type": "Point", "coordinates": [ -85.74947, 38.28357, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7950 W JEFFERSON BLVD,FORT WAYNE,IN,46804", "Description": "296" }, "geometry": { "type": "Point", "coordinates": [ -85.249, 41.03882, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "600 E BLVD,ELKHART,IN,46514", "Description": "297" }, "geometry": { "type": "Point", "coordinates": [ -85.97476, 41.72348, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1606 N SEVENTH ST,TERRE HAUTE,IN,47804", "Description": "298" }, "geometry": { "type": "Point", "coordinates": [ -87.40727, 39.48491, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 N 16TH ST,NEW CASTLE,IN,47362", "Description": "299" }, "geometry": { "type": "Point", "coordinates": [ -85.36493, 39.94265, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1500 S LAKE PARK AVE,HOBART,IN,46342", "Description": "300" }, "geometry": { "type": "Point", "coordinates": [ -87.26073, 41.51277, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1850 STATE ST,NEW ALBANY,IN,47150", "Description": "301" }, "geometry": { "type": "Point", "coordinates": [ -85.83364, 38.30189, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1701 N SENATE BLVD,INDIANAPOLIS,IN,46206", "Description": "302" }, "geometry": { "type": "Point", "coordinates": [ -86.1626, 39.79009, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE KINGS DAUGHTERS DR,MADISON,IN,47250", "Description": "303" }, "geometry": { "type": "Point", "coordinates": [ -85.35154, 38.81842, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "600 MARY ST,EVANSVILLE,IN,47747", "Description": "304" }, "geometry": { "type": "Point", "coordinates": [ -87.57079, 37.98294, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2001 W 86TH ST,INDIANAPOLIS,IN,46260", "Description": "305" }, "geometry": { "type": "Point", "coordinates": [ -86.19689, 39.90983, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2401 UNIVERSITY AVE,MUNCIE,IN,47303", "Description": "306" }, "geometry": { "type": "Point", "coordinates": [ -85.41344, 40.196, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3700 WASHINGTON AVE,EVANSVILLE,IN,47750", "Description": "307" }, "geometry": { "type": "Point", "coordinates": [ -87.50292, 37.96319, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "901 MACARTHUR BLVD,MUNSTER,IN,46321", "Description": "308" }, "geometry": { "type": "Point", "coordinates": [ -87.50622, 41.55068, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "8111 S EMERSON AVE,INDIANAPOLIS,IN,46237", "Description": "309" }, "geometry": { "type": "Point", "coordinates": [ -86.08009, 39.64844, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1227 EAST RUSHOLME STREET,DAVENPORT,IA,52803", "Description": "310" }, "geometry": { "type": "Point", "coordinates": [ -90.55691, 41.5419, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1026 A AVE NE,CEDAR RAPIDS,IA,52402", "Description": "311" }, "geometry": { "type": "Point", "coordinates": [ -91.66061, 41.9853, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 FOURTH STREET SW,MASON CITY,IA,50401", "Description": "312" }, "geometry": { "type": "Point", "coordinates": [ -93.21609, 43.14851, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1200 PLEASANT STREET,DES MOINES,IA,50309", "Description": "313" }, "geometry": { "type": "Point", "coordinates": [ -93.63364, 41.589, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1111 6TH AVE,DES MOINES,IA,50314", "Description": "314" }, "geometry": { "type": "Point", "coordinates": [ -93.62383, 41.5994, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1 MT CARMEL WAY,PITTSBURG,KS,66762", "Description": "315" }, "geometry": { "type": "Point", "coordinates": [ -94.70991, 37.39816, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "400 SOUTH SANTA FE AVENUE,SALINA,KS,67401", "Description": "316" }, "geometry": { "type": "Point", "coordinates": [ -97.61029, 38.83324, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "20375 W 151ST ST #303,OLATHE,KS,66061", "Description": "317" }, "geometry": { "type": "Point", "coordinates": [ -94.82452, 38.85264, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "9100 W 74TH STREET,SHAWNEE MISSION,KS,66204", "Description": "318" }, "geometry": { "type": "Point", "coordinates": [ -94.69322, 38.99523, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "929 N ST FRANCIS ST,WICHITA,KS,67214", "Description": "319" }, "geometry": { "type": "Point", "coordinates": [ -97.33192, 37.70043, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5721 WEST 119TH STREET,OVERLAND PARK,KS,66209", "Description": "320" }, "geometry": { "type": "Point", "coordinates": [ -94.65465, 38.91286, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "85 NORTH GRAND AVENUE,FORT THOMAS,KY,41075", "Description": "321" }, "geometry": { "type": "Point", "coordinates": [ -84.46695, 39.07816, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5000 KENTUCKY RTE 321,PRESTONSBURG,KY,41653", "Description": "322" }, "geometry": { "type": "Point", "coordinates": [ -82.761, 37.72832, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2201 LEXINGTON AVENUE,ASHLAND,KY,41101", "Description": "323" }, "geometry": { "type": "Point", "coordinates": [ -82.63594, 38.47046, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE SAINT JOSEPH DRIVE,LEXINGTON,KY,40504", "Description": "324" }, "geometry": { "type": "Point", "coordinates": [ -84.52317, 38.0322, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "913 NORTH DIXIE AVENUE,ELIZABETHTOWN,KY,42701", "Description": "325" }, "geometry": { "type": "Point", "coordinates": [ -85.87682, 37.71068, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "250 PARK STREET,BOWLING GREEN,KY,42101", "Description": "326" }, "geometry": { "type": "Point", "coordinates": [ -86.43069, 36.99514, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "803 POPLAR STREET,MURRAY,KY,42071", "Description": "327" }, "geometry": { "type": "Point", "coordinates": [ -88.30859, 36.60856, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 MEDICAL CENTER DRIVE,HAZARD,KY,41701", "Description": "328" }, "geometry": { "type": "Point", "coordinates": [ -83.18806, 37.29996, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "401 EAST 20TH STREET,COVINGTON,KY,41014", "Description": "329" }, "geometry": { "type": "Point", "coordinates": [ -84.50039, 39.06774, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "811 EAST PARRISH AVENUE,OWENSBORO,KY,42303", "Description": "330" }, "geometry": { "type": "Point", "coordinates": [ -87.10179, 37.76459, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "200 ABRAHAM FLEXNER WAY,LOUISVILLE,KY,40202", "Description": "331" }, "geometry": { "type": "Point", "coordinates": [ -85.74905, 38.24902, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "217 SOUTH THIRD STREET,DANVILLE,KY,40422", "Description": "332" }, "geometry": { "type": "Point", "coordinates": [ -84.78668, 37.58387, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "320 WEST 18TH STREET,HOPKINSVILLE,KY,42240", "Description": "333" }, "geometry": { "type": "Point", "coordinates": [ -87.49532, 36.86037, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE TRILLIUM WAY,CORBIN,KY,40701", "Description": "334" }, "geometry": { "type": "Point", "coordinates": [ -84.11771, 36.92287, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "200 EAST CHESTNUT STREET,LOUISVILLE,KY,40202", "Description": "335" }, "geometry": { "type": "Point", "coordinates": [ -85.75183, 38.24819, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1530 LONE OAK ROAD,PADUCAH,KY,42001", "Description": "336" }, "geometry": { "type": "Point", "coordinates": [ -88.64729, 37.05057, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1740 NICHOLASVILLE ROAD,LEXINGTON,KY,40503", "Description": "337" }, "geometry": { "type": "Point", "coordinates": [ -84.51223, 38.01792, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2501 KENTUCKY AVENUE,PADUCAH,KY,42003", "Description": "338" }, "geometry": { "type": "Point", "coordinates": [ -88.62609, 37.07328, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4000 KRESGE WAY,LOUISVILLE,KY,40207", "Description": "339" }, "geometry": { "type": "Point", "coordinates": [ -85.63773, 38.23969, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "305 LANGDON STREET P O BOX 620,SOMERSET,KY,42502", "Description": "340" }, "geometry": { "type": "Point", "coordinates": [ -84.61821, 37.08691, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1214 COOLIDGE AVENUE,LAFAYETTE,LA,70503", "Description": "341" }, "geometry": { "type": "Point", "coordinates": [ -92.01947, 30.20271, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "602 N ACADIA ROAD,THIBODAUX,LA,70301", "Description": "342" }, "geometry": { "type": "Point", "coordinates": [ -90.80754, 29.78135, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "8166 MAIN STREET,HOUMA,LA,70360", "Description": "343" }, "geometry": { "type": "Point", "coordinates": [ -90.71409, 29.59672, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "15790 PAUL VEGA MD DRIVE,HAMMOND,LA,70403", "Description": "344" }, "geometry": { "type": "Point", "coordinates": [ -90.45773, 30.4667, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "539 EAST PRUDHOMME STREET,OPELOUSAS,LA,70570", "Description": "345" }, "geometry": { "type": "Point", "coordinates": [ -92.07589, 30.54358, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3330 MASONIC DRIVE,ALEXANDRIA,LA,71301", "Description": "346" }, "geometry": { "type": "Point", "coordinates": [ -92.46159, 31.28265, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "211 4TH STREET,ALEXANDRIA,LA,71301", "Description": "347" }, "geometry": { "type": "Point", "coordinates": [ -92.44946, 31.31495, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "524 DR MICHAEL DEBAKEY STREET,LAKE CHARLES,LA,70601", "Description": "348" }, "geometry": { "type": "Point", "coordinates": [ -93.21579, 30.22629, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1101 MEDICAL CENTER BLVD,MARRERO,LA,70072", "Description": "349" }, "geometry": { "type": "Point", "coordinates": [ -90.09482, 29.89204, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1202 S TYLER STREET,COVINGTON,LA,70433", "Description": "350" }, "geometry": { "type": "Point", "coordinates": [ -90.11417, 30.46848, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5000 HENNESSY BLVD,BATON ROUGE,LA,70808", "Description": "351" }, "geometry": { "type": "Point", "coordinates": [ -91.1069, 30.40348, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3600 FLORIDA STREET,BATON ROUGE,LA,70806", "Description": "352" }, "geometry": { "type": "Point", "coordinates": [ -91.15312, 30.45005, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4801 AMBASSADOR CAFFERY PARKWAY,LAFAYETTE,LA,70508", "Description": "353" }, "geometry": { "type": "Point", "coordinates": [ -92.03634, 30.15086, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2600 GREENWOOD ROAD,SHREVEPORT,LA,71103", "Description": "354" }, "geometry": { "type": "Point", "coordinates": [ -93.77871, 32.48406, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4200 HOUMA BLVD,METAIRIE,LA,70006", "Description": "355" }, "geometry": { "type": "Point", "coordinates": [ -90.17992, 30.01251, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "503 MCMILLAN ROAD,WEST MONROE,LA,71291", "Description": "356" }, "geometry": { "type": "Point", "coordinates": [ -92.15533, 32.51333, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "800 E MAIN,VILLE PLATTE,LA,70586", "Description": "357" }, "geometry": { "type": "Point", "coordinates": [ -92.26583, 30.68478, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2400 HOSPITAL DR,BOSSIER CITY,LA,71111", "Description": "358" }, "geometry": { "type": "Point", "coordinates": [ -93.72722, 32.5606, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "22 BRAMHALL ST,PORTLAND,ME,4102", "Description": "359" }, "geometry": { "type": "Point", "coordinates": [ -70.27554, 43.65245, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "15 HOSPITAL DR,YORK,ME,3909", "Description": "360" }, "geometry": { "type": "Point", "coordinates": [ -70.65168, 43.14259, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "11116 MEDICAL CAMPUS ROAD,HAGERSTOWN,MD,21742", "Description": "361" }, "geometry": { "type": "Point", "coordinates": [ -77.67889, 39.62139, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "400 WEST SEVENTH ST,FREDERICK,MD,21701", "Description": "362" }, "geometry": { "type": "Point", "coordinates": [ -77.41482, 39.42263, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7601 OSLER DRIVE,TOWSON,MD,21204", "Description": "363" }, "geometry": { "type": "Point", "coordinates": [ -76.60702, 39.388, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "301 ST PAUL PLACE,BALTIMORE,MD,21202", "Description": "364" }, "geometry": { "type": "Point", "coordinates": [ -76.61308, 39.29299, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "600 NORTH  WOLFE STREET,BALTIMORE,MD,21287", "Description": "365" }, "geometry": { "type": "Point", "coordinates": [ -76.59241, 39.29688, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "WILKENS & CATON AVENUES,BALTIMORE,MD,21229", "Description": "366" }, "geometry": { "type": "Point", "coordinates": [ -76.69077, 39.28514, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "9000 FRANKLIN SQUARE DR,BALTIMORE,MD,21237", "Description": "367" }, "geometry": { "type": "Point", "coordinates": [ -76.48104, 39.35095, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 E CARROLL AVE,SALISBURY,MD,21801", "Description": "368" }, "geometry": { "type": "Point", "coordinates": [ -75.59819, 38.36322, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "8600 OLD GEORGETOWN RD,BETHESDA,MD,20814", "Description": "369" }, "geometry": { "type": "Point", "coordinates": [ -77.11039, 38.99735, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2001 MEDICAL PARKWAY,ANNAPOLIS,MD,21401", "Description": "370" }, "geometry": { "type": "Point", "coordinates": [ -76.53416, 38.99051, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "12500 WILLOWBROOK ROAD,CUMBERLAND,MD,21502", "Description": "371" }, "geometry": { "type": "Point", "coordinates": [ -78.73111, 39.65595, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "200 MEMORIAL AVE,WESTMINSTER,MD,21157", "Description": "372" }, "geometry": { "type": "Point", "coordinates": [ -76.99026, 39.55837, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5401 OLD COURT RD,RANDALLSTOWN,MD,21133", "Description": "373" }, "geometry": { "type": "Point", "coordinates": [ -76.78162, 39.35872, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "301 HOSPITAL DR,GLEN BURNIE,MD,21061", "Description": "374" }, "geometry": { "type": "Point", "coordinates": [ -76.62292, 39.13822, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6701 NORTH  CHARLES STREET,BALTIMORE,MD,21204", "Description": "375" }, "geometry": { "type": "Point", "coordinates": [ -76.62209, 39.3899, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "9901 MEDICAL CTR DR,ROCKVILLE,MD,20850", "Description": "376" }, "geometry": { "type": "Point", "coordinates": [ -77.19686, 39.09744, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "211 PARK STREET,ATTLEBORO,MA,2703", "Description": "377" }, "geometry": { "type": "Point", "coordinates": [ -71.27493, 41.94208, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "88 LEWIS BAY ROAD,HYANNIS,MA,2601", "Description": "378" }, "geometry": { "type": "Point", "coordinates": [ -70.2746, 41.65284, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "795 MIDDLE STREET,FALL RIVER,MA,2721", "Description": "379" }, "geometry": { "type": "Point", "coordinates": [ -71.16371, 41.69253, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "575 BEECH STREET,HOLYOKE,MA,1040", "Description": "380" }, "geometry": { "type": "Point", "coordinates": [ -72.62762, 42.20038, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1 BOSTON MEDICAL CENTER PLACE,BOSTON,MA,2118", "Description": "381" }, "geometry": { "type": "Point", "coordinates": [ -71.05837, 42.35854, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "81 HIGHLAND AVENUE,SALEM,MA,1970", "Description": "382" }, "geometry": { "type": "Point", "coordinates": [ -70.90712, 42.51078, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "275 SANDWICH STREET,PLYMOUTH,MA,2360", "Description": "383" }, "geometry": { "type": "Point", "coordinates": [ -70.64528, 41.943, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "295 VARNUM AVENUE,LOWELL,MA,1854", "Description": "384" }, "geometry": { "type": "Point", "coordinates": [ -71.34156, 42.64634, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "114 WHITWELL STREET,QUINCY,MA,2169", "Description": "385" }, "geometry": { "type": "Point", "coordinates": [ -71.01331, 42.25103, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "585 LEBANON STREET,MELROSE,MA,2176", "Description": "386" }, "geometry": { "type": "Point", "coordinates": [ -71.0619, 42.46033, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "55 FRUIT STREET,BOSTON,MA,2114", "Description": "387" }, "geometry": { "type": "Point", "coordinates": [ -71.06877, 42.3632, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "88 WASHINGTON STREET,TAUNTON,MA,2780", "Description": "388" }, "geometry": { "type": "Point", "coordinates": [ -71.09497, 41.90595, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "363 HIGHLAND AVENUE,FALL RIVER,MA,2720", "Description": "389" }, "geometry": { "type": "Point", "coordinates": [ -71.14528, 41.70888, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "759 CHESTNUT STREET,SPRINGFIELD,MA,1199", "Description": "390" }, "geometry": { "type": "Point", "coordinates": [ -72.60315, 42.12211, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "330 BROOKLINE AVENUE,BOSTON,MA,2215", "Description": "391" }, "geometry": { "type": "Point", "coordinates": [ -71.10568, 42.33982, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "55 FOGG ROAD,SOUTH WEYMOUTH,MA,2190", "Description": "392" }, "geometry": { "type": "Point", "coordinates": [ -70.95423, 42.17558, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "41 HIGHLAND AVENUE,WINCHESTER,MA,1890", "Description": "393" }, "geometry": { "type": "Point", "coordinates": [ -71.12108, 42.46657, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "199 REEDSDALE ROAD,MILTON,MA,2186", "Description": "394" }, "geometry": { "type": "Point", "coordinates": [ -71.0755, 42.25252, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "75 FRANCIS STREET,BOSTON,MA,2115", "Description": "395" }, "geometry": { "type": "Point", "coordinates": [ -71.10748, 42.33611, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "55 LAKE AVENUE NORTH,WORCESTER,MA,1655", "Description": "396" }, "geometry": { "type": "Point", "coordinates": [ -71.75825, 42.2802, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "41 & 45 MALL ROAD,BURLINGTON,MA,1803", "Description": "397" }, "geometry": { "type": "Point", "coordinates": [ -71.20258, 42.50216, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "115 LINCOLN STREET,FRAMINGHAM,MA,1701", "Description": "398" }, "geometry": { "type": "Point", "coordinates": [ -71.42052, 42.28476, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "123 SUMMER STREET,WORCESTER,MA,1608", "Description": "399" }, "geometry": { "type": "Point", "coordinates": [ -71.79584, 42.26737, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "36475 FIVE MILE ROAD,LIVONIA,MI,48154", "Description": "400" }, "geometry": { "type": "Point", "coordinates": [ -83.40376, 42.39651, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "601 JOHN STREET,KALAMAZOO,MI,49007", "Description": "401" }, "geometry": { "type": "Point", "coordinates": [ -85.58128, 42.28618, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "16001 W NINE MILE RD,SOUTHFIELD,MI,48075", "Description": "402" }, "geometry": { "type": "Point", "coordinates": [ -83.2304, 42.46207, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "18101 OAKWOOD BLVD,DEARBORN,MI,48124", "Description": "403" }, "geometry": { "type": "Point", "coordinates": [ -83.21421, 42.29073, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1234 NAPIER AVENUE,ST JOSEPH,MI,49085", "Description": "404" }, "geometry": { "type": "Point", "coordinates": [ -86.47839, 42.09033, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 MICHIGAN ST NE,GRAND RAPIDS,MI,49503", "Description": "405" }, "geometry": { "type": "Point", "coordinates": [ -85.66503, 42.97043, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1900 COLUMBUS AVE,BAY CITY,MI,48708", "Description": "406" }, "geometry": { "type": "Point", "coordinates": [ -83.86874, 43.58941, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "15855 NINETEEN MILE RD,CLINTON TOWNSHI,MI,48038", "Description": "407" }, "geometry": { "type": "Point", "coordinates": [ -82.94155, 42.60549, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1447 N HARRISON,SAGINAW,MI,48602", "Description": "408" }, "geometry": { "type": "Point", "coordinates": [ -83.95564, 43.42709, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "205 N EAST AVE,JACKSON,MI,49201", "Description": "409" }, "geometry": { "type": "Point", "coordinates": [ -84.39388, 42.25145, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1105 SIXTH STREET,TRAVERSE CITY,MI,49684", "Description": "410" }, "geometry": { "type": "Point", "coordinates": [ -85.64143, 44.76155, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "416 CONNABLE AVE,PETOSKEY,MI,49770", "Description": "411" }, "geometry": { "type": "Point", "coordinates": [ -84.97069, 45.37326, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1521 GULL ROAD,KALAMAZOO,MI,49048", "Description": "412" }, "geometry": { "type": "Point", "coordinates": [ -85.56014, 42.30548, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3601 W THIRTEEN MILE RD,ROYAL OAK,MI,48073", "Description": "413" }, "geometry": { "type": "Point", "coordinates": [ -83.16436, 42.5192, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "401 S BALLENGER HIGHWAY,FLINT,MI,48532", "Description": "414" }, "geometry": { "type": "Point", "coordinates": [ -83.7326, 43.0142, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2333 BIDDLE AVE,WYANDOTTE,MI,48192", "Description": "415" }, "geometry": { "type": "Point", "coordinates": [ -83.14556, 42.21138, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5301 E HURON RIVER DR,ANN ARBOR,MI,48106", "Description": "416" }, "geometry": { "type": "Point", "coordinates": [ -83.73885, 42.22795, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "22101 MOROSS RD,DETROIT,MI,48236", "Description": "417" }, "geometry": { "type": "Point", "coordinates": [ -82.91451, 42.41977, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "401 W GREENLAWN AVE,LANSING,MI,48910", "Description": "418" }, "geometry": { "type": "Point", "coordinates": [ -84.55762, 42.70498, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "11800 EAST TWELVE MILE ROAD,WARREN,MI,48093", "Description": "419" }, "geometry": { "type": "Point", "coordinates": [ -83.01503, 42.51406, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1221 PINE GROVE AVE,PORT HURON,MI,48060", "Description": "420" }, "geometry": { "type": "Point", "coordinates": [ -82.42793, 42.98668, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4000 WELLNESS DRIVE,MIDLAND,MI,48670", "Description": "421" }, "geometry": { "type": "Point", "coordinates": [ -84.25606, 43.63697, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1215 E MICHIGAN AVENUE,LANSING,MI,48912", "Description": "422" }, "geometry": { "type": "Point", "coordinates": [ -84.53478, 42.73368, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "44201 DEQUINDRE ROAD,TROY,MI,48085", "Description": "423" }, "geometry": { "type": "Point", "coordinates": [ -83.09374, 42.61824, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3300 OAKDALE NORTH,ROBBINSDALE,MN,55422", "Description": "424" }, "geometry": { "type": "Point", "coordinates": [ -93.32167, 45.0138, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "407 E 3RD ST,DULUTH,MN,55805", "Description": "425" }, "geometry": { "type": "Point", "coordinates": [ -92.09648, 46.79316, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1216 SECOND STREET WEST,ROCHESTER,MN,55902", "Description": "426" }, "geometry": { "type": "Point", "coordinates": [ -92.48215, 44.02122, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1406 6TH AVE NORTH,SAINT CLOUD,MN,56303", "Description": "427" }, "geometry": { "type": "Point", "coordinates": [ -94.17033, 45.57536, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "333 NORTH SMITH,SAINT PAUL,MN,55102", "Description": "428" }, "geometry": { "type": "Point", "coordinates": [ -93.10754, 44.94289, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6500 EXCELSIOR BLVD,SAINT LOUIS PAR,MN,55426", "Description": "429" }, "geometry": { "type": "Point", "coordinates": [ -93.36318, 44.92991, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "800 EAST 28TH STREET,MINNEAPOLIS,MN,55407", "Description": "430" }, "geometry": { "type": "Point", "coordinates": [ -93.26131, 44.95458, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "45 WEST 10TH STREET,SAINT PAUL,MN,55102", "Description": "431" }, "geometry": { "type": "Point", "coordinates": [ -93.10065, 44.94899, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6401 FRANCE AVENUE SOUTH,EDINA,MN,55435", "Description": "432" }, "geometry": { "type": "Point", "coordinates": [ -93.32687, 44.88629, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "640 JACKSON STREET,SAINT PAUL,MN,55101", "Description": "433" }, "geometry": { "type": "Point", "coordinates": [ -93.09425, 44.95446, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4050 COON RAPIDS BLVD,COON RAPIDS,MN,55433", "Description": "434" }, "geometry": { "type": "Point", "coordinates": [ -93.36972, 45.18307, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "201 EAST NICOLLET BOULEVARD,BURNSVILLE,MN,55337", "Description": "435" }, "geometry": { "type": "Point", "coordinates": [ -93.27332, 44.7491, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1575 BEAM AVENUE,MAPLEWOOD,MN,55109", "Description": "436" }, "geometry": { "type": "Point", "coordinates": [ -93.03397, 45.02851, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "830 S GLOSTER,TUPELO,MS,38801", "Description": "437" }, "geometry": { "type": "Point", "coordinates": [ -88.71779, 34.24145, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4500 13TH ST-P O BOX 1810,GULFPORT,MS,39502", "Description": "438" }, "geometry": { "type": "Point", "coordinates": [ -89.11561, 30.36751, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1105 EARL FRYE BLVD,AMORY,MS,38821", "Description": "439" }, "geometry": { "type": "Point", "coordinates": [ -88.47746, 33.97483, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2100 HWY 61 N,VICKSBURG,MS,39183", "Description": "440" }, "geometry": { "type": "Point", "coordinates": [ -90.8247, 32.37455, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2301 SOUTH LAMAR,OXFORD,MS,38655", "Description": "441" }, "geometry": { "type": "Point", "coordinates": [ -89.52112, 34.34673, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2809 DENNY AV,PASCAGOULA,MS,39581", "Description": "442" }, "geometry": { "type": "Point", "coordinates": [ -88.53346, 30.37554, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "969 LAKELAND DR,JACKSON,MS,39216", "Description": "443" }, "geometry": { "type": "Point", "coordinates": [ -90.1663, 32.33375, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1314 19TH AVE,MERIDIAN,MS,39301", "Description": "444" }, "geometry": { "type": "Point", "coordinates": [ -88.69773, 32.37, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6051 US HIGHWAY 49,HATTIESBURG,MS,39404", "Description": "445" }, "geometry": { "type": "Point", "coordinates": [ -89.33013, 31.31857, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5001 W HARDY ST,HATTIESBURG,MS,39402", "Description": "446" }, "geometry": { "type": "Point", "coordinates": [ -89.36646, 31.32612, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "350 CROSSGATES BLVD,BRANDON,MS,39042", "Description": "447" }, "geometry": { "type": "Point", "coordinates": [ -90.03596, 32.28651, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "215 MARION AV BOX 1307,MCCOMB,MS,39649", "Description": "448" }, "geometry": { "type": "Point", "coordinates": [ -90.4725, 31.25215, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1225 N STATE ST,JACKSON,MS,39202", "Description": "449" }, "geometry": { "type": "Point", "coordinates": [ -90.17844, 32.31503, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2124 14 ST,MERIDIAN,MS,39301", "Description": "450" }, "geometry": { "type": "Point", "coordinates": [ -88.69862, 32.37089, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7601 SOUTHCREST DR,SOUTHAVEN,MS,38671", "Description": "451" }, "geometry": { "type": "Point", "coordinates": [ -89.99662, 34.96977, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5325 FARAON STREET,SAINT JOSEPH,MO,64506", "Description": "452" }, "geometry": { "type": "Point", "coordinates": [ -94.77057, 39.7723, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "601 E 14TH ST,SEDALIA,MO,65302", "Description": "453" }, "geometry": { "type": "Point", "coordinates": [ -93.2216, 38.6991, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 ST MARYS MEDICAL PLAZA,JEFFERSON CITY,MO,65101", "Description": "454" }, "geometry": { "type": "Point", "coordinates": [ -92.18283, 38.57919, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 W 10TH ST,ROLLA,MO,65401", "Description": "455" }, "geometry": { "type": "Point", "coordinates": [ -91.78667, 37.95152, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "615 NEW BALLAS ROAD,SAINT LOUIS,MO,63141", "Description": "456" }, "geometry": { "type": "Point", "coordinates": [ -90.44389, 38.66699, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "HWY 61 SOUTH,CRYSTAL CITY,MO,63019", "Description": "457" }, "geometry": { "type": "Point", "coordinates": [ -90.37684, 38.22869, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3801 SOUTH NATIONAL AVENUE,SPRINGFIELD,MO,65807", "Description": "458" }, "geometry": { "type": "Point", "coordinates": [ -93.27913, 37.14577, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1235 E CHEROKEE,SPRINGFIELD,MO,65804", "Description": "459" }, "geometry": { "type": "Point", "coordinates": [ -93.27529, 37.17928, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1600 E BROADWAY,COLUMBIA,MO,65201", "Description": "460" }, "geometry": { "type": "Point", "coordinates": [ -92.3158, 38.94978, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "10010 KENNERLY ROAD,SAINT LOUIS,MO,63128", "Description": "461" }, "geometry": { "type": "Point", "coordinates": [ -90.38213, 38.50662, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 CARONDELET DR,KANSAS CITY,MO,64114", "Description": "462" }, "geometry": { "type": "Point", "coordinates": [ -94.60377, 38.93567, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2800 CLAY EDWARDS DRIVE,NORTH KANSAS CI,MO,64116", "Description": "463" }, "geometry": { "type": "Point", "coordinates": [ -94.55006, 39.14873, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3015 N BALLAS RD,TOWN AND COUNTR,MO,63131", "Description": "464" }, "geometry": { "type": "Point", "coordinates": [ -90.44628, 38.63655, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1701 LACEY ST,CAPE GIRARDEAU,MO,63701", "Description": "465" }, "geometry": { "type": "Point", "coordinates": [ -89.54064, 37.31097, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2620 N WESTWOOD BLVD,POPLAR BLUFF,MO,63901", "Description": "466" }, "geometry": { "type": "Point", "coordinates": [ -90.42884, 36.7851, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1102 WEST 32ND STREET,JOPLIN,MO,64804", "Description": "467" }, "geometry": { "type": "Point", "coordinates": [ -94.5242, 37.05454, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4401 WORNALL ROAD,KANSAS CITY,MO,64111", "Description": "468" }, "geometry": { "type": "Point", "coordinates": [ -94.58975, 39.04741, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2525 GLENN HENDREN DR,LIBERTY,MO,64069", "Description": "469" }, "geometry": { "type": "Point", "coordinates": [ -94.42482, 39.27637, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "232 S WOODS MILL RD,CHESTERFIELD,MO,63017", "Description": "470" }, "geometry": { "type": "Point", "coordinates": [ -90.50311, 38.65122, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "211 ST FRANCIS DR,CAPE GIRARDEAU,MO,63703", "Description": "471" }, "geometry": { "type": "Point", "coordinates": [ -89.57125, 37.30358, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 N E SAINT LUKE'S BOULEVARD,LEES SUMMIT,MO,64086", "Description": "472" }, "geometry": { "type": "Point", "coordinates": [ -94.28757, 38.90786, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1101 26TH ST S,GREAT FALLS,MT,59405", "Description": "473" }, "geometry": { "type": "Point", "coordinates": [ -111.2598, 47.49183, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "500 W BROADWAY,MISSOULA,MT,59806", "Description": "474" }, "geometry": { "type": "Point", "coordinates": [ -114.0004, 46.87488, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1600 SOUTH 48TH ST,LINCOLN,NE,68506", "Description": "475" }, "geometry": { "type": "Point", "coordinates": [ -96.65293, 40.79588, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "P O BOX 1990 10 EAST 31ST ST,KEARNEY,NE,68848", "Description": "476" }, "geometry": { "type": "Point", "coordinates": [ -99.08122, 40.70652, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "987400 NEBRASKA MEDICAL CENTER,OMAHA,NE,68198", "Description": "477" }, "geometry": { "type": "Point", "coordinates": [ -96.01003, 41.266, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "555 SOUTH 70TH ST,LINCOLN,NE,68510", "Description": "478" }, "geometry": { "type": "Point", "coordinates": [ -96.62672, 40.80811, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "8303 DODGE ST,OMAHA,NE,68114", "Description": "479" }, "geometry": { "type": "Point", "coordinates": [ -96.04173, 41.25925, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4021 AVE B,SCOTTSBLUFF,NE,69361", "Description": "480" }, "geometry": { "type": "Point", "coordinates": [ -103.6657, 41.88757, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "16901 LAKESIDE HILLS CT,OMAHA,NE,68130", "Description": "481" }, "geometry": { "type": "Point", "coordinates": [ -96.18018, 41.23753, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1155 MILL STREET,RENO,NV,89502", "Description": "482" }, "geometry": { "type": "Point", "coordinates": [ -119.7961, 39.52614, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3186 S MARYLAND PKWY,LAS VEGAS,NV,89109", "Description": "483" }, "geometry": { "type": "Point", "coordinates": [ -115.1353, 36.13253, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1600 MEDICAL PARKWAY,CARSON CITY,NV,89703", "Description": "484" }, "geometry": { "type": "Point", "coordinates": [ -119.7844, 39.20244, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2375 PRATER WAY,SPARKS,NV,89434", "Description": "485" }, "geometry": { "type": "Point", "coordinates": [ -119.6973, 39.54111, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3100 N TENAYA WAY,LAS VEGAS,NV,89128", "Description": "486" }, "geometry": { "type": "Point", "coordinates": [ -115.2493, 36.21594, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "657 TOWN CENTER DRIVE,LAS VEGAS,NV,89144", "Description": "487" }, "geometry": { "type": "Point", "coordinates": [ -115.3172, 36.18117, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3001 ST ROSE PARKWAY,HENDERSON,NV,89052", "Description": "488" }, "geometry": { "type": "Point", "coordinates": [ -115.1152, 36.00458, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6900 N DURANGO DR,LAS VEGAS,NV,89149", "Description": "489" }, "geometry": { "type": "Point", "coordinates": [ -115.2792, 36.06033, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "250 PLEASANT ST,CONCORD,NH,3301", "Description": "490" }, "geometry": { "type": "Point", "coordinates": [ -71.56169, 43.19772, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1 ELLIOT WAY,MANCHESTER,NH,3103", "Description": "491" }, "geometry": { "type": "Point", "coordinates": [ -71.43475, 42.98264, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "30 PROSPECT AVE,HACKENSACK,NJ,7601", "Description": "492" }, "geometry": { "type": "Point", "coordinates": [ -74.05565, 40.88342, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "350 BOULEVARD,PASSAIC,NJ,7055", "Description": "493" }, "geometry": { "type": "Point", "coordinates": [ -74.13641, 40.85793, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "718 TEANECK RD,TEANECK,NJ,7666", "Description": "494" }, "geometry": { "type": "Point", "coordinates": [ -74.00842, 40.88306, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE CLARA MAAS DRIVE,BELLEVILLE,NJ,7109", "Description": "495" }, "geometry": { "type": "Point", "coordinates": [ -74.15234, 40.79209, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "253 WITHERSPOON ST,PRINCETON,NJ,8540", "Description": "496" }, "geometry": { "type": "Point", "coordinates": [ -74.66167, 40.35684, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "223 N VAN DIEN AVENUE,RIDGEWOOD,NJ,7450", "Description": "497" }, "geometry": { "type": "Point", "coordinates": [ -74.10166, 40.98321, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 MADISON AVE,MORRISTOWN,NJ,7962", "Description": "498" }, "geometry": { "type": "Point", "coordinates": [ -74.46513, 40.78904, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "176 PALISADE AVE,JERSEY CITY,NJ,7306", "Description": "499" }, "geometry": { "type": "Point", "coordinates": [ -74.04977, 40.73417, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "97 WEST PARKWAY,POMPTON PLAINS,NJ,7444", "Description": "500" }, "geometry": { "type": "Point", "coordinates": [ -74.31042, 40.95872, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "703 MAIN ST,PATERSON,NJ,7503", "Description": "501" }, "geometry": { "type": "Point", "coordinates": [ -74.16683, 40.90266, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "WHITEHORSE PIKE AND TOWNSEND AVENUE,BERLIN,NJ,8009", "Description": "502" }, "geometry": { "type": "Point", "coordinates": [ -74.9326, 39.76511, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "175 HIGH ST,NEWTON,NJ,7860", "Description": "503" }, "geometry": { "type": "Point", "coordinates": [ -74.76692, 41.05468, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1600 HADDON AVENUE,CAMDEN,NJ,8103", "Description": "504" }, "geometry": { "type": "Point", "coordinates": [ -75.09394, 39.92566, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE RIVERVIEW PLAZA,RED BANK,NJ,7701", "Description": "505" }, "geometry": { "type": "Point", "coordinates": [ -74.06486, 40.35315, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE ROBERT WOOD JOHNSON PL,NEW BRUNSWICK,NJ,8901", "Description": "506" }, "geometry": { "type": "Point", "coordinates": [ -74.40139, 40.4867, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "99 RT 37 WEST,TOMS RIVER,NJ,8755", "Description": "507" }, "geometry": { "type": "Point", "coordinates": [ -74.21328, 39.96144, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "350 ENGLE ST,ENGLEWOOD,NJ,7631", "Description": "508" }, "geometry": { "type": "Point", "coordinates": [ -73.96777, 40.90363, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "110 REHILL AVE,SOMERVILLE,NJ,8876", "Description": "509" }, "geometry": { "type": "Point", "coordinates": [ -74.59492, 40.56819, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "25 POCONO ROAD,DENVILLE,NJ,7834", "Description": "510" }, "geometry": { "type": "Point", "coordinates": [ -74.46534, 40.89542, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "99 BEAUVIOR AVE,SUMMIT,NJ,7902", "Description": "511" }, "geometry": { "type": "Point", "coordinates": [ -74.35433, 40.71231, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "425 JACK MARTIN BLVD,BRICK,NJ,8724", "Description": "512" }, "geometry": { "type": "Point", "coordinates": [ -74.13212, 40.07699, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "BAY AND HIGHLAND AVE,MONTCLAIR,NJ,7042", "Description": "513" }, "geometry": { "type": "Point", "coordinates": [ -74.21778, 40.81374, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "175 MADISON AVE,MOUNT HOLLY,NJ,8060", "Description": "514" }, "geometry": { "type": "Point", "coordinates": [ -74.79552, 39.986, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1925 PACIFIC AVE,ATLANTIC CITY,NJ,8401", "Description": "515" }, "geometry": { "type": "Point", "coordinates": [ -74.43365, 39.35801, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "254 EASTON AVE,NEW BRUNSWICK,NJ,8901", "Description": "516" }, "geometry": { "type": "Point", "coordinates": [ -74.46015, 40.50066, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "355 GRAND STREET,JERSEY CITY,NJ,7302", "Description": "517" }, "geometry": { "type": "Point", "coordinates": [ -74.05094, 40.71592, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "94 OLD SHORT HILLS ROAD,LIVINGSTON,NJ,7039", "Description": "518" }, "geometry": { "type": "Point", "coordinates": [ -74.30078, 40.76766, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "509 N BROAD ST,WOODBURY,NJ,8096", "Description": "519" }, "geometry": { "type": "Point", "coordinates": [ -75.14923, 39.84349, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "18 EAST LAUREL ROAD,STRATFORD,NJ,8084", "Description": "520" }, "geometry": { "type": "Point", "coordinates": [ -75.00674, 39.82766, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "65 JAMES STREET,EDISON,NJ,8818", "Description": "521" }, "geometry": { "type": "Point", "coordinates": [ -74.34679, 40.55704, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE HAMILTON HEALTH PLACE,HAMILTON,NJ,8690", "Description": "522" }, "geometry": { "type": "Point", "coordinates": [ -74.67561, 40.21633, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "901 WEST MAIN STREET,FREEHOLD,NJ,7728", "Description": "523" }, "geometry": { "type": "Point", "coordinates": [ -74.31289, 40.23861, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "727 N BEERS ST,HOLMDEL,NJ,7733", "Description": "524" }, "geometry": { "type": "Point", "coordinates": [ -74.19181, 40.40578, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1140 RT 72 W,MANAHAWKIN,NJ,8050", "Description": "525" }, "geometry": { "type": "Point", "coordinates": [ -74.2851, 39.71914, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2211 LOMAS BOULEVARD NE,ALBUQUERQUE,NM,87106", "Description": "526" }, "geometry": { "type": "Point", "coordinates": [ -106.6169, 35.08837, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "455 ST MICHAEL'S DRIVE,SANTA FE,NM,87505", "Description": "527" }, "geometry": { "type": "Point", "coordinates": [ -105.9455, 35.65936, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "801 WEST MAPLE STREET,FARMINGTON,NM,87401", "Description": "528" }, "geometry": { "type": "Point", "coordinates": [ -108.2173, 36.72389, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1100 CENTRAL AVENUE SE,ALBUQUERQUE,NM,87106", "Description": "529" }, "geometry": { "type": "Point", "coordinates": [ -106.6354, 35.08155, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1901 RED ROCK DRIVE,GALLUP,NM,87301", "Description": "530" }, "geometry": { "type": "Point", "coordinates": [ -108.7265, 35.50652, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "516 E NIZHONI BLVD,GALLUP,NM,87301", "Description": "531" }, "geometry": { "type": "Point", "coordinates": [ -108.7298, 35.50761, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4311 EAST LOHMAN AVENUE,LAS CRUCES,NM,88011", "Description": "532" }, "geometry": { "type": "Point", "coordinates": [ -106.7294, 32.32277, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "600 NORTHERN BOULEVARD,ALBANY,NY,12204", "Description": "533" }, "geometry": { "type": "Point", "coordinates": [ -73.7487, 42.6742, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "396 BROADWAY,KINGSTON,NY,12401", "Description": "534" }, "geometry": { "type": "Point", "coordinates": [ -73.9956, 41.927, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "726 EXCHANGE STREET SUITE 522,BUFFALO,NY,14210", "Description": "535" }, "geometry": { "type": "Point", "coordinates": [ -78.8497, 42.8747, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "169 RIVERSIDE DRIVE,BINGHAMTON,NY,13905", "Description": "536" }, "geometry": { "type": "Point", "coordinates": [ -75.93627, 42.09177, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2525 KINGS HIGHWAY,BROOKLYN,NY,11229", "Description": "537" }, "geometry": { "type": "Point", "coordinates": [ -73.94836, 40.61387, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "45 READE PLACE,POUGHKEEPSIE,NY,12601", "Description": "538" }, "geometry": { "type": "Point", "coordinates": [ -73.9356, 41.6938, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE GUSTAVE L LEVY PLACE,NEW YORK,NY,10029", "Description": "539" }, "geometry": { "type": "Point", "coordinates": [ -73.9534, 40.7904, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "301 EAST MAIN STREET,BAY SHORE,NY,11706", "Description": "540" }, "geometry": { "type": "Point", "coordinates": [ -73.2414, 40.7257, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1656 CHAMPLIN AVENUE,UTICA,NY,13503", "Description": "541" }, "geometry": { "type": "Point", "coordinates": [ -75.23291, 43.10014, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "270 PARK AVENUE,HUNTINGTON,NY,11743", "Description": "542" }, "geometry": { "type": "Point", "coordinates": [ -73.416, 40.8794, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "56-45 MAIN STREET,FLUSHING,NY,11355", "Description": "543" }, "geometry": { "type": "Point", "coordinates": [ -73.82571, 40.74697, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "111 EAST 210TH STREET,BRONX,NY,10467", "Description": "544" }, "geometry": { "type": "Point", "coordinates": [ -73.8799, 40.87986, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "55 PALMER AVENUE,BRONXVILLE,NY,10708", "Description": "545" }, "geometry": { "type": "Point", "coordinates": [ -73.83649, 40.94168, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "525 EAST 68TH STREET,NEW YORK,NY,10021", "Description": "546" }, "geometry": { "type": "Point", "coordinates": [ -73.95451, 40.76435, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "160 NORTH MIDLAND AVENUE,NYACK,NY,10960", "Description": "547" }, "geometry": { "type": "Point", "coordinates": [ -73.9248, 41.09672, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "300 COMMUNITY DRIVE,MANHASSET,NY,11030", "Description": "548" }, "geometry": { "type": "Point", "coordinates": [ -73.70295, 40.77624, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1300 ROANOKE AVENUE,RIVERHEAD,NY,11901", "Description": "549" }, "geometry": { "type": "Point", "coordinates": [ -72.6736, 40.9342, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 EAST 77TH STREET,NEW YORK,NY,10021", "Description": "550" }, "geometry": { "type": "Point", "coordinates": [ -73.96088, 40.77396, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1425 PORTLAND AVENUE,ROCHESTER,NY,14621", "Description": "551" }, "geometry": { "type": "Point", "coordinates": [ -77.5856, 43.1915, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "707 EAST MAIN STREET,MIDDLETOWN,NY,10940", "Description": "552" }, "geometry": { "type": "Point", "coordinates": [ -74.36815, 41.44183, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "301 PROSPECT AVENUE,SYRACUSE,NY,13203", "Description": "553" }, "geometry": { "type": "Point", "coordinates": [ -76.1495, 43.0559, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "101 HOSPITAL ROAD,PATCHOGUE,NY,11772", "Description": "554" }, "geometry": { "type": "Point", "coordinates": [ -72.9766, 40.7801, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1101 NOTT STREET,SCHENECTADY,NY,12308", "Description": "555" }, "geometry": { "type": "Point", "coordinates": [ -73.9165, 42.82, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "475 SEAVIEW AVENUE,STATEN ISLAND,NY,10305", "Description": "556" }, "geometry": { "type": "Point", "coordinates": [ -74.08561, 40.58453, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "259 FIRST STREET,MINEOLA,NY,11501", "Description": "557" }, "geometry": { "type": "Point", "coordinates": [ -73.64331, 40.74161, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "FIRST AVENUE AT 16TH STREET,NEW YORK,NY,10003", "Description": "558" }, "geometry": { "type": "Point", "coordinates": [ -74.1544, 40.61953, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "101 ST ANDREWS LANE,GLEN COVE,NY,11542", "Description": "559" }, "geometry": { "type": "Point", "coordinates": [ -73.62149, 40.87171, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 PORT WASHINGTON BOULEVARD,ROSLYN,NY,11576", "Description": "560" }, "geometry": { "type": "Point", "coordinates": [ -73.66891, 40.8058, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "75 NORTH COUNTRY ROAD,PORT JEFFERSON,NY,11777", "Description": "561" }, "geometry": { "type": "Point", "coordinates": [ -73.0544, 40.9392, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 PARK STREET,GLENS FALLS,NY,12801", "Description": "562" }, "geometry": { "type": "Point", "coordinates": [ -73.6463, 43.3067, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "45TH AVENUE AND PARSONS BOULEVARD,FLUSHING,NY,11355", "Description": "563" }, "geometry": { "type": "Point", "coordinates": [ -73.82103, 40.75148, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4802 TENTH AVENUE,BROOKLYN,NY,11219", "Description": "564" }, "geometry": { "type": "Point", "coordinates": [ -73.99866, 40.63936, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "270 - 05 76TH AVENUE,NEW HYDE PARK,NY,11040", "Description": "565" }, "geometry": { "type": "Point", "coordinates": [ -73.70238, 40.74884, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE HEALTHY WAY,OCEANSIDE,NY,11572", "Description": "566" }, "geometry": { "type": "Point", "coordinates": [ -73.63683, 40.63235, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "736 IRVING AVENUE,SYRACUSE,NY,13210", "Description": "567" }, "geometry": { "type": "Point", "coordinates": [ -76.1392, 43.0414, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "550 FIRST AVENUE,NEW YORK,NY,10016", "Description": "568" }, "geometry": { "type": "Point", "coordinates": [ -73.9743, 40.7423, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "506 SIXTH STREET,BROOKLYN,NY,11215", "Description": "569" }, "geometry": { "type": "Point", "coordinates": [ -73.97935, 40.66821, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2209 GENESEE STREET,UTICA,NY,13501", "Description": "570" }, "geometry": { "type": "Point", "coordinates": [ -75.267, 43.0835, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "701 NORTH BROADWAY,SLEEPY HOLLOW,NY,10591", "Description": "571" }, "geometry": { "type": "Point", "coordinates": [ -73.86058, 41.10472, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 MONTAUK HIGHWAY,WEST ISLIP,NY,11795", "Description": "572" }, "geometry": { "type": "Point", "coordinates": [ -73.2945, 40.6941, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "41 EAST POST R0AD,WHITE PLAINS,NY,10601", "Description": "573" }, "geometry": { "type": "Point", "coordinates": [ -73.76906, 41.02596, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "150 55TH STREET,BROOKLYN,NY,11220", "Description": "574" }, "geometry": { "type": "Point", "coordinates": [ -74.02058, 40.64661, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "888 OLD COUNTRY ROAD,PLAINVIEW,NY,11803", "Description": "575" }, "geometry": { "type": "Point", "coordinates": [ -73.47986, 40.77418, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "240 MEETING HOUSE LANE,SOUTHAMPTON,NY,11968", "Description": "576" }, "geometry": { "type": "Point", "coordinates": [ -72.3803, 40.8851, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "HEALTH SCIENCES CENTER SUNY,STONY BROOK,NY,11794", "Description": "577" }, "geometry": { "type": "Point", "coordinates": [ -73.12486, 40.91332, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "33-57 HARRISON STREET,JOHNSON CITY,NY,13790", "Description": "578" }, "geometry": { "type": "Point", "coordinates": [ -75.95904, 42.11451, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "920 CHURCH ST N,CONCORD,NC,28025", "Description": "579" }, "geometry": { "type": "Point", "coordinates": [ -80.60306, 35.43555, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "509 BILTMORE AVE,ASHEVILLE,NC,28801", "Description": "580" }, "geometry": { "type": "Point", "coordinates": [ -82.5493, 35.57688, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2700 WAYNE MEMORIAL DR,GOLDSBORO,NC,27534", "Description": "581" }, "geometry": { "type": "Point", "coordinates": [ -77.95229, 35.39859, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3333 SILAS CREEK PARKWAY,WINSTON-SALEM,NC,27103", "Description": "582" }, "geometry": { "type": "Point", "coordinates": [ -80.298, 36.07565, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "201 E GROVER ST,SHELBY,NC,28150", "Description": "583" }, "geometry": { "type": "Point", "coordinates": [ -81.53789, 35.30153, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1638 OWEN DRIVE P O BOX 2000,FAYETTEVILLE,NC,28302", "Description": "584" }, "geometry": { "type": "Point", "coordinates": [ -78.93319, 35.03233, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2525 COURT DR,GASTONIA,NC,28052", "Description": "585" }, "geometry": { "type": "Point", "coordinates": [ -81.13899, 35.27155, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "557 BROOKDALE DR  P O BOX 1828,STATESVILLE,NC,28677", "Description": "586" }, "geometry": { "type": "Point", "coordinates": [ -80.87805, 35.79942, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2100 STANTONSBURG RD PO BOX 6028,GREENVILLE,NC,27835", "Description": "587" }, "geometry": { "type": "Point", "coordinates": [ -77.40853, 35.60514, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "336 DEERFIELD ROAD,BOONE,NC,28607", "Description": "588" }, "geometry": { "type": "Point", "coordinates": [ -81.65138, 36.19892, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "200 HAWTHORNE LANE BOX 33549,CHARLOTTE,NC,28233", "Description": "589" }, "geometry": { "type": "Point", "coordinates": [ -80.82425, 35.21202, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "117 E KINGS HIGHWAY,EDEN,NC,27288", "Description": "590" }, "geometry": { "type": "Point", "coordinates": [ -79.7404, 36.49327, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "500 JEFFERSON ST,WHITEVILLE,NC,28472", "Description": "591" }, "geometry": { "type": "Point", "coordinates": [ -78.69423, 34.33778, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3000 NEW BERN AVE,RALEIGH,NC,27610", "Description": "592" }, "geometry": { "type": "Point", "coordinates": [ -78.58797, 35.78392, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1200 N ELM ST,GREENSBORO,NC,27401", "Description": "593" }, "geometry": { "type": "Point", "coordinates": [ -79.78638, 36.09096, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2001 VAIL AVE,CHARLOTTE,NC,28207", "Description": "594" }, "geometry": { "type": "Point", "coordinates": [ -80.82085, 35.2103, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 BLYTHE BLVD,CHARLOTTE,NC,28203", "Description": "595" }, "geometry": { "type": "Point", "coordinates": [ -80.83909, 35.20398, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4420 LAKE BOONE TRAIL,RALEIGH,NC,27607", "Description": "596" }, "geometry": { "type": "Point", "coordinates": [ -78.70241, 35.81807, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "155 MEMORIAL DRIVE,PINEHURST,NC,28374", "Description": "597" }, "geometry": { "type": "Point", "coordinates": [ -79.45645, 35.20554, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "600 HOSPITAL DR,MONROE,NC,28110", "Description": "598" }, "geometry": { "type": "Point", "coordinates": [ -80.52267, 34.97459, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2000 NEUSE BLVD,NEW BERN,NC,28560", "Description": "599" }, "geometry": { "type": "Point", "coordinates": [ -77.06631, 35.11376, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2131 S 17TH ST BOX 9000,WILMINGTON,NC,28402", "Description": "600" }, "geometry": { "type": "Point", "coordinates": [ -77.92419, 34.20647, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3500 ARENDELL ST,MOREHEAD CITY,NC,28557", "Description": "601" }, "geometry": { "type": "Point", "coordinates": [ -76.75498, 34.72613, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "218 OLD MOCKSBVILLE RD PO BOX 1823,STATESVILLE,NC,28687", "Description": "602" }, "geometry": { "type": "Point", "coordinates": [ -80.82902, 35.81878, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2460 CURTIS ELLIS DRIVE,ROCKY MOUNT,NC,27804", "Description": "603" }, "geometry": { "type": "Point", "coordinates": [ -77.85402, 35.97596, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "250 SMITH CHURCH RD,ROANOKE RAPIDS,NC,27870", "Description": "604" }, "geometry": { "type": "Point", "coordinates": [ -77.64593, 36.43233, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3643 N ROXBORO ROAD,DURHAM,NC,27704", "Description": "605" }, "geometry": { "type": "Point", "coordinates": [ -78.8997, 36.03714, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "262 LEROY GEORGE DRIVE,CLYDE,NC,28721", "Description": "606" }, "geometry": { "type": "Point", "coordinates": [ -82.94371, 35.52572, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "407 3RD ST SE,MINOT,ND,58701", "Description": "607" }, "geometry": { "type": "Point", "coordinates": [ -101.2884, 48.23171, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "300 N 7TH ST,BISMARCK,ND,58506", "Description": "608" }, "geometry": { "type": "Point", "coordinates": [ -100.7823, 46.80811, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1200 S COLUMBIA RD,GRAND FORKS,ND,58201", "Description": "609" }, "geometry": { "type": "Point", "coordinates": [ -97.06874, 47.91066, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3535 OLENTANGY RIVER RD,COLUMBUS,OH,43214", "Description": "610" }, "geometry": { "type": "Point", "coordinates": [ -83.03396, 40.03052, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1805 27TH STREET,PORTSMOUTH,OH,45662", "Description": "611" }, "geometry": { "type": "Point", "coordinates": [ -82.97947, 38.75345, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 MCKINLEY PARK DRIVE,MARION,OH,43302", "Description": "612" }, "geometry": { "type": "Point", "coordinates": [ -83.12877, 40.5721, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "500 SOUTH CLEVELAND AVENUE,WESTERVILLE,OH,43081", "Description": "613" }, "geometry": { "type": "Point", "coordinates": [ -82.94717, 40.11473, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4777 EAST GALBRAITH ROAD,CINCINNATI,OH,45236", "Description": "614" }, "geometry": { "type": "Point", "coordinates": [ -84.38068, 39.20592, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "525 EAST MARKET STREET,AKRON,OH,44309", "Description": "615" }, "geometry": { "type": "Point", "coordinates": [ -81.50005, 41.0816, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "793 WEST STATE STREET,COLUMBUS,OH,43222", "Description": "616" }, "geometry": { "type": "Point", "coordinates": [ -83.02126, 39.95702, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2951 MAPLE AVENUE,ZANESVILLE,OH,43701", "Description": "617" }, "geometry": { "type": "Point", "coordinates": [ -82.01463, 39.97548, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7007 POWERS BOULEVARD,PARMA,OH,44129", "Description": "618" }, "geometry": { "type": "Point", "coordinates": [ -81.73168, 41.38143, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3000 ARLINGTON AVENUE,TOLEDO,OH,43699", "Description": "619" }, "geometry": { "type": "Point", "coordinates": [ -83.61761, 41.61959, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE WYOMING STREET,DAYTON,OH,45409", "Description": "620" }, "geometry": { "type": "Point", "coordinates": [ -84.18674, 39.7454, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2222 PHILADELPHIA DRIVE,DAYTON,OH,45406", "Description": "621" }, "geometry": { "type": "Point", "coordinates": [ -84.23303, 39.78824, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3000 MACK ROAD,FAIRFIELD,OH,45014", "Description": "622" }, "geometry": { "type": "Point", "coordinates": [ -84.51801, 39.31293, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2500 METROHEALTH DRIVE,CLEVELAND,OH,44109", "Description": "623" }, "geometry": { "type": "Point", "coordinates": [ -81.69614, 41.46288, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "730 WEST MARKET STREET,LIMA,OH,45801", "Description": "624" }, "geometry": { "type": "Point", "coordinates": [ -84.11919, 40.74043, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2142 NORTH COVE BOULEVARD,TOLEDO,OH,43606", "Description": "625" }, "geometry": { "type": "Point", "coordinates": [ -83.59417, 41.67363, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "401 NORTH EWING STREET,LANCASTER,OH,43130", "Description": "626" }, "geometry": { "type": "Point", "coordinates": [ -82.57649, 39.7183, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3535 SOUTHERN BOULEVARD,KETTERING,OH,45429", "Description": "627" }, "geometry": { "type": "Point", "coordinates": [ -84.19236, 39.69668, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5901 MONCLOVA ROAD,MAUMEE,OH,43537", "Description": "628" }, "geometry": { "type": "Point", "coordinates": [ -83.68164, 41.55753, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1900 SOUTH MAIN STREET,FINDLAY,OH,45840", "Description": "629" }, "geometry": { "type": "Point", "coordinates": [ -83.6506, 41.0172, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7590 AUBURN ROAD,CONCORD,OH,44077", "Description": "630" }, "geometry": { "type": "Point", "coordinates": [ -81.24511, 41.66444, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "335 GLESSNER AVENUE,MANSFIELD,OH,44903", "Description": "631" }, "geometry": { "type": "Point", "coordinates": [ -82.52904, 40.75324, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "29000 CENTER RIDGE ROAD,WESTLAKE,OH,44145", "Description": "632" }, "geometry": { "type": "Point", "coordinates": [ -81.94376, 41.43571, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "630 EAST RIVER STREET,ELYRIA,OH,44035", "Description": "633" }, "geometry": { "type": "Point", "coordinates": [ -82.09929, 41.36677, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "18697 BAGLEY ROAD,MIDDLEBURG HEIG,OH,44130", "Description": "634" }, "geometry": { "type": "Point", "coordinates": [ -81.832, 41.36995, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "272 HOSPITAL ROAD,CHILLICOTHE,OH,45601", "Description": "635" }, "geometry": { "type": "Point", "coordinates": [ -82.97069, 39.39552, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "667 EASTLAND AVE SE,WARREN,OH,44481", "Description": "636" }, "geometry": { "type": "Point", "coordinates": [ -80.77824, 41.23157, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3700 KOLBE ROAD,LORAIN,OH,44053", "Description": "637" }, "geometry": { "type": "Point", "coordinates": [ -82.2373, 41.43913, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3130 NORTH COUNTY ROAD 25A,TROY,OH,45373", "Description": "638" }, "geometry": { "type": "Point", "coordinates": [ -84.22337, 40.0867, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "10500 MONTGOMERY ROAD,CINCINNATI,OH,45242", "Description": "639" }, "geometry": { "type": "Point", "coordinates": [ -84.34217, 39.25212, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "13207 RAVENNA RD,CHARDON,OH,44024", "Description": "640" }, "geometry": { "type": "Point", "coordinates": [ -81.1896, 41.50874, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1120 SOUTH UTICA AVENUE,TULSA,OK,74104", "Description": "641" }, "geometry": { "type": "Point", "coordinates": [ -95.96841, 36.14687, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "901 NORTH PORTER,NORMAN,OK,73070", "Description": "642" }, "geometry": { "type": "Point", "coordinates": [ -97.44012, 35.23031, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4300 WEST MEMORIAL ROAD,OKLAHOMA CITY,OK,73120", "Description": "643" }, "geometry": { "type": "Point", "coordinates": [ -97.60042, 35.60715, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1800 UNIVERSITY BOULEVARD,DURANT,OK,74702", "Description": "644" }, "geometry": { "type": "Point", "coordinates": [ -96.43523, 33.9322, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "430 NORTH MONTA VISTA,ADA,OK,74820", "Description": "645" }, "geometry": { "type": "Point", "coordinates": [ -96.63476, 34.77721, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "305 SOUTH 5TH STREET,ENID,OK,73701", "Description": "646" }, "geometry": { "type": "Point", "coordinates": [ -97.87169, 36.39417, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3300 NORTHWEST EXPRESSWAY,OKLAHOMA CITY,OK,73112", "Description": "647" }, "geometry": { "type": "Point", "coordinates": [ -97.57776, 35.53124, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3401 WEST GORE BOULVARD,LAWTON,OK,73505", "Description": "648" }, "geometry": { "type": "Point", "coordinates": [ -98.43439, 34.60895, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6161 SOUTH YALE,TULSA,OK,74136", "Description": "649" }, "geometry": { "type": "Point", "coordinates": [ -95.91942, 36.0728, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2825 PARKLAWN DRIVE,MIDWEST CITY,OK,73110", "Description": "650" }, "geometry": { "type": "Point", "coordinates": [ -97.39381, 35.46729, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1923 SOUTH UTICA AVENUE,TULSA,OK,74104", "Description": "651" }, "geometry": { "type": "Point", "coordinates": [ -95.96616, 36.13423, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2900 NORTH MAIN STREET,MUSKOGEE,OK,74402", "Description": "652" }, "geometry": { "type": "Point", "coordinates": [ -95.35812, 35.78205, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "9205 SW BARNES ROAD,PORTLAND,OR,97225", "Description": "653" }, "geometry": { "type": "Point", "coordinates": [ -122.7719, 45.51093, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3600 NW SAMARITAN DRIVE,CORVALLIS,OR,97330", "Description": "654" }, "geometry": { "type": "Point", "coordinates": [ -123.2532, 44.60323, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1015 NW 22ND AVENUE W121,PORTLAND,OR,97210", "Description": "655" }, "geometry": { "type": "Point", "coordinates": [ -122.6976, 45.5302, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2825 E BARNETT ROAD,MEDFORD,OR,97504", "Description": "656" }, "geometry": { "type": "Point", "coordinates": [ -122.8305, 42.31727, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2500 NE NEFF ROAD,BEND,OR,97701", "Description": "657" }, "geometry": { "type": "Point", "coordinates": [ -121.2682, 44.06774, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "890 OAK STREET SE,SALEM,OR,97301", "Description": "658" }, "geometry": { "type": "Point", "coordinates": [ -123.0341, 44.93288, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4805 NE GLISAN STREET,PORTLAND,OR,97213", "Description": "659" }, "geometry": { "type": "Point", "coordinates": [ -122.6139, 45.52784, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3333 RIVERBEND DRIVE,SPRINGFIELD,OR,97477", "Description": "660" }, "geometry": { "type": "Point", "coordinates": [ -123.0267, 44.0814, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1822 MULBERRY STREET,SCRANTON,PA,18510", "Description": "661" }, "geometry": { "type": "Point", "coordinates": [ -75.64593, 41.40066, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 NORTH ACADEMY AVENUE,DANVILLE,PA,17822", "Description": "662" }, "geometry": { "type": "Point", "coordinates": [ -76.60444, 40.96976, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "SIXTH AVENUE AND SPRUCE ST,READING,PA,19603", "Description": "663" }, "geometry": { "type": "Point", "coordinates": [ -75.93014, 40.34008, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1001 SOUTH GEORGE STREET,YORK,PA,17403", "Description": "664" }, "geometry": { "type": "Point", "coordinates": [ -76.71873, 39.94599, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "801 OSTRUM STREET,BETHLEHEM,PA,18015", "Description": "665" }, "geometry": { "type": "Point", "coordinates": [ -75.39356, 40.60993, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "FOURTH AND WALNUT STREETS,LEBANON,PA,17042", "Description": "666" }, "geometry": { "type": "Point", "coordinates": [ -76.42473, 40.29436, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "409 SOUTH SECOND STREET,HARRISBURG,PA,17105", "Description": "667" }, "geometry": { "type": "Point", "coordinates": [ -76.87746, 40.25748, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "620 HOWARD AVENUE,ALTOONA,PA,16601", "Description": "668" }, "geometry": { "type": "Point", "coordinates": [ -78.39805, 40.5214, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "501 NORTH LANSDOWNE AVE,DREXEL HILL,PA,19026", "Description": "669" }, "geometry": { "type": "Point", "coordinates": [ -75.28385, 39.95393, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "555 NORTH DUKE STREET,LANCASTER,PA,17604", "Description": "670" }, "geometry": { "type": "Point", "coordinates": [ -76.30451, 40.04708, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "34TH & SPRUCE STS,PHILADELPHIA,PA,19104", "Description": "671" }, "geometry": { "type": "Point", "coordinates": [ -75.19836, 39.95912, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "10800 KNIGHTS ROAD,PHILADELPHIA,PA,19114", "Description": "672" }, "geometry": { "type": "Point", "coordinates": [ -74.98307, 40.07117, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1600 EAST HIGH STREET AND ARMAND HAMMER BLVD,POTTSTOWN,PA,19464", "Description": "673" }, "geometry": { "type": "Point", "coordinates": [ -75.61572, 40.25883, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "PO BOX 689,ALLENTOWN,PA,18105", "Description": "674" }, "geometry": { "type": "Point", "coordinates": [ -75.49393, 40.60142, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "575 NORTH RIVER STREET,WILKES-BARRE,PA,18764", "Description": "675" }, "geometry": { "type": "Point", "coordinates": [ -75.86835, 41.25764, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "130 SOUTH BRYN MAWR AVE,BRYN MAWR,PA,19010", "Description": "676" }, "geometry": { "type": "Point", "coordinates": [ -75.32014, 40.01893, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5501 OLD YORK ROAD,PHILADELPHIA,PA,19141", "Description": "677" }, "geometry": { "type": "Point", "coordinates": [ -75.1447, 40.03515, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "532 WEST PITTSBURGH STREET,GREENSBURG,PA,15601", "Description": "678" }, "geometry": { "type": "Point", "coordinates": [ -79.55564, 40.30093, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "112 NORTH SEVENTH STREET,CHAMBERSBURG,PA,17201", "Description": "679" }, "geometry": { "type": "Point", "coordinates": [ -77.64747, 39.93467, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "255 WEST LANCASTER AVENUE,PAOLI,PA,19301", "Description": "680" }, "geometry": { "type": "Point", "coordinates": [ -75.50764, 40.04293, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "250 SOUTH 21ST STREET,EASTON,PA,18042", "Description": "681" }, "geometry": { "type": "Point", "coordinates": [ -75.24274, 40.68617, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "200 LOTHROP STREET,PITTSBURGH,PA,15213", "Description": "682" }, "geometry": { "type": "Point", "coordinates": [ -79.96093, 40.44225, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "111 SOUTH 11TH STREET,PHILADELPHIA,PA,19107", "Description": "683" }, "geometry": { "type": "Point", "coordinates": [ -75.15856, 39.9501, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "701 EAST MARSHALL ST,WEST CHESTER,PA,19380", "Description": "684" }, "geometry": { "type": "Point", "coordinates": [ -75.60353, 39.97245, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE MEDICAL CENTER BOULEVARD,UPLAND,PA,19013", "Description": "685" }, "geometry": { "type": "Point", "coordinates": [ -75.36652, 39.85723, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 LANCASTER AVE,WYNNEWOOD,PA,19096", "Description": "686" }, "geometry": { "type": "Point", "coordinates": [ -75.2543, 39.98837, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "206 EAST BROWN STREET,EAST STROUDSBUR,PA,18301", "Description": "687" }, "geometry": { "type": "Point", "coordinates": [ -75.17477, 40.99252, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "595 WEST STATE ST,DOYLESTOWN,PA,18901", "Description": "688" }, "geometry": { "type": "Point", "coordinates": [ -75.14562, 40.3039, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1068 WEST BALTIMORE PIKE,MEDIA,PA,19063", "Description": "689" }, "geometry": { "type": "Point", "coordinates": [ -75.42874, 39.91441, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1200 OLD YORK ROAD,ABINGTON,PA,19001", "Description": "690" }, "geometry": { "type": "Point", "coordinates": [ -75.12031, 40.1174, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "LANGHORNE-NEWTOWN RD,LANGHORNE,PA,19047", "Description": "691" }, "geometry": { "type": "Point", "coordinates": [ -74.9104, 40.18133, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "565 COAL VALLEY RD,PITTSBURGH,PA,15236", "Description": "692" }, "geometry": { "type": "Point", "coordinates": [ -79.97548, 40.34741, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1800 EAST PARK AVE,STATE COLLEGE,PA,16803", "Description": "693" }, "geometry": { "type": "Point", "coordinates": [ -77.86463, 40.80571, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 KENYON AVE,WAKEFIELD,RI,2879", "Description": "694" }, "geometry": { "type": "Point", "coordinates": [ -71.49648, 41.43148, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "164 SUMMIT AVENUE,PROVIDENCE,RI,2906", "Description": "695" }, "geometry": { "type": "Point", "coordinates": [ -71.39844, 41.85205, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "222 S HERLONG AVE,ROCK HILL,SC,29730", "Description": "696" }, "geometry": { "type": "Point", "coordinates": [ -81.05174, 34.95651, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "101 E WOOD ST,SPARTANBURG,SC,29303", "Description": "697" }, "geometry": { "type": "Point", "coordinates": [ -81.93952, 34.96637, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE ST FRANCIS DR,GREENVILLE,SC,29601", "Description": "698" }, "geometry": { "type": "Point", "coordinates": [ -82.42153, 34.84029, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2435 FOREST DR,COLUMBIA,SC,29204", "Description": "699" }, "geometry": { "type": "Point", "coordinates": [ -81.01142, 34.01342, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "800 N FANT ST,ANDERSON,SC,29621", "Description": "700" }, "geometry": { "type": "Point", "coordinates": [ -82.64679, 34.51155, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "555 E CHEVES ST BOX 8700,FLORENCE,SC,29506", "Description": "701" }, "geometry": { "type": "Point", "coordinates": [ -79.75925, 34.1968, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "711 CHESTERFIELD HIGHWAY,CHERAW,SC,29520", "Description": "702" }, "geometry": { "type": "Point", "coordinates": [ -79.91847, 34.69541, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2095 HENRY TECKLENBURG DRIVE,CHARLESTON,SC,29414", "Description": "703" }, "geometry": { "type": "Point", "coordinates": [ -80.04221, 32.80879, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "129 N WASHINGTON ST,SUMTER,SC,29150", "Description": "704" }, "geometry": { "type": "Point", "coordinates": [ -80.34337, 33.92371, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2720 SUNSET BLVD,WEST COLUMBIA,SC,29169", "Description": "705" }, "geometry": { "type": "Point", "coordinates": [ -81.11539, 34.00467, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "701 GROVE RD,GREENVILLE,SC,29605", "Description": "706" }, "geometry": { "type": "Point", "coordinates": [ -82.41278, 34.81829, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "9330 MEDICAL PLAZA DR,CHARLESTON,SC,29406", "Description": "707" }, "geometry": { "type": "Point", "coordinates": [ -80.07284, 32.97663, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "302 UNIVERSITY PARKWAY,AIKEN,SC,29801", "Description": "708" }, "geometry": { "type": "Point", "coordinates": [ -81.76289, 33.58116, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1700 SKYLYN DR BOX 3217,SPARTANBURG,SC,29307", "Description": "709" }, "geometry": { "type": "Point", "coordinates": [ -81.89415, 34.97772, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "809 82ND PARKWAY BOX 7500,MYRTLE BEACH,SC,29577", "Description": "710" }, "geometry": { "type": "Point", "coordinates": [ -78.82001, 33.75854, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "TAYLOR AT MARION,COLUMBIA,SC,29220", "Description": "711" }, "geometry": { "type": "Point", "coordinates": [ -81.03252, 34.00432, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "316 CALHOUN ST,CHARLESTON,SC,29401", "Description": "712" }, "geometry": { "type": "Point", "coordinates": [ -79.94958, 32.78289, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "805 PAMPLICO HWY BOX 100550,FLORENCE,SC,29505", "Description": "713" }, "geometry": { "type": "Point", "coordinates": [ -79.75206, 34.16009, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4070 HIGHWAY 17 BY-PASS,MURRELLS INLET,SC,29576", "Description": "714" }, "geometry": { "type": "Point", "coordinates": [ -79.05817, 33.56276, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1325 S CLIFF AVE  PO BOX 5045,SIOUX FALLS,SD,57117", "Description": "715" }, "geometry": { "type": "Point", "coordinates": [ -96.71482, 43.53395, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1305 W 18TH ST  PO BOX 5039,SIOUX FALLS,SD,57117", "Description": "716" }, "geometry": { "type": "Point", "coordinates": [ -96.74286, 43.53548, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "353 FAIRMONT BLVD  PO BOX 6000,RAPID CITY,SD,57701", "Description": "717" }, "geometry": { "type": "Point", "coordinates": [ -103.2252, 44.05743, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "620 SKYLINE DRIVE,JACKSON,TN,38301", "Description": "718" }, "geometry": { "type": "Point", "coordinates": [ -88.43833, 35.9821, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3441 DICKERSON PIKE,NASHVILLE,TN,37207", "Description": "719" }, "geometry": { "type": "Point", "coordinates": [ -86.75431, 36.24387, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "421 S MAIN ST,CROSSVILLE,TN,38555", "Description": "720" }, "geometry": { "type": "Point", "coordinates": [ -87.78397, 35.76598, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "907 E LAMAR ALEXANDER PARKWAY,MARYVILLE,TN,37804", "Description": "721" }, "geometry": { "type": "Point", "coordinates": [ -83.95885, 35.75646, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "ONE MEDICAL PARK BLVD,BRISTOL,TN,37620", "Description": "722" }, "geometry": { "type": "Point", "coordinates": [ -82.25397, 36.58942, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "130 WEST RAVINE ROAD,KINGSPORT,TN,37662", "Description": "723" }, "geometry": { "type": "Point", "coordinates": [ -82.55254, 36.55077, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "651 DUNLOP LANE,CLARKSVILLE,TN,37040", "Description": "724" }, "geometry": { "type": "Point", "coordinates": [ -87.27088, 36.58015, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6019 WALNUT GROVE ROAD,MEMPHIS,TN,38120", "Description": "725" }, "geometry": { "type": "Point", "coordinates": [ -89.86109, 35.12822, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1265 UNION AVE SUITE 700,MEMPHIS,TN,38104", "Description": "726" }, "geometry": { "type": "Point", "coordinates": [ -90.01935, 35.1367, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "400 N STATE OF FRANKLIN RD,JOHNSON CITY,TN,37604", "Description": "727" }, "geometry": { "type": "Point", "coordinates": [ -82.38577, 36.30837, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1224 TROTWOOD AVE,COLUMBIA,TN,38401", "Description": "728" }, "geometry": { "type": "Point", "coordinates": [ -87.06663, 35.60736, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4220 HARDING RD PO BOX 380,NASHVILLE,TN,37205", "Description": "729" }, "geometry": { "type": "Point", "coordinates": [ -86.8447, 36.12935, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2525 DESALES AVE,CHATTANOOGA,TN,37404", "Description": "730" }, "geometry": { "type": "Point", "coordinates": [ -85.26041, 35.04152, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "975 E 3RD ST,CHATTANOOGA,TN,37403", "Description": "731" }, "geometry": { "type": "Point", "coordinates": [ -85.29043, 35.04872, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "900 EAST OAK HILL AVENUE,KNOXVILLE,TN,37917", "Description": "732" }, "geometry": { "type": "Point", "coordinates": [ -83.94245, 35.98083, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2000 CHURCH ST,NASHVILLE,TN,37236", "Description": "733" }, "geometry": { "type": "Point", "coordinates": [ -86.80327, 36.15419, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2200 WEST ILLINOIS AVE,MIDLAND,TX,79701", "Description": "734" }, "geometry": { "type": "Point", "coordinates": [ -102.099, 31.99583, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1801 N JACKSON ST BOX 460,TULLAHOMA,TN,37388", "Description": "735" }, "geometry": { "type": "Point", "coordinates": [ -86.23156, 35.38216, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2333 MCCALLIE AVE,CHATTANOOGA,TN,37404", "Description": "736" }, "geometry": { "type": "Point", "coordinates": [ -85.26761, 35.03473, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2300 PATTERSON STREET,NASHVILLE,TN,37203", "Description": "737" }, "geometry": { "type": "Point", "coordinates": [ -86.8094, 36.15409, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "9352 PARK WEST BLVD,KNOXVILLE,TN,37923", "Description": "738" }, "geometry": { "type": "Point", "coordinates": [ -84.09884, 35.91832, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2305 CHAMBLISS AVE NW,CLEVELAND,TN,37311", "Description": "739" }, "geometry": { "type": "Point", "coordinates": [ -84.86901, 35.17607, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "367 HOSPITAL BLVD,JACKSON,TN,38305", "Description": "740" }, "geometry": { "type": "Point", "coordinates": [ -88.85406, 35.68441, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2001 N OREGON ST,EL PASO,TX,79902", "Description": "741" }, "geometry": { "type": "Point", "coordinates": [ -106.4996, 31.77129, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1600 11TH STREET,WICHITA FALLS,TX,76301", "Description": "742" }, "geometry": { "type": "Point", "coordinates": [ -98.14771, 29.13979, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2801 FRANCISCAN DR,BRYAN,TX,77802", "Description": "743" }, "geometry": { "type": "Point", "coordinates": [ -96.34672, 30.65598, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3500 GASTON AVE,DALLAS,TX,75246", "Description": "744" }, "geometry": { "type": "Point", "coordinates": [ -96.7789, 32.7894, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1700 EAST SAUNDERS,LAREDO,TX,78044", "Description": "745" }, "geometry": { "type": "Point", "coordinates": [ -99.47807, 27.53248, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2101 PEASE ST,HARLINGEN,TX,78550", "Description": "746" }, "geometry": { "type": "Point", "coordinates": [ -97.67157, 26.17455, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2830 CALDER AVENUE,BEAUMONT,TX,77702", "Description": "747" }, "geometry": { "type": "Point", "coordinates": [ -94.13129, 30.08662, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "700 EAST MARSHALL AVENUE,LONGVIEW,TX,75601", "Description": "748" }, "geometry": { "type": "Point", "coordinates": [ -94.73017, 32.50086, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3615 19TH STREET,LUBBOCK,TX,79410", "Description": "749" }, "geometry": { "type": "Point", "coordinates": [ -101.8922, 33.57761, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6901 MEDICAL PARKWAY,WACO,TX,76712", "Description": "750" }, "geometry": { "type": "Point", "coordinates": [ -97.19933, 31.51449, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "600 ELIZABETH STREET,CORPUS CHRISTI,TX,78404", "Description": "751" }, "geometry": { "type": "Point", "coordinates": [ -97.39397, 27.77747, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1201 W 38TH ST,AUSTIN,TX,78705", "Description": "752" }, "geometry": { "type": "Point", "coordinates": [ -97.7454, 30.30491, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "111 DALLAS STREET,SAN ANTONIO,TX,78205", "Description": "753" }, "geometry": { "type": "Point", "coordinates": [ -98.49229, 29.43387, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "800 W RANDOL MILL RD,ARLINGTON,TX,76012", "Description": "754" }, "geometry": { "type": "Point", "coordinates": [ -97.11485, 32.75142, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2001 N JEFFERSON,MOUNT PLEASANT,TX,75455", "Description": "755" }, "geometry": { "type": "Point", "coordinates": [ -94.97049, 33.17525, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 SOUTH BECKHAM STREET,TYLER,TX,75701", "Description": "756" }, "geometry": { "type": "Point", "coordinates": [ -95.29105, 32.3391, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4000 SPENCER HWY,PASADENA,TX,77504", "Description": "757" }, "geometry": { "type": "Point", "coordinates": [ -95.18382, 29.66117, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "800 EAST DAWSON,TYLER,TX,75701", "Description": "758" }, "geometry": { "type": "Point", "coordinates": [ -95.29057, 32.34264, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1215 E COURT ST,SEGUIN,TX,78155", "Description": "759" }, "geometry": { "type": "Point", "coordinates": [ -97.94739, 29.56793, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1801 NORTH OREGON STREET,EL PASO,TX,79902", "Description": "760" }, "geometry": { "type": "Point", "coordinates": [ -106.4983, 31.76983, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1102 W TRENTON ROAD,EDINBURG,TX,78539", "Description": "761" }, "geometry": { "type": "Point", "coordinates": [ -98.18185, 26.26129, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "500 W 4TH STREET,ODESSA,TX,79761", "Description": "762" }, "geometry": { "type": "Point", "coordinates": [ -100.4143, 32.46991, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1301 PENNSYLVANIA AVENUE,FORT WORTH,TX,76104", "Description": "763" }, "geometry": { "type": "Point", "coordinates": [ -97.33897, 32.73779, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "506 E SAN ANTONIO ST,VICTORIA,TX,77902", "Description": "764" }, "geometry": { "type": "Point", "coordinates": [ -97.0079, 28.8077, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2201 S CLEAR CREEK ROAD,KILLEEN,TX,76542", "Description": "765" }, "geometry": { "type": "Point", "coordinates": [ -97.80169, 31.11367, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "801 BEDELL AVE,DEL RIO,TX,78840", "Description": "766" }, "geometry": { "type": "Point", "coordinates": [ -100.8925, 29.3741, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "900 SOUTH BRYAN ROAD,MISSION,TX,78572", "Description": "767" }, "geometry": { "type": "Point", "coordinates": [ -98.31382, 26.19641, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1635  NORTH LOOP WEST,HOUSTON,TX,77008", "Description": "768" }, "geometry": { "type": "Point", "coordinates": [ -95.43056, 29.8115, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6720 BERTNER,HOUSTON,TX,77030", "Description": "769" }, "geometry": { "type": "Point", "coordinates": [ -95.5691, 29.86749, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "820 CLARKSVILLE ST,PARIS,TX,75460", "Description": "770" }, "geometry": { "type": "Point", "coordinates": [ -95.54641, 33.66012, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1201 WEST FRANK STREET,LUFKIN,TX,75901", "Description": "771" }, "geometry": { "type": "Point", "coordinates": [ -95.72305, 32.67351, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "504 MEDICAL CENTER BLVD,CONROE,TX,77304", "Description": "772" }, "geometry": { "type": "Point", "coordinates": [ -95.46829, 30.28412, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1900 PINE,ABILENE,TX,79601", "Description": "773" }, "geometry": { "type": "Point", "coordinates": [ -99.73382, 32.47217, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1600 WALLACE BLVD,AMARILLO,TX,79106", "Description": "774" }, "geometry": { "type": "Point", "coordinates": [ -101.92, 35.19621, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "333 N SANTA ROSA STREET,SAN ANTONIO,TX,78207", "Description": "775" }, "geometry": { "type": "Point", "coordinates": [ -98.49883, 29.42834, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "609 MEDICAL CENTER DRIVE,DECATUR,TX,76234", "Description": "776" }, "geometry": { "type": "Point", "coordinates": [ -97.51416, 33.27201, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2300 MARIE CURIE DRIVE,GARLAND,TX,75042", "Description": "777" }, "geometry": { "type": "Point", "coordinates": [ -96.66226, 32.91879, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3080 COLLEGE STREET,BEAUMONT,TX,77701", "Description": "778" }, "geometry": { "type": "Point", "coordinates": [ -94.11979, 30.07036, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7700 FLOYD CURL DR,SAN ANTONIO,TX,78229", "Description": "779" }, "geometry": { "type": "Point", "coordinates": [ -98.57229, 29.50718, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2000 SOUTH PALESTINE,ATHENS,TX,75751", "Description": "780" }, "geometry": { "type": "Point", "coordinates": [ -95.84293, 32.16943, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "919 E 32ND ST,AUSTIN,TX,78705", "Description": "781" }, "geometry": { "type": "Point", "coordinates": [ -97.72675, 30.29068, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "8200 WALNUT HILL LANE,DALLAS,TX,75231", "Description": "782" }, "geometry": { "type": "Point", "coordinates": [ -96.7635, 32.8791, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "104 7TH STREET,BAY CITY,TX,77414", "Description": "783" }, "geometry": { "type": "Point", "coordinates": [ -95.99191, 28.98033, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "500 N HIGHLAND AVENUE,SHERMAN,TX,75091", "Description": "784" }, "geometry": { "type": "Point", "coordinates": [ -96.62373, 33.63723, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1204 MOUND ST,NACOGDOCHES,TX,75961", "Description": "785" }, "geometry": { "type": "Point", "coordinates": [ -94.64872, 31.61294, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1650 W COLLEGE ST,GRAPEVINE,TX,76051", "Description": "786" }, "geometry": { "type": "Point", "coordinates": [ -97.09377, 32.93401, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1020 SOUTH STATE HIGHWAY 16,FREDERICKSBURG,TX,78624", "Description": "787" }, "geometry": { "type": "Point", "coordinates": [ -98.88054, 30.26243, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "921 GESSNER,HOUSTON,TX,77024", "Description": "788" }, "geometry": { "type": "Point", "coordinates": [ -95.54552, 29.78136, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "500 MEDICAL CENTER BLVD,WEBSTER,TX,77598", "Description": "789" }, "geometry": { "type": "Point", "coordinates": [ -95.12784, 29.54079, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3535 SOUTH I35 EAST,DENTON,TX,76210", "Description": "790" }, "geometry": { "type": "Point", "coordinates": [ -97.09089, 33.17736, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "710 FM 1960 WEST,HOUSTON,TX,77090", "Description": "791" }, "geometry": { "type": "Point", "coordinates": [ -95.44163, 30.02147, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1600 HOSPITAL PARKWAY,BEDFORD,TX,76022", "Description": "792" }, "geometry": { "type": "Point", "coordinates": [ -97.12365, 32.83462, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7777 FOREST LANE,DALLAS,TX,75230", "Description": "793" }, "geometry": { "type": "Point", "coordinates": [ -96.7734, 32.9118, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4920 NE STALLINGS DRIVE,NACOGDOCHES,TX,75961", "Description": "794" }, "geometry": { "type": "Point", "coordinates": [ -94.65392, 31.65321, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1625 MEDICAL CENTER DR,EL PASO,TX,79902", "Description": "795" }, "geometry": { "type": "Point", "coordinates": [ -106.4798, 31.77721, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "18951 MEMORIAL NORTH,HUMBLE,TX,77338", "Description": "796" }, "geometry": { "type": "Point", "coordinates": [ -95.27637, 29.99515, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "602 INDIANA AVENUE,LUBBOCK,TX,79415", "Description": "797" }, "geometry": { "type": "Point", "coordinates": [ -101.8993, 33.58815, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "101 E RIDGE RD,MCALLEN,TX,78503", "Description": "798" }, "geometry": { "type": "Point", "coordinates": [ -98.22249, 26.18629, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "901 WEST BEN WHITE BLVD,AUSTIN,TX,78704", "Description": "799" }, "geometry": { "type": "Point", "coordinates": [ -97.77443, 30.22638, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6800 SCENIC DR,ROWLETT,TX,75088", "Description": "800" }, "geometry": { "type": "Point", "coordinates": [ -96.50933, 32.92343, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3000 N I-35,DENTON,TX,76201", "Description": "801" }, "geometry": { "type": "Point", "coordinates": [ -97.16715, 33.21724, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6200 W PARKER RD,PLANO,TX,75093", "Description": "802" }, "geometry": { "type": "Point", "coordinates": [ -96.83841, 33.04404, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "22999 US HWY 59,KINGWOOD,TX,77325", "Description": "803" }, "geometry": { "type": "Point", "coordinates": [ -95.25497, 30.05008, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "7101 S PADRE ISLAND DR,CORPUS CHRISTI,TX,78412", "Description": "804" }, "geometry": { "type": "Point", "coordinates": [ -97.60011, 27.83954, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2600 ST MICHAEL DR,TEXARKANA,TX,75504", "Description": "805" }, "geometry": { "type": "Point", "coordinates": [ -94.07607, 33.46204, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "12221 MOPAC EXPRESSWAY NORTH,AUSTIN,TX,78758", "Description": "806" }, "geometry": { "type": "Point", "coordinates": [ -97.70686, 30.41249, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "18220 TOMBALL PARKWAY,HOUSTON,TX,77070", "Description": "807" }, "geometry": { "type": "Point", "coordinates": [ -95.5509, 29.9668, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "23900 KATY FREEWAY,KATY,TX,77494", "Description": "808" }, "geometry": { "type": "Point", "coordinates": [ -95.8286, 29.74327, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5501 SOUTH MCCOLL,EDINBURG,TX,78539", "Description": "809" }, "geometry": { "type": "Point", "coordinates": [ -98.20499, 26.2528, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1034 NORTH 500 WEST,PROVO,UT,84604", "Description": "810" }, "geometry": { "type": "Point", "coordinates": [ -111.6667, 40.24842, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4401 HARRISON BOULEVARD,OGDEN,UT,84403", "Description": "811" }, "geometry": { "type": "Point", "coordinates": [ -111.9538, 41.18291, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1380 EAST MEDICAL CENTER DRIVE,ST GEORGE,UT,84790", "Description": "812" }, "geometry": { "type": "Point", "coordinates": [ -113.5536, 37.09811, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1200 EAST 3900 SOUTH,SALT LAKE CITY,UT,84124", "Description": "813" }, "geometry": { "type": "Point", "coordinates": [ -111.8565, 40.68696, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "111 COLCHESTER AVE,BURLINGTON,VT,5401", "Description": "814" }, "geometry": { "type": "Point", "coordinates": [ -73.19397, 44.47983, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "220 CAMPUS BLVD SUITE 210,WINCHESTER,VA,22601", "Description": "815" }, "geometry": { "type": "Point", "coordinates": [ -78.19198, 39.19794, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2204 WILBORN AVENUE,HALIFAX,VA,24558", "Description": "816" }, "geometry": { "type": "Point", "coordinates": [ -78.90226, 36.69865, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "78 MEDICAL CENTER DRIVE,FISHERSVILLE,VA,22939", "Description": "817" }, "geometry": { "type": "Point", "coordinates": [ -78.98537, 38.0941, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1920 ATHERHOLT ROAD,LYNCHBURG,VA,24501", "Description": "818" }, "geometry": { "type": "Point", "coordinates": [ -79.16926, 37.41366, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1001 SAM PERRY BOULEVARD,FREDERICKSBURG,VA,22401", "Description": "819" }, "geometry": { "type": "Point", "coordinates": [ -77.48294, 38.3092, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1906 BELLEVIEW AVENUE SE,ROANOKE,VA,24014", "Description": "820" }, "geometry": { "type": "Point", "coordinates": [ -79.94125, 37.25129, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4320 SEMINARY RD,ALEXANDRIA,VA,22304", "Description": "821" }, "geometry": { "type": "Point", "coordinates": [ -77.10482, 38.82289, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "830 KEMPSVILLE ROAD,NORFOLK,VA,23502", "Description": "822" }, "geometry": { "type": "Point", "coordinates": [ -76.18999, 36.85011, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1900 ELECTRIC ROAD,SALEM,VA,24153", "Description": "823" }, "geometry": { "type": "Point", "coordinates": [ -80.03139, 37.26369, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1701 NORTH GEORGE MASON DRIVE,ARLINGTON,VA,22205", "Description": "824" }, "geometry": { "type": "Point", "coordinates": [ -77.12817, 38.8896, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "16000 JOHNSTON MEMORIAL DRIVE,ABINGDON,VA,24211", "Description": "825" }, "geometry": { "type": "Point", "coordinates": [ -81.91196, 36.72303, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1060 FIRST COLONIAL ROAD,VIRGINIA BEACH,VA,23454", "Description": "826" }, "geometry": { "type": "Point", "coordinates": [ -76.02634, 36.86476, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "5801 BREMO RD,RICHMOND,VA,23226", "Description": "827" }, "geometry": { "type": "Point", "coordinates": [ -77.51251, 37.58499, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3300 GALLOWS RD,FALLS CHURCH,VA,22042", "Description": "828" }, "geometry": { "type": "Point", "coordinates": [ -77.22643, 38.85819, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "100 SENTARA CIRCLE,WILLIAMSBURG,VA,23188", "Description": "829" }, "geometry": { "type": "Point", "coordinates": [ -76.7555, 37.33934, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "200 MEDICAL PARK BOULEVARD,PETERSBURG,VA,23805", "Description": "830" }, "geometry": { "type": "Point", "coordinates": [ -77.35878, 37.18277, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "8260 ATLEE ROAD,MECHANICSVILLE,VA,23116", "Description": "831" }, "geometry": { "type": "Point", "coordinates": [ -77.3888, 37.62716, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "142 SOUTH MAIN STREET,DANVILLE,VA,24541", "Description": "832" }, "geometry": { "type": "Point", "coordinates": [ -79.40535, 36.5773, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "500 MARTHA JEFFERSON DRIVE,CHARLOTTESVILLE,VA,22911", "Description": "833" }, "geometry": { "type": "Point", "coordinates": [ -78.44238, 38.02413, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3000 COLISEUM DRIVE,HAMPTON,VA,23666", "Description": "834" }, "geometry": { "type": "Point", "coordinates": [ -76.39066, 37.0568, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "125 BUENA VISTA CIRCLE,SOUTH HILL,VA,23970", "Description": "835" }, "geometry": { "type": "Point", "coordinates": [ -78.13301, 36.73377, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "3600 JOSEPH SIEWICK DRIVE,FAIRFAX,VA,22033", "Description": "836" }, "geometry": { "type": "Point", "coordinates": [ -77.37991, 38.88481, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1401 JOHNSTON WILLIS DRIVE,RICHMOND,VA,23235", "Description": "837" }, "geometry": { "type": "Point", "coordinates": [ -77.59737, 37.51076, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "200 HOSPITAL DRIVE,GALAX,VA,24333", "Description": "838" }, "geometry": { "type": "Point", "coordinates": [ -80.92395, 36.67064, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1602 SKIPWITH ROAD,RICHMOND,VA,23229", "Description": "839" }, "geometry": { "type": "Point", "coordinates": [ -77.5378, 37.60196, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "736 BATTLEFIELD BLVD NORTH,CHESAPEAKE,VA,23320", "Description": "840" }, "geometry": { "type": "Point", "coordinates": [ -76.24564, 36.74488, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1321 COLBY AVENUE,EVERETT,WA,98201", "Description": "841" }, "geometry": { "type": "Point", "coordinates": [ -122.2067, 47.99971, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "11315 BRIDGEPORT WAY S W,LAKEWOOD,WA,98499", "Description": "842" }, "geometry": { "type": "Point", "coordinates": [ -122.5021, 47.15458, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "413 LILLY ROAD NE,OLYMPIA,WA,98506", "Description": "843" }, "geometry": { "type": "Point", "coordinates": [ -122.8467, 47.05313, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "21601 76TH AVENUE WEST,EDMONDS,WA,98026", "Description": "844" }, "geometry": { "type": "Point", "coordinates": [ -122.3342, 47.80327, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2901 SQUALICUM PARKWAY,BELLINGHAM,WA,98225", "Description": "845" }, "geometry": { "type": "Point", "coordinates": [ -122.4735, 48.77327, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2520 CHERRY AVENUE,BREMERTON,WA,98310", "Description": "846" }, "geometry": { "type": "Point", "coordinates": [ -122.625, 47.58285, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "400 NE MOTHER JOSEPH PLACE,VANCOUVER,WA,98668", "Description": "847" }, "geometry": { "type": "Point", "coordinates": [ -122.5815, 45.62459, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1035-116TH AVE NE,BELLEVUE,WA,98004", "Description": "848" }, "geometry": { "type": "Point", "coordinates": [ -122.2059, 47.6188, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "101 WEST 8TH AVENUE,SPOKANE,WA,99204", "Description": "849" }, "geometry": { "type": "Point", "coordinates": [ -117.4112, 47.64799, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "939 CAROLINE ST,PORT ANGELES,WA,98362", "Description": "850" }, "geometry": { "type": "Point", "coordinates": [ -123.4147, 48.11537, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "315 S MLK JR WAY,TACOMA,WA,98415", "Description": "851" }, "geometry": { "type": "Point", "coordinates": [ -122.4532, 47.25977, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2211 NE 139TH STREET,VANCOUVER,WA,98686", "Description": "852" }, "geometry": { "type": "Point", "coordinates": [ -122.6479, 45.72008, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "327 MEDICAL PARK DRIVE,BRIDGEPORT,WV,26330", "Description": "853" }, "geometry": { "type": "Point", "coordinates": [ -80.23879, 39.33015, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2900 1ST AVENUE,HUNTINGTON,WV,25701", "Description": "854" }, "geometry": { "type": "Point", "coordinates": [ -82.40067, 38.43236, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "501 MORRIS STREET,CHARLESTON,WV,25301", "Description": "855" }, "geometry": { "type": "Point", "coordinates": [ -81.62719, 38.34787, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "4605 MACCORKLE AVE SW,SOUTH CHARLESTO,WV,25309", "Description": "856" }, "geometry": { "type": "Point", "coordinates": [ -81.72647, 38.35472, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "122 12TH STREET,PRINCETON,WV,24740", "Description": "857" }, "geometry": { "type": "Point", "coordinates": [ -81.113, 37.36329, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1340 HAL GREER BOULEVARD,HUNTINGTON,WV,25701", "Description": "858" }, "geometry": { "type": "Point", "coordinates": [ -82.42814, 38.40911, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "800 GARFIELD AVE,PARKERSBURG,WV,26101", "Description": "859" }, "geometry": { "type": "Point", "coordinates": [ -81.5605, 39.27116, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1710 HARPER ROAD,BECKLEY,WV,25801", "Description": "860" }, "geometry": { "type": "Point", "coordinates": [ -81.20184, 37.78755, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "500 CHERRY ST,BLUEFIELD,WV,24701", "Description": "861" }, "geometry": { "type": "Point", "coordinates": [ -81.23554, 37.25566, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "6308 EIGHTH AVE,KENOSHA,WI,53143", "Description": "862" }, "geometry": { "type": "Point", "coordinates": [ -87.81954, 42.57787, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "333 PINE RIDGE BLVD,WAUSAU,WI,54401", "Description": "863" }, "geometry": { "type": "Point", "coordinates": [ -89.66833, 44.9659, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1000 MINERAL POINT AVE,JANESVILLE,WI,53548", "Description": "864" }, "geometry": { "type": "Point", "coordinates": [ -89.03292, 42.68811, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1221 WHIPPLE ST,EAU CLAIRE,WI,54703", "Description": "865" }, "geometry": { "type": "Point", "coordinates": [ -91.51339, 44.81205, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "700 SOUTH PARK ST,MADISON,WI,53715", "Description": "866" }, "geometry": { "type": "Point", "coordinates": [ -89.40152, 43.05928, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "202 S PARK ST,MADISON,WI,53715", "Description": "867" }, "geometry": { "type": "Point", "coordinates": [ -89.4017, 43.06543, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "1726 SHAWANO AVE,GREEN BAY,WI,54303", "Description": "868" }, "geometry": { "type": "Point", "coordinates": [ -88.06626, 44.53284, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "W180 N8085 TOWN HALL RD,MENOMONEE FALLS,WI,53051", "Description": "869" }, "geometry": { "type": "Point", "coordinates": [ -88.12277, 43.14875, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "8901 W LINCOLN AVE,WEST ALLIS,WI,53227", "Description": "870" }, "geometry": { "type": "Point", "coordinates": [ -88.02367, 43.0013, 0.0 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "214 EAST 23RD STREET,CHEYENNE,WY,82001", "Description": "871" }, "geometry": { "type": "Point", "coordinates": [ -104.8165, 41.14027, 0.0 ] } }
+
+]
+}

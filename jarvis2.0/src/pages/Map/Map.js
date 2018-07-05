@@ -27,9 +27,13 @@ class MapView extends Component {
   constructor() {
     super();
     this.state = {
-      markers: [[51.505, -0.09], [51.505, -0.08], [51.505, -0.07]]
+      markers: [[51.505, -0.09], [51.505, -0.08], [51.505, -0.07]],
+      popups: "Cool hospital info"
     };
   }
+
+  //handleRadiusSearch
+  //handleViewPortChange
 
   render() {
     return (
@@ -47,7 +51,7 @@ class MapView extends Component {
             <Marker key={`marker-${idx}`} position={position}>
               <Popup>
                 <span>
-                  Some Awesome Hospital Information <br /> Easily customizable.
+                  {this.state.popups} <br /> Easily customizable.
                 </span>
               </Popup>
             </Marker>
