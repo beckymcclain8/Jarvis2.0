@@ -31,9 +31,13 @@ class MapView extends Component {
       popups: "Cool hospital info"
     };
   }
+  //handleViewPortChange- TODO
+  //handleRadiusSearch-TODO
 
-  //handleRadiusSearch
-  //handleViewPortChange
+  // handleUpdateViewport = (map-center, markers)=>{
+  //   clear(markers);
+  //   setState({map-center: new bounding box from viewport)}
+  //   API.radiusSearch(map-center).then(setState({markers: radiusResults});
 
   render() {
     return (
