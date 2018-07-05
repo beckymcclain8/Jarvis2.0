@@ -7,4 +7,4 @@ const Testimonial = props => {
   return <div className="testimonial">Testimonial</div>;
 };
 
-export default Testimonial;
+export default Testimonial; 

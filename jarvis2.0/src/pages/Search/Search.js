@@ -19,7 +19,7 @@ class Search extends Component {
       <div className="container">
         <Navbar />
         <Header />
-<FormInput />
+        <FormInput />
         <Footer />
       </div>
     );
