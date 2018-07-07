@@ -6,13 +6,13 @@
 }
 
 #fav {
-  padding: 1em 1em 0em 2em;
+  /* padding: 1em 1em 0em 2em; */
   color: black;
   font-size: 200%;
 }
 
 #greeting {
-    padding:1em 1em 0em 2em;
+    /* padding:1em 1em 0em 2em; */
     color: black;
     font-size: 200%;
 } 
@@ -23,16 +23,13 @@
 .result-d,
 .result-e,
 .result-f {
-  padding: 1em;
+  padding: 5px;
   color: black;
 }
 
 .calender {
   color: black;
   font-size: 200%;
-}
-.calender h5, h6 {
-  color: black;
 }
  
 .starVote {

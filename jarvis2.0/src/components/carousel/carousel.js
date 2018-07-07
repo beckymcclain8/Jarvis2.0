@@ -11,7 +11,7 @@ const Carousel = props => {
       <h1>{props.heading}</h1>
       <p>{props.info}</p> 
       <Link to={props.link} className="carousel-link">
-        {props.title}
+        <p>{props.title}</p>
       </Link>
     </div>
   );
