@@ -20,8 +20,10 @@ class Search extends Component {
       <div className="container">
         <Navbar />
         <Header />
+
 <FormInput />
 <SearchResultContainer />
+
         <Footer />
       </div>
     );

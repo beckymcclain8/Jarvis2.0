@@ -7,12 +7,12 @@ import "../../index.css";
 const Result = props => (
  
     <div className={props.className} {...props}>
-      <h1> {props.hospital} </h1>
-      <h2> {props.address} </h2>
-      <h2> {props.city} </h2>
-      <h3> Distance: {props.distance} </h3>
-      <h3> Cost of Procedure: {props.procedureCost} </h3>
-      <h3> Driving Cost: {props.driveCost} </h3>
+      <h2> {props.hospital} </h2>
+      {/* <h4> {props.address} </h4> */}
+      <h4> {props.city} </h4>
+      <h4> Distance: {props.distance} </h4>
+      <h4> Cost of Procedure: {props.procedureCost} </h4>
+      <h4> Driving Cost: {props.driveCost} </h4>
       <h2> Total Cost: {props.totalCost} </h2>
 
       {/* <SubmitBtn> {props.title} </SubmitBtn> */}

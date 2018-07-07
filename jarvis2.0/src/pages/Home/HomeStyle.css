@@ -7,44 +7,47 @@
 .feature-b,
 .feature-c, 
 .feature-d {
-  background-color: #ce96c7;
+  background-color: #4b405f;
 }
-
 
 .feature-link {
   color: #ffeead;
   text-decoration: none; 
 }
 
-/* .carousel-link {
-  padding: 1em;
-  font-size: 300%;
-  color: #ffeead;
-  text-decoration: none;
-  border: 1px solid black;
-  background-color: #ce96c7;
-  border-radius: 8px;
-} */
-
 .carousel-home h1 {
-  padding-top: 1em;
+  padding-top: 30px;
   font-size: 350%;
-  color: #ffeead;
-  text-shadow: 3px 2px rgb(139, 129, 129);
+  color: #59359c;
+  text-shadow: 1px 2px rgb(139, 129, 129);
 }
 
 .carousel-home p {
   font-size: x-large;
-  padding: 1em 2em;
-  color: #ffeead;
+  padding: 0em 2em;
+  color: #59359c;
 }
 
 .carousel-link {
-  background-color: white;
+  background-color: #99969e;
   border-radius: 8px;
-  padding:3em;
-  margin: 2em 0em;
-  font-size: 100%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #706e74;
+  /* leave the padding and margin alone! */
+  padding:1em;
+  margin: 3em 0em;
   text-decoration: none;
 }
+
+.carousel-link p {
+color: white;
+padding:1em;
+}
+
+.carousel-home {
+  background-image: url("https://image.freepik.com/free-photo/blur-hospital_1203-7957.jpg");
+  background-size: cover;
+
+} 
  

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Calendar from 'react-calendar';
 import "./Patient.css";
 import "./PatientStyle.css";
 import "../../App.css";
@@ -12,6 +13,11 @@ import Calender from "../../components/Calender";
 import StarVote from "../../components/StarVotes";
 
 class Patient extends Component {
+
+  state = {
+    date: new Date(),
+  }
+
   matches = () => {
     //go to /search page
     console.log("See some matches");
@@ -24,13 +30,18 @@ class Patient extends Component {
         <Header />
         <h1 id="fav">Your Favorites</h1>
         <h1 id="greeting">Hello!</h1>
-        <Calender />
-        <StarVote />
+        <Calendar
+          onChange={this.onChange}
+          value={this.state.date}
+        />
+        <StarVote 
+        className={"starVote"}
+        />
         <Result 
         className = "result-a"
         hospital = {"Best Hospital"}
         address = {"123 Oak St"}
-        city = {"Chandler"}
+        city = {"Chandler, AZ"}
         distance = {"300 miles"}
         procedureCost = {"$2300"}
         driveCost = {"$200"}
