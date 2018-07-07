@@ -7,7 +7,7 @@ import "../../index.css";
 import Navbar from "../../StaticComponents/Navbar";
 import Header from "../../components/Header";
 import Carousel from "../../components/Carousel";
-import Login from "../../components/Login";
+// import Login from "../../components/Login";
 import Feature from "../../components/Feature";
 // import Input from "../../components/FormInput";
 // import Button from "../../components/Button";
@@ -27,7 +27,7 @@ class Home extends Component {
           link={"/search"}
           title="Get Started!"
         />
-        <Login />
+        {/* <Login /> */}
         <Feature
           className="feature-a"
           src={"https://image.flaticon.com/icons/png/512/49/49116.png"}

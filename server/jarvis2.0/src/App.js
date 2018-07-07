@@ -15,6 +15,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+      <Router>
         <Switch>
           <Route exact path="/home" component={Home} />
           <Route exact path="/" component={Home} />
@@ -28,6 +29,7 @@ class App extends Component {
           can view the non editable one */}
           <Route component={NoMatch} />
         </Switch>
+        </Router>
       </div>
     );
   }
