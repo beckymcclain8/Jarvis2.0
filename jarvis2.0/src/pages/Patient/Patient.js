@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Calendar from 'react-calendar';
+// import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
 import "./Patient.css";
 import "./PatientStyle.css";
 import "../../App.css";
@@ -7,6 +8,7 @@ import "../../index.css";
 import Navbar from "../../StaticComponents/Navbar";
 import Header from "../../components/Header";
 import Result from "../../components/Result";
+import Cards from "../../components/Cards";
 // import Feature from "../../components/Feature";
 import Footer from "../../StaticComponents/Footer";
 import Calender from "../../components/Calender";
@@ -37,8 +39,21 @@ class Patient extends Component {
         <StarVote 
         className={"starVote"}
         />
-        <Result 
+        
+        <Cards
         className = "result-a"
+        hospital = {"Best Hospital"}
+        address = {"123 Oak St"}
+        city = {"Chandler, AZ"}
+        distance = {"300 miles"}
+        procedureCost = {"$2300"}
+        driveCost = {"$200"}
+        totalCost = {"$2500"}
+        // title = {"Save"}
+        />        
+
+        <Cards
+        className = "result-b"
         hospital = {"Best Hospital"}
         address = {"123 Oak St"}
         city = {"Chandler, AZ"}
@@ -49,23 +64,11 @@ class Patient extends Component {
         title = {"Save"}
         />
 
-        <Result 
-        className = "result-b"
-        hospital = {"Best Hospital"}
-        address = {"123 Oak St"}
-        city = {"Chandler"}
-        distance = {"300 miles"}
-        procedureCost = {"$2300"}
-        driveCost = {"$200"}
-        totalCost = {"$2500"}
-        title = {"Save"}
-        />
-
-        <Result 
+        <Cards
         className = "result-c"
         hospital = {"Best Hospital"}
         address = {"123 Oak St"}
-        city = {"Chandler"}
+        city = {"Chandler, AZ"}
         distance = {"300 miles"}
         procedureCost = {"$2300"}
         driveCost = {"$200"}
@@ -73,11 +76,11 @@ class Patient extends Component {
         title = {"Save"}
         />
 
-        <Result 
+        <Cards
         className = "result-d"
         hospital = {"Best Hospital"}
         address = {"123 Oak St"}
-        city = {"Chandler"}
+        city = {"Chandler, AZ"}
         distance = {"300 miles"}
         procedureCost = {"$2300"}
         driveCost = {"$200"}
@@ -85,11 +88,11 @@ class Patient extends Component {
         title = {"Save"}
         />
 
-<Result 
+        <Cards
         className = "result-e"
         hospital = {"Best Hospital"}
         address = {"123 Oak St"}
-        city = {"Chandler"}
+        city = {"Chandler, AZ"}
         distance = {"300 miles"}
         procedureCost = {"$2300"}
         driveCost = {"$200"}
@@ -97,11 +100,11 @@ class Patient extends Component {
         title = {"Save"}
         />
 
-        <Result 
+        <Cards
         className = "result-f"
         hospital = {"Best Hospital"}
         address = {"123 Oak St"}
-        city = {"Chandler"}
+        city = {"Chandler, AZ"}
         distance = {"300 miles"}
         procedureCost = {"$2300"}
         driveCost = {"$200"}

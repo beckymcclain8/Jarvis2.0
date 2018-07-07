@@ -8,7 +8,7 @@ const Result = props => (
  
     <div className={props.className} {...props}>
       <h2> {props.hospital} </h2>
-      {/* <h4> {props.address} </h4> */}
+      <h4> {props.address} </h4>
       <h4> {props.city} </h4>
       <h4> Distance: {props.distance} </h4>
       <h4> Cost of Procedure: {props.procedureCost} </h4>

@@ -15,7 +15,7 @@ import Feature from "../../components/Feature";
 import Footer from "../../StaticComponents/Footer";
 
 class Home extends Component {
-  render(props) {
+  render(props) { 
     return (
       <div className="container">
         <Navbar />
