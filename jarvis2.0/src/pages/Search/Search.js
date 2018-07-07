@@ -7,6 +7,7 @@ import Header from "../../components/Header";
 import Carousel from "../../components/Carousel";
 import Footer from "../../StaticComponents/Footer";
 import FormInput from "../../components/FormInput/FormInput";
+import SearchResultContainer from "../../components/SearchResultContainer/SearchResultConatiner";
 
 class Search extends Component {
   scroll = () => {
@@ -19,7 +20,10 @@ class Search extends Component {
       <div className="container">
         <Navbar />
         <Header />
-        <FormInput />
+
+<FormInput />
+<SearchResultContainer />
+
         <Footer />
       </div>
     );
