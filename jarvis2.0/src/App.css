@@ -21,20 +21,21 @@ footer,
 
 html,
 body {
-  background-color: #ffeead;
+  background-color: white;
   margin: 10px;
 }
 
 .navbar {
-  background-color: #96ceb4;
+  background-color: #4b405f;
 }
 
 .header {
-  background-color: #48d8b0;
+  background-color: #4b405f;
 }
 
 footer {
-  background-color: #ffcc5c;
+  background-color: #59359c;
+  color: #4b405f;
 }
 
 .container {
