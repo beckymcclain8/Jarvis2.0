@@ -6,6 +6,7 @@ import "./ProviderStyle.css";
 import Navbar from "../../StaticComponents/Navbar";
 import Header from "../../components/Header";
 import Footer from "../../StaticComponents/Footer";
+import CardsProvider from "../../components/CardsProvider";
 import StarVote from "../../components/StarVotes";
 import ContactBadge from "../../components/ContactBadge";
 import Testimonial from "../../components/Testimonial";
@@ -19,10 +20,11 @@ render() {
         <Header />
         <h1 id="rec">Recommended Partners</h1>
         <h1 id="greeting2">Welcome to Dr. McClain's Page!</h1>
-        <Testimonial />
+        <Testimonial 
+        testimonial= ' "Dr. McClain was an amazing surgeon.  She answered all my questions and had me back on my feet before I knew it." -Susie Smith'/>
         <StarVote 
         className={"starVote2"}/>
-        <ContactBadge 
+        <CardsProvider
         className="contactBadge-a"
         genre="Physical Therapy"
         doctor="Dr. McClain"
@@ -30,7 +32,7 @@ render() {
         rating="Five Stars" 
         />
 
-        <ContactBadge 
+        <CardsProvider
         className="contactBadge-b"
         genre="Knee Joint Replacement"
         doctor="Dr. McClain"
@@ -38,7 +40,7 @@ render() {
         rating="Five Stars" 
         />
 
-        <ContactBadge 
+        <CardsProvider
         className="contactBadge-c"
         genre="Orthopedics"
         doctor="Dr. McClain"
@@ -46,7 +48,7 @@ render() {
         rating="Five Stars" 
         />
 
-        <ContactBadge 
+        <CardsProvider
         className="contactBadge-d"
         genre="Massage"
         doctor="Dr. McClain"

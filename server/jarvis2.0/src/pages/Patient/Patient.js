@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Calendar from 'react-calendar';
-// import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
 import "./Patient.css";
 import "./PatientStyle.css";
 import "../../App.css";
@@ -9,7 +8,6 @@ import Navbar from "../../StaticComponents/Navbar";
 import Header from "../../components/Header";
 import Result from "../../components/Result";
 import Cards from "../../components/Cards";
-// import Feature from "../../components/Feature";
 import Footer from "../../StaticComponents/Footer";
 import Calender from "../../components/Calender";
 import StarVote from "../../components/StarVotes";
