@@ -1,24 +1,17 @@
-.contactBadge {
-  padding: 1em 1em 1em 2em;
-  background-color: #96a5ce; 
-  color: black;
-  font-size: 200%;
-}
-
 #rec {
   padding: 1em 1em 0em 2em;
-  /* color: black; */
 }
 
 #greeting2 {
   padding: 1em 1em 0em 2em;
-  /* color: black; */
 }
 
 .testimonial {
-  background-color: #96a5ce; 
+  background-color: #96a5ce;
   color: black;
   font-size: 200%;
+  background-image: url("https://image.freepik.com/free-photo/doctor-with-a-stethoscope-in-the-hands-and-hospital-background_1423-1.jpg");
+  background-size: cover;
 }
 
 .contactBadge-a,
@@ -26,16 +19,19 @@
 .contactBadge-c,
 .contactBadge-d {
   padding: 1em;
-  /* background-color: #96a5ce; */
   color: black;
 }
 
-.contactBadge h1 {
-  color: black;
+#test {
+  padding: 2% 50% 0% 2%;
 }
 
+/* .contactBadge h1 {
+  color: black;
+} */
+/* 
 .starVote2 {
-  /* padding: 1em 1em 1em 2em; */
+
   background-color: #96a5ce;
   color: black;
-}
+} */

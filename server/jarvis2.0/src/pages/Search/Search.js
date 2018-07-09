@@ -21,8 +21,8 @@ class Search extends Component {
         <Navbar />
         <Header />
 
-<FormInput />
-<SearchResultContainer />
+        <FormInput />
+        <SearchResultContainer />
 
         <Footer />
       </div>
