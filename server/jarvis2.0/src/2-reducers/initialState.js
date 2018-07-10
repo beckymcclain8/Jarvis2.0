@@ -3,6 +3,5 @@
 
 export default {
   markers: [],
-  hospitals: [],
-  GoogleOuthUser: ""
+  hospitals: []
 };

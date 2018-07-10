@@ -7,7 +7,7 @@
 //Essentially in this file this is where action to state interaction is DESCRIBED and "lines in the sand are drawn".
 
 import initalState from "./initialState.js";
-import { FETCH_MARKERS, RECEIVE_MARKERS } from "../1-actions/actionTypes";
+import { FETCH_MARKERS, RECEIVE_MARKERS } from "../actions/types";
 
 //This function takes two paramenters
 //The first is initial state as it is recognized in the state tree initialState.js
