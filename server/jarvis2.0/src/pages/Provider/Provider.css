@@ -1,9 +1,9 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     overflow: hidden;
-  }
+  } */
 
   #rec {
     grid-column: 1/6;

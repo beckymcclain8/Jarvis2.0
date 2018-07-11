@@ -1,15 +1,10 @@
 
-
 #fav {
-  /* padding: 1em 1em 0em 2em; */
-  color: black;
-  font-size: 200%;
+  padding: 1em 1em 0em 2em;
 }
 
 #greeting {
-    /* padding:1em 1em 0em 2em; */
-    color: black;
-    font-size: 200%;
+    padding:1em 1em 0em 2em;
 } 
 
 .result-a,
@@ -19,16 +14,10 @@
 .result-e,
 .result-f {
   padding: 5px;
-  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19);
 }
 
-.calender {
-  color: black;
-  font-size: 200%;
+.react-calendar {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19);
 }
  
-/* .starVote {
-
-  background-color: #96a5ce;
-  color: black;
-} */

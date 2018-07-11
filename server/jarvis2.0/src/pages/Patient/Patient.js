@@ -6,10 +6,8 @@ import "../../App.css";
 import "../../index.css";
 import Navbar from "../../StaticComponents/Navbar";
 import Header from "../../components/Header";
-import Result from "../../components/Result";
 import Cards from "../../components/Cards";
 import Footer from "../../StaticComponents/Footer";
-import Calender from "../../components/Calender";
 import StarVote from "../../components/StarVotes";
 
 class Patient extends Component {

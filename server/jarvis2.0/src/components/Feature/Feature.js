@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Feature.css"; 
-import "../../App.css";
+import "../../App.css"; 
 import "../../index.css";
 // import Button from "../Button";
 import Image from "../Image";

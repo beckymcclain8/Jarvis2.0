@@ -1,24 +1,24 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { connect } from "react-redux";
+// import { connect } from "react-redux";
 import "./Navbar.css";
 import "../../App.css";
-import "../../index.css";
+import "../../index.css"; 
 // import rootReducer from "../../2-reducers/rootReducer";
 // import authReducer from "../../2-reducers/authReducer";
 
 class Navbar extends Component {
 
-    renderAuthContent() {
-      switch (this.props.auth) {
-        case null:
-            return;
-        case false:
-            return <li><a href="/auth/google">Login with Google</a></li>;
-        default:
-            return <li><a href="/api/logout">Logout</a></li>;
-     }
-};
+//     renderAuthContent() {
+//       switch (this.props.auth) {
+//         case null:
+//             return;
+//         case false:
+//             return <li><a href="/auth/google">Login with Google</a></li>;
+//         default:
+//             return <li><a href="/api/logout">Logout</a></li>;
+//      }
+// };
 
   render() {
     console.log(this.props)
@@ -72,25 +72,25 @@ class Navbar extends Component {
         Provider
       </Link>
     </div>
-    <div>
-     {/* className={
+    <div className={
         window.location.pathname === "/logout" ? "nav-item active" : "nav-item"
       }
     >
       <Link to="/" className="nav-link">
         Log Out
-      </Link> */}
-      <ul>
+      </Link> 
+      {/* <ul>
         {this.renderAuthContent()}
-        </ul>
+        </ul> */}
     </div>
   </nav>
     )
   }
     };
 
-    function mapStateToProps({ auth }) {
-      return { auth }
-    }
+    // function mapStateToProps({ auth }) {
+    //   return { auth }
+    // }
 
-export default connect(mapStateToProps)(Navbar);
+    export default Navbar;
+// export default connect(mapStateToProps)(Navbar);
