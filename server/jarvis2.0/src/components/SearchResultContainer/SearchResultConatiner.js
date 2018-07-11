@@ -9,6 +9,9 @@ class SearchResultContainer extends Component {
     results: []
   };
 
+//componentDidMount() {
+ //   this.searchHospitals(localZips);
+ // }
 
   searchHospitals = query => {
     API.search(query)
