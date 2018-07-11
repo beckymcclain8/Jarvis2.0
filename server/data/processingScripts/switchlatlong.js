@@ -2,6 +2,11 @@
 //location field is added to satisfy mongo contraint.
 
 const fs = require("fs");
+//ONLY USE THIS FILE IF THE lat/log are NOT in format lng/lat when converted to geojson.
+//The default SHOULD BE correct
+//Must be lng between -180 to 180
+//Must be lat between -90 to 90
+//COORDS are [lng,lat] or [x,y]
 
 let hospital419 = require("./code419.json");
 let hospital469 = require("./code469.json");

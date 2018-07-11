@@ -6,8 +6,8 @@ body {
 }
 
 .react-calendar {
-  grid-column: 9/-1;
-  grid-row: 3/8;
+  grid-column: 9/12;
+  grid-row: 3/6;
 }
 
 #greeting {
@@ -16,9 +16,9 @@ body {
 } 
 
 .starVote {
-  grid-column: 8/12;
+  grid-column: 9/11;
   grid-row: 6/7;
-  /* justify-self: center; */
+  justify-self: center;
 }
 
 #fav {
