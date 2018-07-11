@@ -22,13 +22,15 @@ render(props) {
 
   return (
     <div className="login">
-    
-    <h2> New to Jarvis?  Sign Up! </h2>
+    <div className="loginHeader">
+    <h3>New to Jarvis?</h3>
+    <h3>Sign Up Here!</h3>
+    </div>
     <div className="loginLink" > 
     {/* <Image src = { props.src } /> */}
      {this.renderAuthContent()} 
      </div>
-    <h5> Terms and Conditions </h5>
+    <p> By signing up, you agree to Jarvis's Terms of Use and Privacy Policy. </p>
     </div>
   )
 }
