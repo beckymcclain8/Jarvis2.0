@@ -12,7 +12,7 @@ class SearchResultContainer extends Component {
 
   searchHospitals = query => {
     API.search(query)
-      .then(res => this.setState({ results: res.data.data }))
+      .then(res => this.setState({ results: res.data }))
       .catch(err => console.log(err));
   };
 
