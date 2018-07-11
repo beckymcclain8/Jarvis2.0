@@ -4,9 +4,9 @@
   border-style: solid;
   border-width: thin;
   border-color: #706e74;
-  margin: 15px; 
+  margin: 15px 15px 40px 0px; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19);
-  background-color: #ede8f7
+  background-color: white;
 }
 
 /* .loginHeader {
@@ -14,14 +14,14 @@
 } */
 
 .login h3 {
-  color: purple;
+  color: #4b405f;
   /* padding-top: 20px; */
   justify-content: center;
 }
 
 a {
   text-decoration: none;
-  color: #ffeead
+  color: #f7f5ec
 }
 
 .loginLink {
@@ -30,7 +30,7 @@ a {
   border-style: solid;
   border-width: thin;
   border-color: #706e74;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(12, 78, 116, 0.19);
   /* leave the padding and margin alone! */
   padding:0.5em;
   margin: 1em 0em;
@@ -40,13 +40,14 @@ a {
 p {
   font-size: medium;
   color: rgb(80, 79, 79);
+  padding: 30px;
 }
 
 .feature-a,
 .feature-b,
 .feature-c, 
 .feature-d {
-  background-color: #4b405f;
+  background-color: #5c9684;
 }
 
 .feature-link {

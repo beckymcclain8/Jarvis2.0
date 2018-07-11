@@ -27,8 +27,7 @@ render(props) {
     <h3>Sign Up Here!</h3>
     </div>
     <div className="loginLink" > 
-    {/* <Image src = { props.src } /> */}
-     {this.renderAuthContent()} 
+      <h6> {this.renderAuthContent()} </h6>
      </div>
     <p> By signing up, you agree to Jarvis's Terms of Use and Privacy Policy. </p>
     </div>

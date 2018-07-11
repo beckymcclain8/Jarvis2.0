@@ -17,8 +17,9 @@
 
 .starVote {
   grid-column: 5/8;
-  grid-row: 8/9;
+  grid-row: 7/8;
   justify-self: center;
+  padding: 15px;
 }
 
 #fav {
