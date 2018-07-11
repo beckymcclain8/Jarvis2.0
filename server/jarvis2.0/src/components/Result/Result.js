@@ -19,7 +19,7 @@ const Result = props => (
   </ul>
 );
 
-);
+
 
 
 export default Result;
