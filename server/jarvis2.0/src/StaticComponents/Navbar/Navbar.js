@@ -1,10 +1,29 @@
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { connect } from "react-redux";
 import "./Navbar.css";
 import "../../App.css";
 import "../../index.css";
+// import rootReducer from "../../2-reducers/rootReducer";
+// import authReducer from "../../2-reducers/authReducer";
 
-const Navbar = props => (
+class Navbar extends Component {
+
+    renderAuthContent() {
+      switch (this.props.auth) {
+        case null:
+            return;
+        case false:
+            return <li><a href="/auth/google">Login with Google</a></li>;
+        default:
+            return <li><a href="/api/logout">Logout</a></li>;
+     }
+};
+
+  render() {
+    console.log(this.props)
+    return (
+
   <nav className="navbar">
     <div
       className={
@@ -53,16 +72,25 @@ const Navbar = props => (
         Provider
       </Link>
     </div>
-    <div
-      className={
+    <div>
+     {/* className={
         window.location.pathname === "/logout" ? "nav-item active" : "nav-item"
       }
     >
       <Link to="/" className="nav-link">
         Log Out
-      </Link>
+      </Link> */}
+      <ul>
+        {this.renderAuthContent()}
+        </ul>
     </div>
   </nav>
-);
+    )
+  }
+    };
 
-export default Navbar;
+    function mapStateToProps({ auth }) {
+      return { auth }
+    }
+
+export default connect(mapStateToProps)(Navbar);

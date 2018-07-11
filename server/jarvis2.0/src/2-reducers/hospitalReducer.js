@@ -4,7 +4,7 @@
 //in this file.
 //Essentially in this file this is where action to state interaction is DESCRIBED and "lines in the sand are drawn".
 import initalState from "./initialState.js";
-import { FETCH_HOSPITALS, RECEIVE_HOSPITALS } from "../1-actions/actionTypes";
+import { FETCH_HOSPITALS, RECEIVE_HOSPITALS } from "../actions/types";
 
 export default function hospitals(state = initalState.hospitals, action) {
   let newState;
