@@ -31,4 +31,4 @@ const markerSchema = new Schema({
   }
 });
 
-mongoose.model("markers", markerSchema);
+mongoose.model("Markers", markerSchema);
