@@ -1,6 +1,34 @@
 
 .login {
-  background-color: #96a5ce;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #706e74;
+  margin: 15px; 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19);
+}
+
+.login h2 {
+  color: purple;
+  padding-top: 20px;
+  justify-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #ffeead
+}
+
+.loginLink {
+background-color: rgb(238, 18, 18);
+  border-radius: 8px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #706e74;
+  /* leave the padding and margin alone! */
+  padding:1em;
+  margin: 3em 0em;
+  text-decoration: none;
 }
 
 .feature-a,
@@ -14,6 +42,11 @@
   color: #ffeead;
   text-decoration: none; 
 }
+
+.carousel-home {
+  background-image: url("https://image.freepik.com/free-photo/blur-hospital_1203-7957.jpg");
+  background-size: cover;
+} 
 
 .carousel-home h1 {
   padding-top: 30px;
@@ -45,9 +78,5 @@ color: white;
 padding:1em;
 }
 
-.carousel-home {
-  background-image: url("https://image.freepik.com/free-photo/blur-hospital_1203-7957.jpg");
-  background-size: cover;
 
-} 
  

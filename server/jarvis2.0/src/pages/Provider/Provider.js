@@ -8,7 +8,6 @@ import Header from "../../components/Header";
 import Footer from "../../StaticComponents/Footer";
 import CardsProvider from "../../components/CardsProvider";
 import StarVote from "../../components/StarVotes";
-import ContactBadge from "../../components/ContactBadge";
 import Testimonial from "../../components/Testimonial";
 
 class Provider extends Component {

@@ -1,13 +1,13 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   overflow: hidden;
-}
+} */
 
 .react-calendar {
-  grid-column: 9/12;
-  grid-row: 3/6;
+  grid-column: 10/13;
+  grid-row: 3/7;
 }
 
 #greeting {
@@ -16,8 +16,8 @@ body {
 } 
 
 .starVote {
-  grid-column: 9/11;
-  grid-row: 6/7;
+  grid-column: 5/8;
+  grid-row: 8/9;
   justify-self: center;
 }
 
@@ -32,11 +32,11 @@ body {
 
 }
 .result-b {
-  grid-column: 3/5;
+  grid-column: 4/6;
   grid-row: 3/5;
 }
 .result-c {
-  grid-column: 5/7;
+  grid-column: 7/9;
   grid-row: 3/5;
 }
 .result-d {
@@ -45,11 +45,12 @@ body {
  }
 
 .result-e {
-  grid-column: 3/5;
+  grid-column: 4/6;
   grid-row: 5/7;
 }
+
 .result-f {
-  grid-column: 5/7;
+  grid-column: 7/9;
   grid-row: 5/7;
 } 
 

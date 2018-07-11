@@ -12,6 +12,7 @@
   font-size: 200%;
   background-image: url("https://image.freepik.com/free-photo/doctor-with-a-stethoscope-in-the-hands-and-hospital-background_1423-1.jpg");
   background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19);
 }
 
 .contactBadge-a,
@@ -19,19 +20,10 @@
 .contactBadge-c,
 .contactBadge-d {
   padding: 1em;
-  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19);
 }
 
 #test {
   padding: 2% 50% 0% 2%;
 }
 
-/* .contactBadge h1 {
-  color: black;
-} */
-/* 
-.starVote2 {
-
-  background-color: #96a5ce;
-  color: black;
-} */

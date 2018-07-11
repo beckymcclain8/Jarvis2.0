@@ -27,7 +27,9 @@ class Home extends Component {
           link={"/search"}
           title="Get Started!"
         />
-        <Login />
+        <Login 
+        src="https://banner2.kisspng.com/20180326/tiw/kisspng-google-logo-computer-icons-business-service-google-plus-5ab9c197aeb406.5319800515221231597156.jpg"
+        />
         <Feature
           className="feature-a"
           src={"https://image.flaticon.com/icons/png/512/49/49116.png"}
