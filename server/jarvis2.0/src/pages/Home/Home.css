@@ -6,14 +6,26 @@ body {
 } 
 
 .carousel-home {
-  display: grid;
+  /* display: grid;
   grid-template-rows: 1fr auto 1fr;
   justify-items: center;
-  background-color: #96ceb4;
+  background-color: #96ceb4; */
   
   /* this is what define's the carousel's home in the main grid */
   grid-column: 1 / 9;
   grid-row: 2 / 7;
+  
+}
+
+#carouselExampleControls, .carousel-item, .d-block {
+  display: grid;
+  grid-template-rows: auto;
+  grid-column: 1 / 9;
+  grid-row: 3 / 8;
+}
+
+.d-block {
+  max-height: 250vh;
 }
 
 .googleOauth,
@@ -23,23 +35,23 @@ body {
   justify-items: center;
 
   grid-column: 9/-1;
-  grid-row: 2/7;
+  grid-row: 3/8;
 }
 
 .feature-a {
   grid-column: 1/4;
-  grid-row: 7/9;
+  grid-row: 8/10;
 }
 .feature-b {
   grid-column: 4/7;
-  grid-row: 7/9;
+  grid-row: 8/10;
 }
 .feature-c {
   grid-column: 7/10;
-  grid-row: 7/9;
+  grid-row: 8/10;
 }
 .feature-d {
   grid-column: 10/-1;
-  grid-row: 7/9;
+  grid-row: 8/10;
 }
 
