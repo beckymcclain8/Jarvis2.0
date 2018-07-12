@@ -8,7 +8,7 @@ const Result = props => (
     {props.results.map(result => (
       <li className="list-group-item" key={result.id}>
       <h4>Hospital Name: {result.provider_name}</h4>
-      <h4> {result.provider_street_addresss} </h4>
+      <h4> {result.provider_street_address} </h4>
       <h4> {result.provider_city}, {result.provider_state} {result.provider_zip_code} </h4>
       <h4> Cost of Procedure: {result.average_covered_charges} </h4>
 
