@@ -1,11 +1,9 @@
 
-#fav {
+#fav, #greeting {
   padding: 1em 1em 0em 2em;
+  color: #5c9684;
+  text-shadow: 1px 1px rgb(179, 167, 167);
 }
-
-#greeting {
-    padding:1em 1em 0em 2em;
-} 
 
 .result-a,
 .result-b,
