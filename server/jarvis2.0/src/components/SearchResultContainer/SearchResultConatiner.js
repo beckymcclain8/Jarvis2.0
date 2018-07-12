@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import SearchForm from "./SearchForm";
-import ResultList from "./ResultList";
+import FormInput from "../FormInput";
+import Result from "../Result";
 import API from "../utils/API";
+
 
 class SearchResultContainer extends Component {
   state = {
@@ -70,7 +71,7 @@ class SearchResultContainer extends Component {
   render() {
     return (
       <div>
-        <SearchForm
+        <FormInput
           address={this.state.address}
           city={this.state.city}
           state={this.state.state}
@@ -80,7 +81,7 @@ class SearchResultContainer extends Component {
           handleFormSubmit={this.handleFormSubmit}
           handleInputChange={this.handleInputChange}
         />
-        <ResultList 
+        <Result 
           localResult={this.state.localResult}
           moreResults={this.state.moreResults}
                />
