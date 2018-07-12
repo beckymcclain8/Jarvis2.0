@@ -10,8 +10,8 @@ const CORS = "https://cors-anywhere.herokuapp.com/"
 export default {
 
 
-  getZips: function(query) {
-    return axios(CORS+ZIPBASEURL+ZIPAPIKEY+"/radius.json/"+query+"/20/miles?minimal", {
+  getZips: function(query, radius) {
+    return axios(CORS+ZIPBASEURL+ZIPAPIKEY+"/radius.json/"+query+"/"+radius+"/miles?minimal", {
       method: 'GET', 
       headers: { 'x-requested-with': 'whatever', 
                   'Content-Type': 'application/json', }, 
@@ -19,8 +19,14 @@ export default {
     })
   },
   
-  getHospitals: function(zipRadius) {
+  getLocalHospitals: function(zipRadius) {
 
-    return axios.get(CMSBASEURL + " in("+zipRadius+")&drg_definition=039%20-%20EXTRACRANIAL%20PROCEDURES%20W/O%20CC/MCC&$order=average_covered_charges DESC&$limit=5");
+    return axios.get(CMSBASEURL + " in("+zipRadius+")&drg_definition=039%20-%20EXTRACRANIAL%20PROCEDURES%20W/O%20CC/MCC&$order=average_covered_charges ASC&$limit=1");
+  },
+
+
+  getMoreHospitals: function(zipRadius) {
+
+    return axios.get(CMSBASEURL + " in("+zipRadius+")&drg_definition=039%20-%20EXTRACRANIAL%20PROCEDURES%20W/O%20CC/MCC&$order=average_covered_charges ASC&$limit=5");
   }
 }
