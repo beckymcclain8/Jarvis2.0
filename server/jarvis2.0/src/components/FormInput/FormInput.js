@@ -53,7 +53,7 @@ const FormInput = props => (
         placeholder="Enter the number of miles you are willing to travel"
         id="radius"
       />
-      {/* <label htmlFor="procedure">Seclect Your Procedure:</label>
+      <label htmlFor="procedure">Seclect Your Procedure:</label>
           <select value={props.state.value} onChange={props.handleInputChange}>
             <option value="418 - LAPAROSCOPIC CHOLECYSTECTOMY W/O C.D.E. W CC">Laparoscopic Gall Bladder Removal with comorbidities</option>
             <option value="419 - LAPAROSCOPIC CHOLECYSTECTOMY W/O C.D.E. W/O CC/MCC">Laparoscopic Gall Bladder Removal without comorbidities</option>
@@ -65,7 +65,7 @@ const FormInput = props => (
             <option value="552 - MEDICAL BACK PROBLEMS W/O MCC">Back Problems</option>
             <option value="638 - DIABETES W CC">Diabetes Treatment</option>
             <option value="897 - ALCOHOL/DRUG ABUSE OR DEPENDENCE W/O REHABILITATION THERAPY W/O MCC">Substance Abuse Rehabilitation</option>  
-          </select> */}
+          </select>
       <button
         onClick={props.handleFormSubmit}
         className="btn btn-primary mt-3"
