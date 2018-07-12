@@ -53,16 +53,19 @@ const FormInput = props => (
         placeholder="Enter the number of miles you are willing to travel"
         id="radius"
       />
-      <label htmlFor="procedure">Procedure:</label>
-      <input
-        onChange={props.handleInputChange}
-        value={props.procedure}
-        name="procedure"
-        type="text"
-        className="form-control"
-        placeholder="Select your procedure"
-        id="procedure"
-      />
+      <label htmlFor="procedure">Seclect Your Procedure:</label>
+          <select value={props.state.value} onChange={props.handleInputChange}>
+            <option value="418 - LAPAROSCOPIC CHOLECYSTECTOMY W/O C.D.E. W CC">Laparoscopic Gall Bladder Removal with comorbidities</option>
+            <option value="419 - LAPAROSCOPIC CHOLECYSTECTOMY W/O C.D.E. W/O CC/MCC">Laparoscopic Gall Bladder Removal without comorbidities</option>
+            <option value="469 - MAJOR JOINT REPLACEMENT OR REATTACHMENT OF LOWER EXTREMITY W MCC">Knee Joint Replacement with comorbidities</option>
+            <option value="470 - MAJOR JOINT REPLACEMENT OR REATTACHMENT OF LOWER EXTREMITY W/O MCC">Knee Joint Replacement without comorbidities</option>
+            <option value="481 - HIP & FEMUR PROCEDURES EXCEPT MAJOR JOINT W CC">Hip Replacement with comorbidities</option>
+            <option value="482 - HIP & FEMUR PROCEDURES EXCEPT MAJOR JOINT W/O CC/MCC">Hip Replacement without cormorbidities</option>
+            <option value="470 - MAJOR JOINT REPLACEMENT OR REATTACHMENT OF LOWER EXTREMITY W/O MCC">Knee Joint Replacement without comorbidities</option>
+            <option value="552 - MEDICAL BACK PROBLEMS W/O MCC">Back Problems</option>
+            <option value="638 - DIABETES W CC">Diabetes Treatment</option>
+            <option value="897 - ALCOHOL/DRUG ABUSE OR DEPENDENCE W/O REHABILITATION THERAPY W/O MCC">Substance Abuse Rehabilitation</option>  
+          </select>
       <button
         onClick={props.handleFormSubmit}
         className="btn btn-primary mt-3"
@@ -72,6 +75,7 @@ const FormInput = props => (
     </div>
   </form>
 );
+
 
 export default FormInput;
 
