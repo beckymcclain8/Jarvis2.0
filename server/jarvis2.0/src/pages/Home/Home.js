@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "../../App.css";
 import "./Home.css";
 import "./HomeStyle.css";
+import { connect } from "react-redux";
 
 import "../../index.css";
 import Navbar from "../../StaticComponents/Navbar";
@@ -16,6 +17,17 @@ import Footer from "../../StaticComponents/Footer";
 import Testimonial from "../../components/Testimonial/Testimonial";
 
 class Home extends Component {
+  renderAuthContent() {
+    switch (this.props.auth) {
+      case null:
+          return;
+      case false:
+          return <Login />;
+      default:
+          return;
+   }
+};
+
   render(props) { 
     return (
       <div className="container">
@@ -33,9 +45,10 @@ class Home extends Component {
           link={"/search"}
           title="Get Started!"
         />
-        <Login 
+        {this.renderAuthContent()}
+        {/* <Login 
         src="https://banner2.kisspng.com/20180326/tiw/kisspng-google-logo-computer-icons-business-service-google-plus-5ab9c197aeb406.5319800515221231597156.jpg"
-        />
+        /> */}
         <Feature
           className="feature-a"
           src={"https://image.flaticon.com/icons/png/512/49/49116.png"}
@@ -72,4 +85,8 @@ class Home extends Component {
   }
 }
 
-export default Home;
+function mapStateToProps({ auth }) {
+  return { auth }
+}
+
+export default connect(mapStateToProps)(Home);
