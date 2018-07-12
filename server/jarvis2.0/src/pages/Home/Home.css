@@ -5,18 +5,37 @@ body {
   overflow: hidden;
 } 
 
-#carouselExampleControls, .carousel-item, .d-block {
+#carouselExampleControls {
   display: grid;
   grid-template-rows: auto;
-  grid-column: 3 / 7;
-  grid-row: 2 / 7;
+  grid-column: 2 / 7;
+  grid-row: 3 / 8;
+  /* margin-left: 50px; */
 }
 
 .d-block {
   max-height: 250vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19);
+  /* border-radius: 8px; */
+  /* border-style: solid;
+  border-width: thin;
+  border-color: #706e74; */
   /* padding:0.5em; */
-  margin: 1em 0em;
+  /* margin-left: 50px; */
+}
+
+.testimonialHome {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+  font-size: 250%;
+  text-align: center;
+  /* padding-left: 50px; */
+}
+
+#slogan {
+  padding-top: 20px;
+  color: #5c9684;
+  text-shadow: 1px 1px rgb(179, 167, 167);
 }
 
 .googleOauth,
@@ -26,23 +45,23 @@ body {
   justify-items: center;
 
   grid-column: 9/12;
-  grid-row: 2/7
+  grid-row: 3/8
 }
 
 .feature-a {
   grid-column: 1/4;
-  grid-row: 7/9;
+  grid-row: 8/9;
 }
 .feature-b {
   grid-column: 4/7;
-  grid-row: 7/9;
+  grid-row: 8/9;
 }
 .feature-c {
   grid-column: 7/10;
-  grid-row: 7/9;
+  grid-row: 8/9;
 }
 .feature-d {
   grid-column: 10/-1;
-  grid-row: 7/9;
+  grid-row: 8/9;
 }
 

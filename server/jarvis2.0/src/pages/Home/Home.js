@@ -13,6 +13,7 @@ import Feature from "../../components/Feature";
 // import Button from "../../components/Button";
 // import Selection from "../../components/Selection";
 import Footer from "../../StaticComponents/Footer";
+import Testimonial from "../../components/Testimonial/Testimonial";
 
 class Home extends Component {
   render(props) { 
@@ -20,6 +21,11 @@ class Home extends Component {
       <div className="container">
         <Navbar />
         <Header />
+        <Testimonial
+        className="testimonialHome"
+        id="slogan"
+        testimonial="We take the uncertainty out of choosing the right hospital."
+        />
         <Carousel
           carousel="carousel-home"
           heading="What is Jarvis?"
@@ -33,7 +39,7 @@ class Home extends Component {
         <Feature
           className="feature-a"
           src={"https://image.flaticon.com/icons/png/512/49/49116.png"}
-          title={"Search"}
+          title={"Start your Search"}
           link={"/search"}
         />
 
@@ -42,14 +48,14 @@ class Home extends Component {
           src={
             "https://cdn4.iconfinder.com/data/icons/follower/512/login-man-person-human-body-512.png"
           }
-          title={"Patient Profile"}
+          title={"View your Profile"}
           link={"/:id/patient"}
         />
 
         <Feature
           className="feature-c"
           src={"https://d30y9cdsu7xlg0.cloudfront.net/png/126327-200.png"}
-          title={"Provider"}
+          title={"Your Provider"}
           link={"/:id/provider"}
         />
 

@@ -25,14 +25,14 @@ const Carousel = props => (
       <img className="d-block w-100" src="https://image.freepik.com/free-photo/doctor-s-stethoscope-with-blue-background_23-2147652363.jpg" alt="Third slide"/>
     </div>
   </div>
-  <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+  {/* <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="sr-only">Previous</span>
   </a>
   <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="sr-only">Next</span>
-  </a>
+  </a> */}
 </div>
 
 // </div>

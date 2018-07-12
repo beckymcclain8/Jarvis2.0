@@ -20,6 +20,8 @@ render() {
         <h1 id="rec">Recommended Partners</h1>
         <h1 id="greeting2">Welcome to Dr. McClain's Page!</h1>
         <Testimonial 
+        className="testimonialProvider"
+        id="test"
         testimonial= ' "Dr. McClain was an amazing surgeon.  She answered all my questions and had me back on my feet before I knew it." -Susie Smith'/>
         <StarVote 
         className={"starVote2"}/>
