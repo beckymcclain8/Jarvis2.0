@@ -1,9 +1,24 @@
 import axios from "axios";
 
-const BASEURL = "https://data.cms.gov/resource/ehrv-m9r6.json?$where=provider_zip_code";
+const CMSBASEURL = "https://data.cms.gov/resource/ehrv-m9r6.json?$where=provider_zip_code";
+const ZIPBASEURL = "https://www.zipcodeapi.com/rest/"
+const ZIPAPIKEY = "6xsv3It4NIGhyQONSzZtJzG35hXBHQg6JJIqO6B7jnv6S8PlAkadIbi6Pg56RUQ2";
+const CORS = "https://cors-anywhere.herokuapp.com/"
 
 export default {
-  search: function(query) {
-    return axios.get(BASEURL + " in("+query+")");
+
+
+  getZips: function(query) {
+    return axios(CORS+ZIPBASEURL+ZIPAPIKEY+"/radius.json/"+query+"/20/miles?minimal", {
+      method: 'GET', 
+      headers: { 'x-requested-with': 'whatever', 
+                  'Content-Type': 'application/json', }, 
+   
+    })
+  },
+  
+  getHospitals: function(zipRadius) {
+
+    return axios.get(CMSBASEURL + " in("+zipRadius+")&drg_definition=039%20-%20EXTRACRANIAL%20PROCEDURES%20W/O%20CC/MCC");
   }
-};
+}
