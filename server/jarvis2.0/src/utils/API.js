@@ -13,7 +13,7 @@ export default {
   getZips: function(query, radius) {
     return axios(CORS+ZIPBASEURL+ZIPAPIKEY+"/radius.json/"+query+"/"+radius+"/miles?minimal", {
       method: 'GET', 
-      headers: { 'x-requested-with': 'whatever', 
+      headers: { 'x-requested-with': 'nope', 
                   'Content-Type': 'application/json', }, 
    
     })
@@ -27,6 +27,6 @@ export default {
 
   getMoreHospitals: function(zipRadius) {
 
-    return axios.get(CMSBASEURL + " in("+zipRadius+")&drg_definition=039%20-%20EXTRACRANIAL%20PROCEDURES%20W/O%20CC/MCC&$order=average_covered_charges ASC&$limit=5");
+    return axios.get(CMSBASEURL + " in("+zipRadius+") AND average_covered_charges < '50000'&drg_definition=039%20-%20EXTRACRANIAL%20PROCEDURES%20W/O%20CC/MCC&$order=average_covered_charges ASC&$limit=5");
   }
 }
