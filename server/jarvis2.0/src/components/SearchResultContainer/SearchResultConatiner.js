@@ -3,7 +3,6 @@ import FormInput from "../FormInput";
 import Result from "../Result";
 import API from "../../utils/API";
 
-
 class SearchResultContainer extends Component {
   state = {
     address: "",
@@ -15,6 +14,7 @@ class SearchResultContainer extends Component {
     localZipRadius: [],
     moreZipRadius: [],
     localResult: [],
+    lowCost: [],
     moreResults: []
   };
 
@@ -39,11 +39,12 @@ class SearchResultContainer extends Component {
 
   searchLocalHospitals = localZipRadius => {
     API.getLocalHospitals(localZipRadius)
-      .then(res => this.setState({ localResult: res.data }))
+      .then(res => this.setState({ localResult: res.data,
+                                    lowCost: res.average_covered_charges }))
       .catch(err => console.log(err));
   };
 
-  searchMoreHospitals = moreZipRadius => {
+  searchMoreHospitals = (moreZipRadius) => {
     API.getMoreHospitals(moreZipRadius)
       .then(res => this.setState({ moreResults: res.data }))
       .catch(err => console.log(err));
@@ -63,9 +64,9 @@ class SearchResultContainer extends Component {
     this.searchMoreZips(this.state.zipCode, this.state.radius)
     console.log(this.state.zipRadius)
     console.log(this.state.procedure)
-    this.searchLocalHospitals(this.state.localZipRadius, this.state.procedure)
-    this.searchMoreHospitals(this.state.moreZipRadius, this.state.procedure)
-
+    this.searchLocalHospitals(this.state.localZipRadius)
+    console.log(this.state.localResult.average_covered_charges)
+    this.searchMoreHospitals(this.state.moreZipRadius)
      };
 
   render() {
