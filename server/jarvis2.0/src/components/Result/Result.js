@@ -1,11 +1,9 @@
 import React from "react";
-import SubmitBtn from "../SubmitBtn";
 import "./Result.css";
 import "../../App.css";
 import "../../index.css";
 
 const Result = props => (
- 
   <ul className="list-group">
     {props.results.map(result => (
       <li className="list-group-item" key={result.id}>
@@ -18,9 +16,6 @@ const Result = props => (
     ))}
   </ul>
 );
-
-
-
 
 export default Result;
 
