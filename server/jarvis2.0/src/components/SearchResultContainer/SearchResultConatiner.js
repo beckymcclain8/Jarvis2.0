@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import FormInput from "../FormInput";
-import Result from "../Result";
+import SearchForm from "./SearchForm";
+import ResultList from "./ResultList";
 import API from "../utils/API";
 
 class SearchResultContainer extends Component {
@@ -11,25 +11,40 @@ class SearchResultContainer extends Component {
     zipCode: "",
     radius: "", 
     procedure: "",
-    zipRadius: [],
-    results: []
+    localZipRadius: [],
+    moreZipRadius: [],
+    localResult: [],
+    moreResults: []
   };
 
   componentDidMount() {
-    this.searchZips("85018");
+    this.searchLocalZips("85018", "20");
     
   }
 
-  searchZips = query => {
-    API.getZips(query)
-    .then(res => this.setState({ zipRadius: res.data.zip_codes }))
+  searchLocalZips = (query, radius) => {
+    API.getZips(query, radius)
+    .then(res => this.setState({ localZipRadius: res.data.zip_codes }))
     .catch(err => console.log(err));
 
   };
 
-  searchHospitals = zipRadius => {
-    API.getHospitals(zipRadius)
-      .then(res => this.setState({ results: res.data }))
+  searchMoreZips = (query, radius) => {
+    API.getZips(query, radius)
+    .then(res => this.setState({ moreZipRadius: res.data.zip_codes }))
+    .catch(err => console.log(err));
+
+  };
+
+  searchLocalHospitals = localZipRadius => {
+    API.getLocalHospitals(localZipRadius)
+      .then(res => this.setState({ localResult: res.data }))
+      .catch(err => console.log(err));
+  };
+
+  searchMoreHospitals = moreZipRadius => {
+    API.getMoreHospitals(moreZipRadius)
+      .then(res => this.setState({ moreResults: res.data }))
       .catch(err => console.log(err));
   };
 
@@ -43,25 +58,32 @@ class SearchResultContainer extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    this.searchZips(this.state.zipCode)
+    this.searchLocalZips(this.state.zipCode, "20")
+    this.searchMoreZips(this.state.zipCode, this.state.radius)
     console.log(this.state.zipRadius)
-    this.searchHospitals(this.state.zipRadius)
+    console.log(this.state.procedure)
+    this.searchLocalHospitals(this.state.localZipRadius, this.state.procedure)
+    this.searchMoreHospitals(this.state.moreZipRadius, this.state.procedure)
+
      };
 
   render() {
     return (
       <div>
-        <FormInput
+        <SearchForm
           address={this.state.address}
           city={this.state.city}
           state={this.state.state}
           zipCode={this.state.zipCode}
           radius={this.state.radius}
-          procedure={this.state.procedure}
+          procedure={this.state.procedure.value}
           handleFormSubmit={this.handleFormSubmit}
           handleInputChange={this.handleInputChange}
         />
-        <Result results={this.state.results} />
+        <ResultList 
+          localResult={this.state.localResult}
+          moreResults={this.state.moreResults}
+               />
       </div>
     );
   }
