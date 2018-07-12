@@ -1,7 +1,7 @@
 import React from "react";
 
 const FormInput = props => (
-  <form>
+<form>
     <div className="form-group">
       <label htmlFor="address">Address:</label>
       <input
@@ -75,7 +75,6 @@ const FormInput = props => (
     </div>
   </form>
 );
-
 
 export default FormInput;
 
