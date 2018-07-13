@@ -1,6 +1,7 @@
 #rec, #greeting2 {
-  padding: 1em 1em 0em 2em;
-  color: #5c9684;
+  /* padding: 1em 1em 0em 2em; */
+  /* margin-left: 20px; */
+  color: #4b405f;
   text-shadow: 1px 1px rgb(179, 167, 167);
 }
 
@@ -9,11 +10,11 @@ h2 {
 }
 
 .starVote2 h2 {
-  color: black;
+  color: black; 
 }
 
 .testimonialProvider {
-  color: black;
+  /* color: black; */
   font-size: 200%;
   background-image: url("https://image.freepik.com/free-photo/doctor-with-a-stethoscope-in-the-hands-and-hospital-background_1423-1.jpg");
   background-size: cover;

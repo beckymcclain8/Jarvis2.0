@@ -16,11 +16,11 @@ const Cards = props => (
       <h4> Driving Cost: {props.driveCost} </h4>
       <br />
       <hr />
-      <h2> Total Cost: {props.totalCost} </h2>
+      <h2 id="totalCost"> Total Cost: {props.totalCost} </h2>
     </CardBody>
     {/* <CardFooter>
       Save Button
-    </CardFooter> */}
+    </CardFooter> */} 
   </Card>
 );
 

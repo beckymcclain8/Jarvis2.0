@@ -14,7 +14,7 @@ const Footer = () => {
         src="https://image.flaticon.com/icons/svg/38/38401.svg"
         alt="GitHub"
       />
-      <h5>&copy; 2018 Jarvis 2.0 </h5>
+      <h6>&copy; 2018 Jarvis 2.0 </h6>
     </footer>
   );
 };

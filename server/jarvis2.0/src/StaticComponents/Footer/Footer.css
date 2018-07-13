@@ -1,14 +1,15 @@
 @media (min-width: 369px) {
   footer {
     /* background-color: white; */
-    padding-top: 5vh;
+    padding: 2vh;
     background-color: #f1f0f3;
-    color: #4b405f;
+    color: #868686;
   
   }
 
   img {
     max-height: 5.5vh;
+    margin-right: 0.5em;
   }
 
   .icon {

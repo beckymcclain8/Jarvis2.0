@@ -9,14 +9,13 @@
 .feature-b,
 .feature-c,
 .feature-d, 
-
 .navbar,
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2em;
-  color: #ffeead;
+  color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19);
   /* border-radius: 8px; */
   margin: 0px 5px;
@@ -79,7 +78,7 @@ footer {
 
 footer {
   grid-column: 1/-1;
-  grid-row: 9/10;
+  grid-row: 10/11;
 }
 
 
