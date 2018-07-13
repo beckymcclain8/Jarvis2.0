@@ -11,47 +11,54 @@ class SearchResultContainer extends Component {
     address: "",
     city: "",
     state: "",
-    zipCode: "",
+    zipCode: "85018",
     radius: "", 
     procedure: "",
     localZipRadius: [],
     moreZipRadius: [],
     localResult: [],
     lowCost: [],
-    moreResults: []
+    moreResults: [],
+    distance: []
   };
 
   componentDidMount() {
-    this.searchLocalZips("85018", "20");
+    this.searchLocalZips(this.state.zipCode, "20");
     
   }
 
   searchLocalZips = (query, radius) => {
     API.getZips(query, radius)
-    .then(res => this.setState({ localZipRadius: res.data.zip_codes }))
-    .catch(err => console.log(err));
-
+      .then(res => this.setState({ localZipRadius: res.data.zip_codes }))
+      .catch(err => console.log(err));
   };
 
   searchMoreZips = (query, radius) => {
     API.getZips(query, radius)
-    .then(res => this.setState({ moreZipRadius: res.data.zip_codes }))
-    .catch(err => console.log(err));
-
+      .then(res => this.setState({ moreZipRadius: res.data.zip_codes }))
+      .catch(err => console.log(err));
   };
 
   searchLocalHospitals = localZipRadius => {
     API.getLocalHospitals(localZipRadius)
-      .then(res => this.setState({ localResult: res.data,
-                                    lowCost: res.average_covered_charges }))
+      .then(res =>
+        this.setState({
+          localResult: res.data,
+          lowCost: res.average_covered_charges
+        })
+      )
       .catch(err => console.log(err));
   };
 
-  searchMoreHospitals = (moreZipRadius) => {
+  searchMoreHospitals = moreZipRadius => {
     API.getMoreHospitals(moreZipRadius)
       .then(res => this.setState({ moreResults: res.data }))
       .catch(err => console.log(err));
   };
+
+  getDistance = (userAddress, hospitalAddress) =>
+    API.getDistance(userAddress, hospitalAddress)
+      .then(res => this.setState({distance: res.data.distance}))
 
   handleInputChange = event => {
     const name = event.target.name;
@@ -68,8 +75,10 @@ class SearchResultContainer extends Component {
     console.log(this.state.zipRadius)
     console.log(this.state.procedure)
     this.searchLocalHospitals(this.state.localZipRadius)
-    console.log(this.state.localResult.average_covered_charges)
+    console.log(this.state.lowCost)
     this.searchMoreHospitals(this.state.moreZipRadius)
+    this.getDistance();
+    console.log(this.state.distance)
      };
 
      
@@ -103,9 +112,10 @@ class SearchResultContainer extends Component {
           zipCode={this.state.zipCode}
           radius={this.state.radius}
           procedure={this.state.procedure.value}
-          handleFormSubmit={this.handleFormSubmit}
-          handleInputChange={this.handleInputChange}
+          handleFormSubmit={this.handleFormSubmit.bind(this)}
+          handleInputChange={this.handleInputChange.bind(this)}
         />
+
         </div>
         <div id="resultsID">
         <Result 
@@ -113,6 +123,7 @@ class SearchResultContainer extends Component {
           moreResults={this.state.moreResults}
         /> 
         </div>
+
       </div>
     );
   }
