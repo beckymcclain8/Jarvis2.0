@@ -21,7 +21,7 @@ const markerSchema = new Schema({
     providername: String,
     providerstreetaddress: String,
     providercity: String,
-    providerstate: AL,
+    providerstate: String,
     providerzipcode: Number,
     hospitalreferralregiondescription: String,
     totaldischarges: Number,

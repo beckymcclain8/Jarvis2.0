@@ -3,6 +3,7 @@ import "../../App.css";
 import "../../index.css";
 import "./MapView.css";
 import "./MapViewStyle.css";
+import API from "../../utils/API";
 import Navbar from "../../StaticComponents/Navbar";
 import Header from "../../components/Header";
 import Footer from "../../StaticComponents/Footer";
@@ -10,7 +11,7 @@ import { Map, TileLayer, Marker, Popup } from "react-leaflet";
 
 // class WrappedMarker extends Component {
 //   render() {
-//     const { map, layerContainer } = this.props; //Given by the `Map` component
+//      //Given by the `Map` component
 //     return (
 //       <Marker
 //         map={map} /* pass down to Marker */
@@ -28,9 +29,38 @@ class MapView extends Component {
     super();
     this.state = {
       markers: [[51.505, -0.09], [51.505, -0.08], [51.505, -0.07]],
-      popups: "Cool hospital info"
+      popups: "Cool hospital info",
+      center: []
     };
   }
+
+  componentDidMount() {
+    this.locateUser();
+  }
+
+  locateUser = () => {
+    API.locateUser()
+      .then(res =>
+        console.log(
+          "THE USER HAS BEEN LOCATED FROM THE MAPVIEW.JS from the locate user method"
+        )
+      )
+      .catch(err => console.log(err));
+  };
+
+  locateNear = lnglat => {
+    API.locateNear(lnglat)
+      .then(res => {
+        console.log(
+          "THE USER HAS BEEN LOCATED FROM THE MAPVIEW.JS from the locateNear method"
+        );
+        this.setState({
+          markers: [[61.505, -0.09], [61.505, -0.08], [61.505, -0.07]],
+          center: [61.505, -0.09]
+        });
+      })
+      .catch(err => console.log(err));
+  };
   //handleViewPortChange- TODO
   //handleRadiusSearch-TODO
 
@@ -40,12 +70,19 @@ class MapView extends Component {
   //   API.radiusSearch(map-center).then(setState({markers: radiusResults});
 
   render() {
+    // const { map, layerContainer } = this.props;
+    // const { map } = this.leafletElement;
+    // const center = map.locate({ setView: true, maxZoom: 16 });
+    console.log("The results from setState are", this.state.markers);
+    console.log("The new coordinates from the map are", this.state.center);
     return (
       <div className="container">
         <Navbar />
         <Header />
         {/* Map will center on the the persons location- TODO */}
         <Map id="map" center={[51.505, -0.09]} zoom={13}>
+          {/* {map.locate({ setView: true, maxZoom: 16 })} */}
+
           <TileLayer
             attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

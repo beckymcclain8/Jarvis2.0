@@ -9,7 +9,7 @@ class SearchResultContainer extends Component {
     city: "",
     state: "",
     zipCode: "",
-    radius: "", 
+    radius: "",
     procedure: "",
     localZipRadius: [],
     moreZipRadius: [],
@@ -20,31 +20,32 @@ class SearchResultContainer extends Component {
 
   componentDidMount() {
     this.searchLocalZips("85018", "20");
-    
   }
 
   searchLocalZips = (query, radius) => {
     API.getZips(query, radius)
-    .then(res => this.setState({ localZipRadius: res.data.zip_codes }))
-    .catch(err => console.log(err));
-
+      .then(res => this.setState({ localZipRadius: res.data.zip_codes }))
+      .catch(err => console.log(err));
   };
 
   searchMoreZips = (query, radius) => {
     API.getZips(query, radius)
-    .then(res => this.setState({ moreZipRadius: res.data.zip_codes }))
-    .catch(err => console.log(err));
-
+      .then(res => this.setState({ moreZipRadius: res.data.zip_codes }))
+      .catch(err => console.log(err));
   };
 
   searchLocalHospitals = localZipRadius => {
     API.getLocalHospitals(localZipRadius)
-      .then(res => this.setState({ localResult: res.data,
-                                    lowCost: res.average_covered_charges }))
+      .then(res =>
+        this.setState({
+          localResult: res.data,
+          lowCost: res.average_covered_charges
+        })
+      )
       .catch(err => console.log(err));
   };
 
-  searchMoreHospitals = (moreZipRadius) => {
+  searchMoreHospitals = moreZipRadius => {
     API.getMoreHospitals(moreZipRadius)
       .then(res => this.setState({ moreResults: res.data }))
       .catch(err => console.log(err));
@@ -60,14 +61,14 @@ class SearchResultContainer extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    this.searchLocalZips(this.state.zipCode, "20")
-    this.searchMoreZips(this.state.zipCode, this.state.radius)
-    console.log(this.state.zipRadius)
-    console.log(this.state.procedure)
-    this.searchLocalHospitals(this.state.localZipRadius)
-    console.log(this.state.localResult.average_covered_charges)
-    this.searchMoreHospitals(this.state.moreZipRadius)
-     };
+    this.searchLocalZips(this.state.zipCode, "20");
+    this.searchMoreZips(this.state.zipCode, this.state.radius);
+    console.log(this.state.zipRadius);
+    console.log(this.state.procedure);
+    this.searchLocalHospitals(this.state.localZipRadius);
+    console.log(this.state.localResult.average_covered_charges);
+    this.searchMoreHospitals(this.state.moreZipRadius);
+  };
 
   render() {
     return (
@@ -82,10 +83,10 @@ class SearchResultContainer extends Component {
           handleFormSubmit={this.handleFormSubmit}
           handleInputChange={this.handleInputChange}
         />
-        <Result 
+        <Result
           localResult={this.state.localResult}
           moreResults={this.state.moreResults}
-               />
+        />
       </div>
     );
   }
