@@ -51,10 +51,10 @@ class Search extends Component {
      };
   
   
-  componentDidMount() {
-    this.searchLocalZips(this.state.zipCode, "20");
+  // componentDidMount() {
+  //   this.searchLocalZips(this.state.zipCode, "20");
     
-  }
+  // }
 
   searchLocalZips = (query, radius) => {
     API.getZips(query, radius)
@@ -96,10 +96,10 @@ class Search extends Component {
   render() {
     
     return (
-      <div>
+      <div className="container">
+      <Navbar />
       <Header />
 
-      <Navbar />
       <div className="searchGrid" >
       <div id="formID">
         <FormInput
@@ -112,18 +112,18 @@ class Search extends Component {
           handleFormSubmit={this.handleFormSubmit.bind(this)}
           handleInputChange={this.handleInputChange.bind(this)}
         />
+      </div>
 
-        </div>
-        <div id="resultsID">
+      <div id="resultsID">
         <Result 
           localResult={this.state.localResult}
           moreResults={this.state.moreResults}
         /> 
-         </div>
       </div>
+      </div>
+        
+        
         <Footer />
-
-       
       </div>
     );
   }
