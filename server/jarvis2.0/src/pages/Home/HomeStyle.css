@@ -42,11 +42,21 @@ p {
 .feature-c, 
 .feature-d {
   background-color: #5c9684;
+  /* margin-bottom: 10px; */
 }
 
 .feature-link {
   color: #ffeead;
   text-decoration: none; 
+}
+
+.car1 {
+  color: black;
+}
+
+.car2 {
+  color: black;
+  padding-right: 20px 80px;
 }
 
 /* bootstrap carousel styling*/
@@ -290,14 +300,7 @@ p {
   font-size: 100%;
 }
 
-.car1 {
-  color: black;
-}
 
-.car2 {
-  color: black;
-  padding-right: 20px 80px;
-}
 
 
 

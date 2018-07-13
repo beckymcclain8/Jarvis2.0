@@ -3,7 +3,7 @@ import Calendar from 'react-calendar';
 import "./Patient.css";
 import "./PatientStyle.css";
 import "../../App.css";
-import "../../index.css";
+import "../../index.css"; 
 import Navbar from "../../StaticComponents/Navbar";
 import Header from "../../components/Header";
 import Cards from "../../components/Cards";
