@@ -8,18 +8,20 @@ class SearchResultContainer extends Component {
     address: "",
     city: "",
     state: "",
-    zipCode: "",
-    radius: "",
+    zipCode: "85018",
+    radius: "", 
     procedure: "",
     localZipRadius: [],
     moreZipRadius: [],
     localResult: [],
     lowCost: [],
-    moreResults: []
+    moreResults: [],
+    distance: []
   };
 
   componentDidMount() {
-    this.searchLocalZips("85018", "20");
+    this.searchLocalZips(this.state.zipCode, "20");
+    
   }
 
   searchLocalZips = (query, radius) => {
@@ -51,6 +53,10 @@ class SearchResultContainer extends Component {
       .catch(err => console.log(err));
   };
 
+  getDistance = (userAddress, hospitalAddress) =>
+    API.getDistance(userAddress, hospitalAddress)
+      .then(res => this.setState({distance: res.data.distance}))
+
   handleInputChange = event => {
     const name = event.target.name;
     const value = event.target.value;
@@ -61,14 +67,16 @@ class SearchResultContainer extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    this.searchLocalZips(this.state.zipCode, "20");
-    this.searchMoreZips(this.state.zipCode, this.state.radius);
-    console.log(this.state.zipRadius);
-    console.log(this.state.procedure);
-    this.searchLocalHospitals(this.state.localZipRadius);
-    console.log(this.state.localResult.average_covered_charges);
-    this.searchMoreHospitals(this.state.moreZipRadius);
-  };
+    this.searchLocalZips(this.state.zipCode, "20")
+    this.searchMoreZips(this.state.zipCode, this.state.radius)
+    console.log(this.state.zipRadius)
+    console.log(this.state.procedure)
+    this.searchLocalHospitals(this.state.localZipRadius)
+    console.log(this.state.lowCost)
+    this.searchMoreHospitals(this.state.moreZipRadius)
+    this.getDistance();
+    console.log(this.state.distance)
+     };
 
   render() {
     return (
@@ -80,8 +88,8 @@ class SearchResultContainer extends Component {
           zipCode={this.state.zipCode}
           radius={this.state.radius}
           procedure={this.state.procedure.value}
-          handleFormSubmit={this.handleFormSubmit}
-          handleInputChange={this.handleInputChange}
+          handleFormSubmit={this.handleFormSubmit.bind(this)}
+          handleInputChange={this.handleInputChange.bind(this)}
         />
         <Result
           localResult={this.state.localResult}
