@@ -39,7 +39,7 @@ class Patient extends Component {
         <Cards
         className = "result-a"
         hospital = {"Best Hospital"}
-        address = {"123 Oak St"}
+        address = {"123 Oak St"} 
         city = {"Chandler, AZ"}
         distance = {"300 miles"}
         procedureCost = {"$2300"}
