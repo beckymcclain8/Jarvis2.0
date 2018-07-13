@@ -1,14 +1,7 @@
-const path = require("path");
 const router = require("express").Router();
-const apiRoutes = require("./api");
+const mapRoutes = require("./maps");
 
-// API Routes
-//This is saying use the api folder for directions
-router.use("/api", apiRoutes);
-
-// If no API routes are hit, send the React app
-router.use(function(req, res) {
-  res.sendFile(path.join(__dirname, "../client/build/index.html"));
-});
+// Book routes
+router.use("/map", mapRoutes);
 
 module.exports = router;

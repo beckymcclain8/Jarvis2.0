@@ -20,23 +20,23 @@ class Home extends Component {
   renderAuthContent() {
     switch (this.props.auth) {
       case null:
-          return;
+        return;
       case false:
-          return <Login />;
+        return <Login />;
       default:
-          return;
-   }
-};
+        return;
+    }
+  }
 
-  render(props) { 
+  render(props) {
     return (
       <div className="container">
         <Navbar />
         <Header />
         <Testimonial
-        className="testimonialHome"
-        id="slogan"
-        testimonial="We take the uncertainty out of choosing the right hospital."
+          className="testimonialHome"
+          id="slogan"
+          testimonial="We take the uncertainty out of choosing the right hospital."
         />
         <Carousel
           carousel="carousel-home"
@@ -76,7 +76,7 @@ class Home extends Component {
           className="feature-d"
           src={"https://d30y9cdsu7xlg0.cloudfront.net/png/565973-200.png"}
           title={"Cost Map"}
-          link={"/api/map"}
+          link={"/map"}
         />
 
         <Footer />
@@ -86,7 +86,7 @@ class Home extends Component {
 }
 
 function mapStateToProps({ auth }) {
-  return { auth }
+  return { auth };
 }
 
 export default connect(mapStateToProps)(Home);
