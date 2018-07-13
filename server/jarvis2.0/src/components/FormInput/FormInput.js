@@ -6,59 +6,73 @@ import "./FormInput.css";
 const FormInput = props => ( 
 
 <form className="formInput">
-    <div className="form-group">
-      <label htmlFor="address">Address:</label>
-      <input
+    <table className="form-group">
+    <tr>
+      {/* <td><label htmlFor="address">Address:</label></td> */}
+      <td><input
         onChange={props.handleInputChange}
         value={props.address}
         name="address"
         type="text"
         className="form-control"
-        placeholder="Enter Your Address"
+        placeholder="Your Address"
         id="address"
-      />
-        <label htmlFor="city">City:</label>
-      <input
+      /></td>
+      </tr>
+      <tr>
+        {/* <td><label htmlFor="city">City:</label></td> */}
+      <td><input
         onChange={props.handleInputChange}
         value={props.city}
         name="city"
         type="text"
         className="form-control"
-        placeholder="Enter Your City"
+        placeholder="Your City"
         id="City"
-      />
-        <label htmlFor="state">State:</label>
-      <input
+      /></td>
+      </tr>
+      <tr>
+        {/* <td><label htmlFor="state">State:</label></td> */}
+      <td><input
         onChange={props.handleInputChange}
         value={props.search}
         name="state"
         type="text"
         className="form-control"
-        placeholder="ST"
+        placeholder="Your State"
         id="state"
-      />
-        <label htmlFor="zipCode">Zip Code:</label>
-      <input
+      /></td>
+      </tr>
+        <tr>
+          {/* <td><label htmlFor="zipCode">Zip Code:</label></td> */}
+      <td><input
         onChange={props.handleInputChange}
         value={props.search}
         name="zipCode"
         type="number"
         className="form-control"
-        placeholder="Zip Code"
+        placeholder="Your Zip Code"
         id="zipCode"
-      />
-        <label htmlFor="radius">Search Radius:</label>
-      <input
+      /></td>
+      </tr>
+      <tr>
+        {/* <td><label htmlFor="radius">Search Radius:</label></td> */}
+      <td><input
         onChange={props.handleInputChange}
         value={props.radius}
         name="radius"
         type="number"
         className="form-control"
-        placeholder="Enter the number of miles you are willing to travel"
+        placeholder="Miles you are willing to travel"
         id="radius"
-      />
-      <label htmlFor="procedure">Seclect Your Procedure:</label>
-          <select value={props.state.value} onChange={props.handleInputChange}>
+      /></td>
+      </tr>
+      
+        <tr>
+      <td><label htmlFor="procedure">Seclect Your Procedure:</label></td>
+      </tr>
+      <tr>
+          <td><select value={props.state.value} onChange={props.handleInputChange}>
             <option value="418 - LAPAROSCOPIC CHOLECYSTECTOMY W/O C.D.E. W CC">Laparoscopic Gall Bladder Removal with comorbidities</option>
             <option value="419 - LAPAROSCOPIC CHOLECYSTECTOMY W/O C.D.E. W/O CC/MCC">Laparoscopic Gall Bladder Removal without comorbidities</option>
             <option value="469 - MAJOR JOINT REPLACEMENT OR REATTACHMENT OF LOWER EXTREMITY W MCC">Knee Joint Replacement with comorbidities</option>
@@ -69,14 +83,18 @@ const FormInput = props => (
             <option value="552 - MEDICAL BACK PROBLEMS W/O MCC">Back Problems</option>
             <option value="638 - DIABETES W CC">Diabetes Treatment</option>
             <option value="897 - ALCOHOL/DRUG ABUSE OR DEPENDENCE W/O REHABILITATION THERAPY W/O MCC">Substance Abuse Rehabilitation</option>  
-          </select>
-      <button
+          </select></td>
+          </tr>
+          <tr>
+            {/* <td></td> */}
+      <td><button
         onClick={props.handleFormSubmit}
         className="btn btn-primary mt-3"
       >
         Search
-      </button>
-    </div>
+      </button></td>
+      </tr>
+    </table>
   </form>
 );
 

@@ -1,25 +1,37 @@
  #formID {
-  grid-column: 2/6;
-    grid-row: 3/7;
-    border-radius: 8px;
-    background-color: #5c9684;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19);
+  grid-column: 1/5;
+  grid-row: 3/7;
+    /* border-radius: 8px; */
+    /* background-color: white; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19); */
 } 
 
 #resultsID {
-  grid-column: 7/-1;
-    grid-row: 3/11;
-    border-radius: 8px;
-    background-color: #5c9684;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19);
+  grid-column: 5/-1;
+  grid-row: 3/11;
+    /* border-radius: 8px; */
+    /* background-color: #5c9684; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19); */
+}
+
+.card list-group-item {
+  width: 50%;
 }
 
 button, 
-input {
-  font-size: 100%;
+input, select {
+  font-size:90%;
   margin: 5px 20px;
-  border-radius: 8px;
-  padding: em;
+  /* border-radius: 8px; */
+  padding: 0.5em;
+  /* background-color: white; */
+  width: 90%;
+}
+
+label  {
+  margin-left: 30px;
+  width: 100%;
+  font-size: 150%;
 }
 
 .searchGrid {
@@ -31,8 +43,6 @@ input {
   grid-row:1/10;
 } 
 
-/* .address {
-  margin-top: 30px;
-} */
+
 
 
