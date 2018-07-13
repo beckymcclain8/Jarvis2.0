@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./Search.css";
+// import "../../components/SearchResultContainer.css";
 import "../../App.css";
 import "../../index.css";
 import Navbar from "../../StaticComponents/Navbar";
@@ -16,11 +17,11 @@ class Search extends Component {
         <Navbar />
         <Header />
 
-        <SearchResultContainer />
+        <SearchResultContainer className="searchGrid"/>
 
         <Footer />
       </div>
-    );
+    ); 
   }
 }
 

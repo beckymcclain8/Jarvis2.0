@@ -1,7 +1,11 @@
 import React from "react";
+import "../../App.css";
+import "./FormInput.css";
 
-const FormInput = props => (
-<form>
+//put form into a table to make labels show up correctly
+const FormInput = props => ( 
+
+<form className="formInput">
     <div className="form-group">
       <label htmlFor="address">Address:</label>
       <input

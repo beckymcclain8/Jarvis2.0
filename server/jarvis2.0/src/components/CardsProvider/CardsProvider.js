@@ -10,15 +10,14 @@ const CardsProvider = props => (
       <h2> { props.genre } </h2>
     </CardHeader>
     <CardBody>
-      <h4> { props.doctor } </h4>
-      <h4> { props.address } </h4>
-      <h4> { props.rating } </h4>
+      <h3> { props.doctor } </h3>
+      <h3> { props.address } </h3>
+      <h3> { props.rating } </h3>
 
     </CardBody>
-    <CardFooter>
+    {/* <CardFooter>
         Save Button
-        {/* <SubmitBtn> {props.title} </SubmitBtn> */}
-    </CardFooter>
+    </CardFooter> */}
   </Card>
 );
 
