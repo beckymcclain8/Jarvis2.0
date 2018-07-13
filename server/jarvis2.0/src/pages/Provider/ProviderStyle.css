@@ -4,8 +4,12 @@
   text-shadow: 1px 1px rgb(179, 167, 167);
 }
 
-h2, h4 {
+h2 {
   color: #5c9684;
+}
+
+.starVote2 h2 {
+  color: black;
 }
 
 .testimonialProvider {

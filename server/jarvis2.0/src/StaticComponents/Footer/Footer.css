@@ -1,7 +1,10 @@
 @media (min-width: 369px) {
   footer {
-    background-color: white;
+    /* background-color: white; */
     padding-top: 5vh;
+    background-color: #f1f0f3;
+    color: #4b405f;
+  
   }
 
   img {

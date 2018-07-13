@@ -10,7 +10,7 @@ const Cards = props => (
       <h2> {props.hospital} </h2>
       <h2> {props.genre} </h2>
     </CardHeader>
-    <CardBody>
+    <CardBody> 
       <h4> {props.city} </h4>
       <h4> Distance: {props.distance} </h4>
       <h4> Cost of Procedure: {props.procedureCost} </h4>
