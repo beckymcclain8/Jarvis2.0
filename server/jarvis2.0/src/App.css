@@ -60,6 +60,7 @@ footer {
 
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(10, 1fr);
+  max-height: 100vh;
 }
 
 .navbar {

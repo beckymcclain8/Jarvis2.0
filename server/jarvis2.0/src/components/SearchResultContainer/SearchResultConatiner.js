@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import FormInput from "../FormInput";
 import Result from "../Result";
 import API from "../../utils/API";
+import "../../App.css";
+import "../../index.css";
+import "./SearchResultContainer.css";
 
 class SearchResultContainer extends Component {
   state = {
@@ -78,9 +81,30 @@ class SearchResultContainer extends Component {
     console.log(this.state.distance)
      };
 
+     
+
   render() {
+    var style= {
+      gridColumn: "2/6",
+      gridRow: "3/7",
+      borderRadius: "8px",
+      backgroundColor: "yellow",
+      boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19)"
+        }
+        // style= {style}
+
+        var styleResults= {
+          gridColumn: "7/-1",
+          gridRow: "3/10",
+          borderRadius: "8px",
+          backgroundColor: "#5c9684",
+          boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19)"
+            }
+
+            // style= {styleResults}
     return (
-      <div>
+      <div className="searchGrid" >
+      <div id="formID">
         <FormInput
           address={this.state.address}
           city={this.state.city}
@@ -91,10 +115,15 @@ class SearchResultContainer extends Component {
           handleFormSubmit={this.handleFormSubmit.bind(this)}
           handleInputChange={this.handleInputChange.bind(this)}
         />
-        <Result
+
+        </div>
+        <div id="resultsID">
+        <Result 
           localResult={this.state.localResult}
           moreResults={this.state.moreResults}
-        />
+        /> 
+        </div>
+
       </div>
     );
   }

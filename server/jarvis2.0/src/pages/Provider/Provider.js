@@ -35,7 +35,7 @@ render() {
 
         <CardsProvider
         className="contactBadge-b"
-        genre="Knee Joint Replacement"
+        genre="Cardiology"
         doctor="Dr. McClain"
         address="123 Get Better Way"
         rating="Five Stars" 
