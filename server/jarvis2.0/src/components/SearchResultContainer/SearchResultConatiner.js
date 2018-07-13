@@ -11,7 +11,7 @@ class SearchResultContainer extends Component {
     address: "",
     city: "",
     state: "",
-    zipCode: "85018",
+    zipCode: "",
     radius: "", 
     procedure: "",
     localZipRadius: [],
@@ -22,10 +22,32 @@ class SearchResultContainer extends Component {
     distance: []
   };
 
-  componentDidMount() {
-    this.searchLocalZips(this.state.zipCode, "20");
+  handleInputChange = event => {
+    const name = event.target.name;
+    const value = event.target.value;
+    this.setState({
+      [name]: value
+    });
+  };
+
+  handleFormSubmit = event => {
+    event.preventDefault();
+    this.searchLocalZips(this.state.zipCode, "20")
+    this.searchMoreZips(this.state.zipCode, this.state.radius)
+    console.log(this.state.zipRadius)
+    console.log(this.state.procedure)
+    this.searchLocalHospitals(this.state.localZipRadius)
+    console.log(this.state.lowCost)
+    this.searchMoreHospitals(this.state.moreZipRadius)
+    this.getDistance();
+    console.log(this.state.distance)
+     };
+  
+  
+  // componentDidMount() {
+  //   this.searchLocalZips(this.state.zipCode, "20");
     
-  }
+  // }
 
   searchLocalZips = (query, radius) => {
     API.getZips(query, radius)
@@ -60,26 +82,9 @@ class SearchResultContainer extends Component {
     API.getDistance(userAddress, hospitalAddress)
       .then(res => this.setState({distance: res.data.distance}))
 
-  handleInputChange = event => {
-    const name = event.target.name;
-    const value = event.target.value;
-    this.setState({
-      [name]: value
-    });
-  };
+ 
 
-  handleFormSubmit = event => {
-    event.preventDefault();
-    this.searchLocalZips(this.state.zipCode, "20")
-    this.searchMoreZips(this.state.zipCode, this.state.radius)
-    console.log(this.state.zipRadius)
-    console.log(this.state.procedure)
-    this.searchLocalHospitals(this.state.localZipRadius)
-    console.log(this.state.lowCost)
-    this.searchMoreHospitals(this.state.moreZipRadius)
-    this.getDistance();
-    console.log(this.state.distance)
-     };
+
 
   render() {
     
