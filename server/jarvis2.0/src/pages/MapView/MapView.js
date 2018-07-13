@@ -30,37 +30,52 @@ class MapView extends Component {
     this.state = {
       markers: [[51.505, -0.09], [51.505, -0.08], [51.505, -0.07]],
       popups: "Cool hospital info",
-      center: []
+      center: [],
+      results: []
     };
   }
 
   componentDidMount() {
     this.locateUser();
+    this.locateNear();
   }
 
   locateUser = () => {
     API.locateUser()
-      .then(res =>
-        console.log(
-          "THE USER HAS BEEN LOCATED FROM THE MAPVIEW.JS from the locate user method"
-        )
-      )
-      .catch(err => console.log(err));
-  };
-
-  locateNear = lnglat => {
-    API.locateNear(lnglat)
       .then(res => {
         console.log(
-          "THE USER HAS BEEN LOCATED FROM THE MAPVIEW.JS from the locateNear method"
+          "THE USER HAS BEEN LOCATED FROM THE MAPVIEW.JS from the locate user method"
         );
         this.setState({
-          markers: [[61.505, -0.09], [61.505, -0.08], [61.505, -0.07]],
-          center: [61.505, -0.09]
+          results: res.data
         });
       })
       .catch(err => console.log(err));
   };
+
+  locateNear = () => {
+    API.locateNear()
+      .then(res => {
+        console.log(
+          "THE USER HAS BEEN LOCATED FROM THE MAPVIEW.JS from the locateNear method"
+        );
+      })
+      .catch(err => console.log(err));
+  };
+
+  // locateNear = lnglat => {
+  //   API.locateNear(lnglat)
+  //     .then(res => {
+  //       console.log(
+  //         "THE USER HAS BEEN LOCATED FROM THE MAPVIEW.JS from the locateNear method"
+  //       );
+  //       this.setState({
+  //         markers: [[61.505, -0.09], [61.505, -0.08], [61.505, -0.07]],
+  //         center: [61.505, -0.09]
+  //       });
+  //     })
+  //     .catch(err => console.log(err));
+  // };
   //handleViewPortChange- TODO
   //handleRadiusSearch-TODO
 
@@ -73,6 +88,7 @@ class MapView extends Component {
     // const { map, layerContainer } = this.props;
     // const { map } = this.leafletElement;
     // const center = map.locate({ setView: true, maxZoom: 16 });
+    console.log("The results from the locateNear search", this.state.results);
     console.log("The results from setState are", this.state.markers);
     console.log("The new coordinates from the map are", this.state.center);
     return (
