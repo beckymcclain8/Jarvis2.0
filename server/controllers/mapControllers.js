@@ -24,11 +24,11 @@ module.exports = {
   },
 
   locateNear: function(req, res) {
-    const resultsNear = [
-      { location: [51.505, -0.09] },
-      { location: [51.505, -0.08] },
-      { location: [51.505, -0.07] }
-    ];
+    // const resultsNear = [
+    //   { location: [51.505, -0.09] },
+    //   { location: [51.505, -0.08] },
+    //   { location: [51.505, -0.07] }
+    // ];
 
     // res.json(resultsNear);
     // console.log("FINDING ALL THE HOSPITALS NEAR YOU");
