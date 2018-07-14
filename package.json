@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "react-redux": "^5.0.7",
-    "react-simple-card": "^1.0.11",
-    "redux": "^4.0.0"
-  }
-}
