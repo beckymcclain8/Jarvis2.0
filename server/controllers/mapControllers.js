@@ -24,34 +24,32 @@ module.exports = {
   },
 
   locateNear: function(req, res) {
-    const resultsNear = [
-      { location: [51.505, -0.09] },
-      { location: [51.505, -0.08] },
-      { location: [51.505, -0.07] }
-    ];
+    // const resultsNear = [
+    //   { location: [51.505, -0.09] },
+    //   { location: [51.505, -0.08] },
+    //   { location: [51.505, -0.07] }
+    // ];
 
-    res.json(resultsNear);
-    console.log("FINDING ALL THE HOSPITALS NEAR YOU");
+    // res.json(resultsNear);
+    // console.log("FINDING ALL THE HOSPITALS NEAR YOU");
 
-    // console.log(req.body);
-    // console.log("The controller is hooked up");
-    // res.send(console.log("Everything is working"));
-    // db.getCollection("new418")
-    //   .find({
-    //     location: {
-    //       $near: {
-    //         $geometry: {
-    //           type: "Point",
-    //           coordinates: [-86.42149916, 34.36320006]
-    //         },
-    //         $minDistance: 1000,
-    //         $maxDistance: 5000
-    //       }
-    //     }
-    //   })
-    //   .then(function(data) {
-    //     console.log(data);
-    //     res.json(data);
-    //   });
+    db.new418
+      .find({
+        location: {
+          $near: {
+            $geometry: {
+              type: "Point",
+              coordinates: [-86.42149916, 34.36320006]
+            },
+            $minDistance: 1000,
+            $maxDistance: 50000
+          }
+        }
+      })
+      .then(function(data) {
+        console.log(data);
+        console.log("FINDING ALL THE HOSPITALS NEAR YOU");
+        res.json(data);
+      });
   }
 };

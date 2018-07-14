@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { createRef, Component } from "react";
 import "../../App.css";
 import "../../index.css";
 import "./MapView.css";
@@ -8,97 +8,90 @@ import Navbar from "../../StaticComponents/Navbar";
 import Header from "../../components/Header";
 import Footer from "../../StaticComponents/Footer";
 import { Map, TileLayer, Marker, Popup } from "react-leaflet";
+import { Switch, Route, Link } from "react-router-dom";
+import LocateControl from "react-leaflet-locate-control";
 
-// class WrappedMarker extends Component {
-//   render() {
-//      //Given by the `Map` component
-//     return (
-//       <Marker
-//         map={map} /* pass down to Marker */
-//         layerContainer={layerContainer} /* pass down to Marker */
-//         position={[51.505, -0.09]} //This will render the lat/long from the geoJSON TODO|
-//         //Test with declaring position as this.props, and then using map() to produce an array of markers on the screen
-//         //Then create route to findAll({}) on a test GeoJSON layer that I load up.
-//       />
-//     );
-//   }
-// }
+const locateOptions = {
+  position: "topright",
+  strings: {
+    title: "Show me where I am, yo!"
+  }
+};
 
-class MapView extends Component {
+class MapLocater extends Component {
   constructor() {
     super();
     this.state = {
-      markers: [[51.505, -0.09], [51.505, -0.08], [51.505, -0.07]],
+      markers: [[39.8333333, -98.585522]],
       popups: "Cool hospital info",
-      center: []
+      center: [39.8333333, -98.585522],
+      lnglat: [],
+      results: [],
+      locateOptions: {
+        position: "topright",
+        strings: {
+          title: "Show me where I am, yo!"
+        }
+
+        // getlonglat:getLatLng()
+      }
     };
   }
 
-  componentDidMount() {
-    this.locateUser();
-  }
-
-  locateUser = () => {
-    API.locateUser()
-      .then(res =>
-        console.log(
-          "THE USER HAS BEEN LOCATED FROM THE MAPVIEW.JS from the locate user method"
-        )
-      )
-      .catch(err => console.log(err));
+  mapRef = createRef();
+  // componentDidMount() {
+  //   // this.locateNear();
+  //   const mapApi = this.leafletElement;
+  //   this.setState({ lnglat: mapApi.getLatLng().reverse() });
+  // }
+  handleClick = () => {
+    this.setState({
+      lnglat: this.mapRef.current.leafletElement.getLatLng().reverse()
+    });
+    console.log("Attempting to get user location");
   };
-
-  locateNear = lnglat => {
-    API.locateNear(lnglat)
-      .then(res => {
-        console.log(
-          "THE USER HAS BEEN LOCATED FROM THE MAPVIEW.JS from the locateNear method"
-        );
-        this.setState({
-          markers: [[61.505, -0.09], [61.505, -0.08], [61.505, -0.07]],
-          center: [61.505, -0.09]
-        });
-      })
-      .catch(err => console.log(err));
+  locateNear = () => {
+    // getLatLng();
+    // this.setState({
+    //   markers: [[39.8333333, -98.485522], [39.8333333, -98.585522]]
+    // });
   };
-  //handleViewPortChange- TODO
-  //handleRadiusSearch-TODO
-
-  // handleUpdateViewport = (map-center, markers)=>{
-  //   clear(markers);
-  //   setState({map-center: new bounding box from viewport)}
-  //   API.radiusSearch(map-center).then(setState({markers: radiusResults});
 
   render() {
-    // const { map, layerContainer } = this.props;
-    // const { map } = this.leafletElement;
-    // const center = map.locate({ setView: true, maxZoom: 16 });
-    console.log("The results from setState are", this.state.markers);
-    console.log("The new coordinates from the map are", this.state.center);
+    console.log("Your current position is: ", this.state.lnglat);
+    return (
+      <Map ref={this.mapRef} id="map" zoom={3}>
+        <LocateControl options={this.state.locateOptions} />
+        <TileLayer
+          attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
+          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        />
+        {this.state.markers.map((position, idx) => (
+          <Marker key={`marker-${idx}`} position={position}>
+            <Popup>
+              <span>
+                {this.state.popups} <br /> Easily customizable.
+              </span>
+            </Popup>
+          </Marker>
+        ))}
+        <Link to={"/map"} />
+      </Map>
+    );
+  }
+}
+
+class MapView extends Component {
+  render() {
     return (
       <div className="container">
         <Navbar />
         <Header />
-        {/* Map will center on the the persons location- TODO */}
-        <Map id="map" center={[51.505, -0.09]} zoom={13}>
-          {/* {map.locate({ setView: true, maxZoom: 16 })} */}
-
-          <TileLayer
-            attribution="&amp;copy <a href=&quot;http://osm.org/copyright&quot;>OpenStreetMap</a> contributors"
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          {/* Take in position as an argument and then map through the state array and called each elements lat/log with the idx operator */}
-          {this.state.markers.map((position, idx) => (
-            <Marker key={`marker-${idx}`} position={position}>
-              <Popup>
-                <span>
-                  {this.state.popups} <br /> Easily customizable.
-                </span>
-              </Popup>
-            </Marker>
-          ))}
-        </Map>
+        <MapLocater />
         <div className="aside">
+          <button className="test" onClick={this.handleClick}>
+            Surgery
+          </button>
           RADIUS HOSPITAL RESULTS OF THE USER GO HERE{" "}
         </div>
         <Footer />
