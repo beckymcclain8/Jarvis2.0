@@ -9,8 +9,6 @@ require("./services/passport");
 
 mongoose.connect(keys.mongoURI);
 
-mongoose.connect(keys.mongoURI2);
-
 const app = express();
 const mapRoutes = require("./search-routes");
 app.use(mapRoutes);
