@@ -3,7 +3,7 @@ const GoogleStrategy = require("passport-google-oauth20").Strategy;
 const keys = require("../config/keys");
 const mongoose = require("mongoose");
 //            creates new instance of googleStrategy
-const User = mongoose.model("users");
+const User = mongoose.model("users"); 
 
 passport.serializeUser((user, done) => {
   done(null, user.id);
