@@ -6,17 +6,24 @@ import "../../index.css";
 
 var cardStyle = {
   width: "25%",
+  display: "inline-block",
+  // gridColumn: "5/7",
+  // gridRow: "2/4"
+  // gridArea: "2/5/4/7",
+  // margin: "5px"
 }
 
 var moreCards = {
-  width: "25%",
-  float: "right"
+  width: "33%",
+  // gridArea: "2/8/10/12",
+  // float: "right",
+  display: "inline-block"
 }
 
-var listGroup = {
-  gridColumn: "5/-1",
-  gridRow: "3/11"
-}
+// var listGroup = {
+//   gridColumn: "5/-1",
+//   gridRow: "2/11"
+// }
 
 // var localResult = {
 //   gridArea: "2/5/3/2"
@@ -28,11 +35,12 @@ var listGroup = {
 
 const Result = props => (
   
- <div className="list-group" style={listGroup} >
+ <div className="list-group" >
+ <div style={cardStyle} id = "localResults">
   {props.localResult.map(result => (
     // <h4>Below is your lowest cost local result:</h4>
-    <div id="localResult" >
-    <Card className={props.className} className="list-group-item" key={result.id} style={cardStyle}>
+    // <div id="localResult" >
+    <Card  key={result.id} >
     <CardHeader>
       <h3> {result.provider_name} </h3>
     </CardHeader>
@@ -47,13 +55,14 @@ const Result = props => (
       <h2> Total Cost: {props.totalCost} </h2>
     </CardBody>
     </Card> 
-    </div>
+    
   ))}
+  </div>
     {/* <h4>Below are lower cost options if you choose to travel:</h4> */}
-    <div >
+    <div id="resultsID">
     {props.moreResults.map(result => (
       
-      <Card  className="list-group-item" key={result.id} style={moreCards}>
+      <Card  className="list-group-item" key={result.id} style={moreCards} >
       <CardHeader>
       <h4>{result.provider_name}</h4>
       </CardHeader>
