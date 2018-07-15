@@ -37,4 +37,18 @@ module.exports = app => {
         });
     });
   });
+
+  app.get("/:current_user", (req, res) => {
+    db.User.find({ googleID: req.params.current_user })
+      // Specify that we want to populate the retrieved users with any associated hospitals
+      .populate("hospitals")
+      .then(function(dbUser) {
+        // If able to successfully find and associate all Hospitals and Current User, send them back to the client
+        res.json(dbUser);
+      })
+      .catch(function(err) {
+        // If an error occurs, send it back to the client
+        res.json(err);
+      });
+  });
 };
