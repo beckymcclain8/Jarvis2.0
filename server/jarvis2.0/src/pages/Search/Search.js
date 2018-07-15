@@ -89,10 +89,6 @@ class Search extends Component {
     API.getDistance(userAddress, hospitalAddress)
       .then(res => this.setState({distance: res.data.distance}))
 
- 
-
-
-
   render() {
     
     return (
@@ -100,7 +96,7 @@ class Search extends Component {
       <Navbar />
       <Header />
 
-      <div className="searchGrid" >
+      {/* <div className="searchGrid" > */}
       <div id="formID">
         <FormInput
           address={this.state.address}
@@ -114,13 +110,13 @@ class Search extends Component {
         />
       </div>
 
-      <div id="resultsID">
+      {/* <div id="resultsID"> */}
         <Result 
           localResult={this.state.localResult}
           moreResults={this.state.moreResults}
         /> 
-      </div>
-      </div>
+      {/* </div> */}
+      {/* </div> */}
         
         
         <Footer />

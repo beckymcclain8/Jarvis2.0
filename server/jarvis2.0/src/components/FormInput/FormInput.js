@@ -7,6 +7,7 @@ const FormInput = props => (
 
 <form className="formInput">
     <table className="form-group">
+    <tbody>
     <tr>
       {/* <td><label htmlFor="address">Address:</label></td> */}
       <td><input
@@ -94,6 +95,7 @@ const FormInput = props => (
         Search
       </button></td>
       </tr>
+      </tbody>
     </table>
   </form>
 );
