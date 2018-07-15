@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Search.css";
-// import "../../components/SearchResultContainer.css";
 import "../../App.css";
 import "../../index.css";
 import Navbar from "../../StaticComponents/Navbar";
@@ -9,8 +8,6 @@ import Footer from "../../StaticComponents/Footer";
 import FormInput from "../../components/FormInput/FormInput";
 import API from "../../../src/utils/API";
 import Result from "../../../../jarvis2.0/src/components/Result"
-
-// import SearchResultContainer from "../../components/SearchResultContainer/SearchResultConatiner";
 
 class Search extends Component {
  
@@ -89,7 +86,7 @@ class Search extends Component {
     API.getDistance(userAddress, hospitalAddress)
       .then(res => this.setState({distance: res.data.distance}))
 
-  render() {
+  render() { 
     
     return (
       <div className="container">

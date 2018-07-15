@@ -4,6 +4,10 @@ import "./Result.css";
 import "../../App.css";
 import "../../index.css"; 
 
+// saveHospital = (result) => {
+
+// }
+
 var cardStyle = {
   width: "25%",
   display: "inline-block",
@@ -71,6 +75,10 @@ const Result = props => (
       <h4> {result.provider_city}, {result.provider_state} {result.provider_zip_code} </h4>
       <h4> Cost of Procedure: {result.average_covered_charges} </h4>
       </CardBody>
+      <CardFooter>
+        <button
+        onclick={this.saveHospital.bind(this)}>Save</button>
+        </CardFooter>
       </Card>
     ))}
     </div>
