@@ -2,7 +2,7 @@ const db = require("../models");
 
 module.exports = app => {
   //route handler
-  app.post("/:current_user", (req, res) => {
+  app.post("/current_user", (req, res) => {
     console.log(req.body);
     //^^Test to see if req.body is the same as below
     const hospital = {
@@ -16,12 +16,12 @@ module.exports = app => {
       average_covered_charges: req.body.average_covered_charges
     };
     console.log.log(hospital);
-
+    // db.Hospital.create(req.body).then(dbHospital => {
     db.Hospital.create(hospital).then(dbHospital => {
       // If a hospital was created successfully, find current User (there's only one) and push the new hospital's _id to the User's `hospitals` array
       // { new: true } return the new user
       return db.User.findOneAndUpdate(
-        { googleID: req.params.current_user },
+        { googleID: req.user.googleID },
         { $push: { hospitals: dbHospital._id } }
         // { new: true }
       )
@@ -38,13 +38,14 @@ module.exports = app => {
     });
   });
 
-  app.get("/:current_user", (req, res) => {
-    db.User.find({ googleID: req.params.current_user })
+  app.get("/current_user", (req, res) => {
+    db.User.find({ googleID: req.user.googleID })
       // Specify that we want to populate the retrieved users with any associated hospitals
       .populate("hospitals")
       .then(function(dbUser) {
         // If able to successfully find and associate all Hospitals and Current User, send them back to the client
         res.json(dbUser);
+        console.log("Here is the user your are returning ", dbUser.googleName);
       })
       .catch(function(err) {
         // If an error occurs, send it back to the client
