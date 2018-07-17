@@ -7,16 +7,15 @@ import Header from "../../components/Header";
 import Footer from "../../StaticComponents/Footer";
 import FormInput from "../../components/FormInput/FormInput";
 import API from "../../../src/utils/API";
-import Result from "../../../../jarvis2.0/src/components/Result"
+import Result from "../../../../jarvis2.0/src/components/Result";
 
 class Search extends Component {
- 
   state = {
     address: "",
     city: "",
     state: "",
     zipCode: "",
-    radius: "", 
+    radius: "",
     procedure: "",
     localZipRadius: [],
     moreZipRadius: [],
@@ -36,22 +35,33 @@ class Search extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
-    this.searchLocalZips(this.state.zipCode, "20")
-    this.searchMoreZips(this.state.zipCode, this.state.radius)
-    console.log(this.state.zipRadius)
-    console.log(this.state.procedure)
-    this.searchLocalHospitals(this.state.localZipRadius)
-    console.log(this.state.lowCost)
-    this.searchMoreHospitals(this.state.moreZipRadius)
+    this.searchLocalZips(this.state.zipCode, "20");
+    this.searchMoreZips(this.state.zipCode, this.state.radius);
+    console.log(this.state.zipRadius);
+    console.log(this.state.procedure);
+    this.searchLocalHospitals(this.state.localZipRadius);
+    console.log(this.state.lowCost);
+    this.searchMoreHospitals(this.state.moreZipRadius);
     this.getDistance();
-    console.log(this.state.distance)
-     };
-  
-  
+    console.log(this.state.distance);
+  };
+
   // componentDidMount() {
   //   this.searchLocalZips(this.state.zipCode, "20");
-    
+
   // }
+  saveHospital = id => {
+    const saveHospital = this.state.moreResults.map(hospital => {
+      // console.log(hospital);
+      if (hospital.provider_id === id) {
+        console.log(
+          "This is the hospital id you clicked on",
+          hospital.provider_id
+        );
+        console.log("This is the hospital that you are saving: ", hospital);
+      }
+    });
+  };
 
   searchLocalZips = (query, radius) => {
     API.getZips(query, radius)
@@ -83,39 +93,39 @@ class Search extends Component {
   };
 
   getDistance = (userAddress, hospitalAddress) =>
-    API.getDistance(userAddress, hospitalAddress)
-      .then(res => this.setState({distance: res.data.distance}))
+    API.getDistance(userAddress, hospitalAddress).then(res =>
+      this.setState({ distance: res.data.distance })
+    );
 
-  render() { 
-    
+  render() {
     return (
       <div className="container">
-      <Navbar />
-      <Header />
+        <Navbar />
+        <Header />
 
-      {/* <div className="searchGrid" > */}
-      <div id="formID">
-        <FormInput
-          address={this.state.address}
-          city={this.state.city}
-          state={this.state.state}
-          zipCode={this.state.zipCode}
-          radius={this.state.radius}
-          procedure={this.state.procedure.value}
-          handleFormSubmit={this.handleFormSubmit.bind(this)}
-          handleInputChange={this.handleInputChange.bind(this)}
-        />
-      </div>
+        {/* <div className="searchGrid" > */}
+        <div id="formID">
+          <FormInput
+            address={this.state.address}
+            city={this.state.city}
+            state={this.state.state}
+            zipCode={this.state.zipCode}
+            radius={this.state.radius}
+            procedure={this.state.procedure.value}
+            handleFormSubmit={this.handleFormSubmit.bind(this)}
+            handleInputChange={this.handleInputChange.bind(this)}
+          />
+        </div>
 
-      {/* <div id="resultsID"> */}
-        <Result 
+        {/* <div id="resultsID"> */}
+        <Result
           localResult={this.state.localResult}
           moreResults={this.state.moreResults}
-        /> 
-      {/* </div> */}
-      {/* </div> */}
-        
-        
+          saveHospital={this.saveHospital}
+        />
+        {/* </div> */}
+        {/* </div> */}
+
         <Footer />
       </div>
     );
