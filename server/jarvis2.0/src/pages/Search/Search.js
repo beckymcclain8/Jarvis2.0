@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import "./Search.css";
 import "../../App.css";
 import "../../index.css";
@@ -59,6 +60,7 @@ class Search extends Component {
           hospital.provider_id
         );
         console.log("This is the hospital that you are saving: ", hospital);
+        console.log("this is the current user ID:" + this.props.auth._id);
       }
     });
   };
@@ -131,4 +133,7 @@ class Search extends Component {
     );
   }
 }
-export default Search;
+function mapStateToProps({ auth }) {
+  return { auth };
+}
+export default connect(mapStateToProps)(Search);
