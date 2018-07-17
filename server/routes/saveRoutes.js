@@ -15,7 +15,7 @@ module.exports = app => {
       procedure: req.body.procedure,
       average_covered_charges: req.body.average_covered_charges
     };
-    console.log.log(hospital);
+    console.log(hospital);
     // db.Hospital.create(req.body).then(dbHospital => {
     db.Hospital.create(hospital).then(dbHospital => {
       // If a hospital was created successfully, find current User (there's only one) and push the new hospital's _id to the User's `hospitals` array
@@ -53,4 +53,3 @@ module.exports = app => {
       });
   });
 };
- 

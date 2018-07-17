@@ -38,29 +38,57 @@ var moreCards = {
 // }
 
 const Result = props => (
-  <div style={cardStyle}>
-    <div className={props.className}>
-      <Card key={props.id}>
-        <CardHeader>
-          <h3> {props.provider_name} </h3>
-        </CardHeader>
-        <CardBody>
-          <h4> {props.provider_street_address} </h4>
-          <h4>
-            {" "}
-            {props.provider_city}, {props.provider_state}{" "}
-            {props.provider_zip_code}{" "}
-          </h4>
-          <h4> Cost of Procedure: ${props.average_covered_charges} </h4>
-          <h4> Driving Cost: ${props.driveCost} </h4>
-          <br />
-          <hr />
-          <h2> Total Cost: {props.totalCost} </h2>
-        </CardBody>
-        <CardFooter>
-          <button onClick={() => props.saveHospital(props.id)}>Save</button>
-        </CardFooter>
-      </Card>
+  <div className="list-group">
+    <div style={cardStyle} id="localResults">
+      {props.localResult.map(result => (
+        // <h4>Below is your lowest cost local result:</h4>
+        // <div id="localResult" >
+        <Card key={result.id}>
+          <CardHeader>
+            <h3> {result.provider_name} </h3>
+          </CardHeader>
+          <CardBody>
+            <h4> {result.provider_street_address} </h4>
+            <h4>
+              {" "}
+              {result.provider_city}, {result.provider_state}{" "}
+              {result.provider_zip_code}{" "}
+            </h4>
+            <h4> Cost of Procedure: ${result.average_covered_charges} </h4>
+            <h4> Driving Cost: ${props.driveCost} </h4>
+            <br />
+            <hr />
+            <h2> Total Cost: {props.totalCost} </h2>
+          </CardBody>
+        </Card>
+      ))}
+    </div>
+    {/* <h4>Below are lower cost options if you choose to travel:</h4> */}
+    <div id="resultsID">
+      {props.moreResults.map(result => (
+        <Card className="list-group-item" key={result.id} style={moreCards}>
+          <CardHeader>
+            <h4>{result.provider_name}</h4>
+          </CardHeader>
+          <CardBody>
+            <h4> {result.provider_street_address} </h4>
+            <h4>
+              {" "}
+              {result.provider_city}, {result.provider_state}{" "}
+              {result.provider_zip_code}{" "}
+            </h4>
+            <h4> Cost of Procedure: {result.average_covered_charges} </h4>
+          </CardBody>
+          <CardFooter>
+            <button
+              onClick={() => props.saveHospital(result.provider_id)}
+              id={result.provider_id}
+            >
+              Save
+            </button>
+          </CardFooter>
+        </Card>
+      ))}
     </div>
   </div>
 );

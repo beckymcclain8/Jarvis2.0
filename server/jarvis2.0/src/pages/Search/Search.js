@@ -51,13 +51,16 @@ class Search extends Component {
 
   // }
   saveHospital = id => {
-    // event.preventDefault();
-    const saveHos = this.state.moreResults.filter(hos => {
-      if (hos.id === id) {
-        console.log(hos);
+    const saveHospital = this.state.moreResults.map(hospital => {
+      // console.log(hospital);
+      if (hospital.provider_id === id) {
+        console.log(
+          "This is the hospital id you clicked on",
+          hospital.provider_id
+        );
+        console.log("This is the hospital that you are saving: ", hospital);
       }
     });
-    console.log(saveHos);
   };
 
   searchLocalZips = (query, radius) => {
@@ -115,40 +118,11 @@ class Search extends Component {
         </div>
 
         {/* <div id="resultsID"> */}
-        <div className="localResults">
-          {this.state.localResult.map(result => {
-            <Result
-              id={result.id}
-              provider_name={result.provider_name}
-              provider_street_address={result.provider_street_address}
-              provider_city={result.provider_city}
-              provider_state={result.provider_state}
-              provider_zip_code={result.provider_zip_code}
-              average_covered_charges={result.average_covered_charges}
-              driveCost={250}
-              totalCost={2500}
-              saveHospital={this.saveHospital}
-              className="localResult"
-            />;
-          })}
-        </div>
-        <div className="list-group">
-          {this.state.moreResults.map(result => {
-            <Result
-              id={result.id}
-              provider_name={result.provider_name}
-              provider_street_address={result.provider_street_address}
-              provider_city={result.provider_city}
-              provider_state={result.provider_state}
-              provider_zip_code={result.provider_zip_code}
-              average_covered_charges={result.average_covered_charges}
-              driveCost={250}
-              totalCost={2500}
-              saveHospital={this.saveHospital}
-              className="resultsID"
-            />;
-          })}
-        </div>
+        <Result
+          localResult={this.state.localResult}
+          moreResults={this.state.moreResults}
+          saveHospital={this.saveHospital}
+        />
         {/* </div> */}
         {/* </div> */}
 
