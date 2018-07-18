@@ -98,7 +98,7 @@ class Search extends Component {
     API.getDistance(userAddress, hospitalAddress).then(res =>
       this.setState({ distance: res.data.distance })
     );
-
+ 
   render() {
     return (
       <div className="container">

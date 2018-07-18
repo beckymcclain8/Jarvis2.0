@@ -45,7 +45,7 @@ class Patient extends Component {
         procedureCost = {"$2300"}
         driveCost = {"$200"}
         totalCost = {"$2500"}
-        // title = {"Save"}
+     
         />        
 
         <Cards

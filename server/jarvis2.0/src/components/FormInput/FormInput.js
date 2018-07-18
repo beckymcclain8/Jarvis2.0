@@ -11,7 +11,7 @@ const FormInput = props => (
     <tr>
       {/* <td><label htmlFor="address">Address:</label></td> */}
       <td><input
-        onChange={props.handleInputChange}
+        onChange={props.handleInputChange} 
         value={props.address}
         name="address"
         type="text"
