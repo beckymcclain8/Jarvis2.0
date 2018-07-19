@@ -67,7 +67,15 @@ export default {
     );
   },
 
-  saveHospital: function() {}
+  saveHospital: function(hospital) {
+    return axios({
+      method: "put",
+      url: "/save_hospital",
+      data: {
+        hospital
+      }
+    });
+  }
 
   // //Map Exports
   // locateUser: function() {
