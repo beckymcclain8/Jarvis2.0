@@ -5,7 +5,7 @@ import "../../index.css";
 
 const Image = props => {
   return (
-    <img src={props.src} className="profile-image" />
+    <img alt="" src={props.src} className="profile-image" />
   ); 
 };  
 

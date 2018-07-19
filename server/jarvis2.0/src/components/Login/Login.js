@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 import "./Login.css";
 import "../../App.css";
 import "../../index.css";
-import Image from "../Image";
+// import Image from "../Image";
 
 class Login extends Component {
 
