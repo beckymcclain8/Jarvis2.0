@@ -16,7 +16,7 @@ require("./services/passport");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-mongoose.connect(keys.mongoURI);
+mongoose.connect(keys.mongoURI, { useNewUrlParser: true });
 
 app.use(
   cookieSession({
