@@ -4,13 +4,13 @@ const passport = require("passport");
 const bodyParser = require("body-parser");
 const cookieSession = require("cookie-session");
 // const saveRoutes = require("./routes/saveRoutes");
-const router = require("express").Router();
+// const router = require("express").Router();
 const keys = require("./config/keys");
 // const path = require("path");
 const app = express();
-const PORT = process.env.PORT || 5000;
+// const PORT = process.env.PORT || 5000;
 
-require("./models/User");
+require("./models");
 require("./services/passport");
 
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -29,12 +29,14 @@ app.use(passport.initialize());
 app.use(passport.session());
 // app.use(express.static("client/build"));
 
+require("./routes/authRoutes")(app);
 // router.use("/save_hospital", saveRoutes);
 
-if (process.env.NODE.ENV === "production") {
+if (process.env.NODE_ENV === "production") {
   //express will serve up production assets
   //like out main.js file, or main.css file
   app.use(express.static("jarvis2.0/build"));
+  console.log("hello");
   //express will serve up the index.html file
   // if it doesn't recognize the route
   const path = require("path");
@@ -43,8 +45,8 @@ if (process.env.NODE.ENV === "production") {
   });
 }
 
-require("./routes/authRoutes")(app);
 
+const PORT = process.env.PORT || 5000;
 app.listen(PORT);
 
 //http://localhost:5000/auth/google
