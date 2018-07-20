@@ -1,4 +1,4 @@
-import axios from "axios";
+// import axios from "axios";
 import * as types from "./actionTypes";
 
 //Setting this up with functions that will return json for markers and recieving markers updates

@@ -1,3 +1,3 @@
 module.exports = {
-  Hospital: require("./hospital")
+  User: require("./User")
 };
