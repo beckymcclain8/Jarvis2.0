@@ -12,7 +12,7 @@ const CardsProvider = props => (
     <CardBody>
       <h3> { props.doctor } </h3>
       <h3> { props.address } </h3>
-      <h3> { props.rating } </h3>
+      <h3> { props.cityState } </h3>
 
     </CardBody>
     {/* <CardFooter>

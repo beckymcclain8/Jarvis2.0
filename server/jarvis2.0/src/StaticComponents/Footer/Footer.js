@@ -2,11 +2,14 @@ import React from "react";
 import "./Footer.css";
 import "../../App.css";
 import "../../index.css";
-// import "./images";
+
+var fontSize = {
+  fontSize: "large",
+}
 
 const Footer = () => {
   return (
-    <footer>
+    <footer style={fontSize}>
       <img
         href="https://github.com/beckymcclain8/Jarvis2.0"
         target="_blank"

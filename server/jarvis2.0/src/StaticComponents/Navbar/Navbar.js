@@ -39,17 +39,6 @@ class Navbar extends Component {
         
         <div
           className={
-            window.location.pathname === "/about"
-              ? "nav-item active"
-              : "nav-item"
-          }
-        >
-          <Link to="/about" className="nav-link">
-            About
-          </Link>
-        </div>
-        <div
-          className={
             window.location.pathname === "/search"
               ? "nav-item active"
               : "nav-item"
@@ -81,6 +70,19 @@ class Navbar extends Component {
             Provider
           </Link>
         </div>
+
+        <div
+          className={
+            window.location.pathname === "/about"
+              ? "nav-item active"
+              : "nav-item"
+          }
+        >
+          <Link to="/about" className="nav-link">
+            About
+          </Link>
+        </div>
+
         {this.renderAuthContent()}
         {/* <div className={
         window.location.pathname === "/logout" ? "nav-item active" : "nav-item"

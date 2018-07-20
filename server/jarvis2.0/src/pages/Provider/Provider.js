@@ -28,33 +28,33 @@ render() {
         <CardsProvider
         className="contactBadge-a"
         genre="Physical Therapy"
-        doctor="Dr. McClain"
+        doctor="Dr. Davis"
         address="123 Get Better Way"
-        rating="Five Stars" 
+        cityState= "Phoenix, AZ 85005"
         />
 
         <CardsProvider
         className="contactBadge-b"
         genre="Cardiology"
-        doctor="Dr. McClain"
-        address="123 Get Better Way"
-        rating="Five Stars" 
+        doctor="Dr. Smith"
+        address="456 Get Better Way"
+        cityState= "Phoenix, AZ 85009"
         />
 
         <CardsProvider
         className="contactBadge-c"
         genre="Orthopedics"
-        doctor="Dr. McClain"
-        address="123 Get Better Way"
-        rating="Five Stars" 
+        doctor="Dr. Brown"
+        address="789 Get Better Way"
+        cityState= "Tempe, AZ 85280"
         />
 
         <CardsProvider
         className="contactBadge-d"
         genre="Massage"
-        doctor="Dr. McClain"
-        address="123 Get Better Way"
-        rating="Five Stars" 
+        doctor="Dr. Johnson"
+        address="101 Get Better Way"
+        cityState= "Scottsdale, AZ 85054"
         />
         
         <Footer />

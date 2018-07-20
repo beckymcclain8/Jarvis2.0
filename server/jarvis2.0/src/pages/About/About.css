@@ -7,26 +7,17 @@
 
 .aboutText {
   padding: 5% 60% 0% 2%;
-
 }
 
 .aboutText h2 {
   color: white;
   padding-top: 5px;
-text-align: center;
 }
 
-.aboutText h1{
+.aboutText h1 {
   color: white;
   padding-bottom: 5px;
-text-align: center;
-font-weight: bolder;
+  text-align: center;
+  font-weight: bolder;
+  font-family: Palanquin Dark, sans-serif;
 }
-/* .container {
-  background-image: url("https://www.istockphoto.com/photo/doctor-with-stethoscope-in-hand-on-hospital-background-gm695337976-128552041");
-} */
-
-/* body {
-  background-image: url("https://static1.squarespace.com/static/5502b54de4b01348a7aec456/t/557a9035e4b0214e9bc915a8/1434095671336/in-store-wellness-hospital.jpg?format=1500w");
-  background-size: cover;
-} */

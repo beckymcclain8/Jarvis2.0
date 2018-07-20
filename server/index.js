@@ -18,7 +18,6 @@ app.use(bodyParser.json());
 
 mongoose.connect(keys.mongoURI);
 
-const app = express();
 
 app.use(
   cookieSession({
@@ -33,6 +32,8 @@ app.use(passport.session());
 
 // router.use("/save_hospital", saveRoutes);
 
+require("./routes/authRoutes")(app);
+
 if (process.env.NODE.ENV === "production") {
   //express will serve up production assets
   //like out main.js file, or main.css file
@@ -45,7 +46,7 @@ if (process.env.NODE.ENV === "production") {
   });
 }
 
-require("./routes/authRoutes")(app);
+
 
 app.listen(PORT);
 
