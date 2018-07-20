@@ -1,5 +1,5 @@
 import React from "react";
-import "../../App.css";
+import "../../App.css"; 
 import "./FormInput.css";
 
 //put form into a table to make labels show up correctly
@@ -70,7 +70,7 @@ const FormInput = props => (
       </tr>
       
         <tr>
-      <td><label htmlFor="procedure">Seclect Your Procedure:</label></td>
+      <td><label htmlFor="procedure">Select Your Procedure:</label></td>
       </tr>
       <tr>
           <td><select value={props.state.value} onChange={props.handleInputChange}>
@@ -95,7 +95,7 @@ const FormInput = props => (
         Search
       </button></td>
       </tr>
-      </tbody>
+      </tbody> 
     </table>
   </form>
 );

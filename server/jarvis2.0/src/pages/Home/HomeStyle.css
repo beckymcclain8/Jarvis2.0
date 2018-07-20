@@ -1,15 +1,15 @@
 
 .login {
-  /* border-style: solid;
-  border-width: thin;
-  border-color: #706e74; */
   margin: 0px 15px 40px 0px; 
   background-color: white;
 }
 
+.header {
+  font-family: Palanquin Dark, sans-serif;
+}
+
 .login h3 {
   color: #4b405f;
-  /* padding-top: 20px; */
   justify-content: center;
 }
 
@@ -32,9 +32,10 @@ a {
 }
 
 p {
-  font-size: medium;
+  font-size: small;
   color: rgb(80, 79, 79);
-  padding: 30px;
+  padding: 15px;
+  text-align: center;
 }
 
 .feature-a,
@@ -42,6 +43,7 @@ p {
 .feature-c, 
 .feature-d {
   background-color: #5c9684;
+  font-family: Palanquin Dark, sans-serif;
   /* margin-top: 10px; */
 }
 
@@ -52,11 +54,13 @@ p {
 
 .car1 {
   color: black;
+  font-family: sans-serif;
 }
 
 .car2 {
   color: black;
   padding-right: 20px 80px;
+  font-family: sans-serif;
 }
 
 /* bootstrap carousel styling*/

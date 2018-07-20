@@ -16,7 +16,9 @@ require("./services/passport");
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+
 mongoose.connect(keys.mongoURI, { useNewUrlParser: true });
+
 
 app.use(
   cookieSession({
@@ -32,7 +34,11 @@ app.use(passport.session());
 require("./routes/authRoutes")(app);
 // router.use("/save_hospital", saveRoutes);
 
-if (process.env.NODE_ENV === "production") {
+
+require("./routes/authRoutes")(app);
+
+if (process.env.NODE.ENV === "production") {
+
   //express will serve up production assets
   //like out main.js file, or main.css file
   app.use(express.static("jarvis2.0/build"));
@@ -44,7 +50,6 @@ if (process.env.NODE_ENV === "production") {
     res.sendFile(path.resolve(__dirname, "jarvis2.0", "build", "index.html"));
   });
 }
-
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT);

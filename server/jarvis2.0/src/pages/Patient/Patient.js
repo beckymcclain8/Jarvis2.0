@@ -27,7 +27,7 @@ class Patient extends Component {
         <Navbar />
         <Header />
         <h1 id="fav">Your Favorites</h1>
-        <h1 id="greeting">Hello!</h1>
+        {/* <h1 id="greeting">Hello!</h1> */}
         <Calendar
           onChange={this.onChange}
           value={this.state.date}

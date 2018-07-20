@@ -9,6 +9,7 @@ import Footer from "../../StaticComponents/Footer";
 import FormInput from "../../components/FormInput/FormInput";
 import API from "../../../src/utils/API";
 import Result from "../../../../jarvis2.0/src/components/Result";
+import Testimonial from "../../components/Testimonial";
 import axios from "axios";
 
 class Search extends Component {
@@ -37,6 +38,7 @@ class Search extends Component {
 
   handleFormSubmit = event => {
     event.preventDefault();
+
     this.searchLocalZips(this.state.zipCode, "20");
     this.searchMoreZips(this.state.zipCode, this.state.radius);
     console.log(this.state.zipRadius);
@@ -95,12 +97,19 @@ class Search extends Component {
       this.setState({ distance: res.data.distance })
     );
 
+
+
   render() {
     return (
       <div className="container">
         <Navbar />
         <Header />
-        <div className="searchGrid">
+        {/* <div className="backgroundPic"> */}
+        <Testimonial
+          className="testimonialHome"
+          id="instructions"
+          testimonial="Fill in your information to find the lowest cost hospital options."
+        />
           <div id="formID">
             <FormInput
               address={this.state.address}
@@ -122,7 +131,7 @@ class Search extends Component {
           />
           </div>
 
-        </div>
+        {/* </div> */}
         <Footer />
       </div>
     );

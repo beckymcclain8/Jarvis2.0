@@ -1,19 +1,13 @@
 #formID {
   grid-column: 1/5;
-  grid-row: 4/7;
-  /* border-radius: 8px; */
-  /* background-color: white; */
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19); */
+  grid-row: 3/7;
+  font-family: Palanquin Dark, sans-serif;
 }
 
 #resultsID,
-.list-group, 
 .flex-container {
   grid-column: 5/-1; 
-  grid-row: 2/9;
-  /* border-radius: 8px; */
-  /* background-color: #5c9684; */
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(116, 12, 12, 0.19); */
+  grid-row: 3/9;
 }
 
 .flex-container {
@@ -25,6 +19,13 @@
   width: 25%;
   /* height: auto; */
   margin: 5px;
+}
+
+#instructions {
+  /* padding-top: 20px; */
+  color: #4b405f;
+  text-shadow: 1px 1px rgb(179, 167, 167);
+  font-family: Palanquin Dark, sans-serif;
 }
 
 button,
@@ -44,11 +45,11 @@ label {
   font-size: 150%;
 }
 
-.searchGrid {
+ /* .backgroundPic {
   grid-column: 1/-1;
   grid-row: 2/10;
   background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/hospital-management-system-background-2.png");
   background-size: cover;
-}
+}  */
 
 
