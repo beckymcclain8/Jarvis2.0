@@ -8,7 +8,7 @@ const Cards = props => (
   <Card className={props.className}>
     <CardHeader>
       <h2> {props.hospital} </h2>
-    </CardHeader>
+    </CardHeader> 
     <CardBody>
       <h3> {props.city} </h3>
       <h4> Distance: {props.distance} </h4>

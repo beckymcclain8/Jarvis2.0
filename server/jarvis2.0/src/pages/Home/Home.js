@@ -74,9 +74,9 @@ class Home extends Component {
 
         <Feature
           className="feature-d"
-          src={"https://d30y9cdsu7xlg0.cloudfront.net/png/565973-200.png"}
-          title={"Cost Map"}
-          link={"/map"}
+          src={"https://cdn4.iconfinder.com/data/icons/eldorado-mobile/40/info_2-512.png"}
+          title={"About JARVIS"}
+          link={"/about"}
         />
 
         <Footer />

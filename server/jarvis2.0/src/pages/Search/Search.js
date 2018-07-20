@@ -9,6 +9,7 @@ import Footer from "../../StaticComponents/Footer";
 import FormInput from "../../components/FormInput/FormInput";
 import API from "../../../src/utils/API";
 import Result from "../../../../jarvis2.0/src/components/Result";
+import axios from "axios";
 
 class Search extends Component {
   state = {
@@ -52,15 +53,10 @@ class Search extends Component {
 
   // }
   saveHospital = id => {
-    const saveHospital = this.state.moreResults.map(hospital => {
-      // console.log(hospital);
+    this.state.moreResults.map(hospital => {
+      console.log("this is the current user ID:" + this.props.auth._id);
       if (hospital.provider_id === id) {
-        console.log(
-          "This is the hospital id you clicked on",
-          hospital.provider_id
-        );
-        console.log("This is the hospital that you are saving: ", hospital);
-        console.log("this is the current user ID:" + this.props.auth._id);
+        API.saveHospital(hospital).then(res => console.log(res));
       }
     });
   };
@@ -98,36 +94,35 @@ class Search extends Component {
     API.getDistance(userAddress, hospitalAddress).then(res =>
       this.setState({ distance: res.data.distance })
     );
- 
+
   render() {
     return (
       <div className="container">
         <Navbar />
         <Header />
+        <div className="searchGrid">
+          <div id="formID">
+            <FormInput
+              address={this.state.address}
+              city={this.state.city}
+              state={this.state.state}
+              zipCode={this.state.zipCode}
+              radius={this.state.radius}
+              procedure={this.state.procedure.value}
+              handleFormSubmit={this.handleFormSubmit.bind(this)}
+              handleInputChange={this.handleInputChange.bind(this)}
+            />
+          </div>
 
-        {/* <div className="searchGrid" > */}
-        <div id="formID">
-          <FormInput
-            address={this.state.address}
-            city={this.state.city}
-            state={this.state.state}
-            zipCode={this.state.zipCode}
-            radius={this.state.radius}
-            procedure={this.state.procedure.value}
-            handleFormSubmit={this.handleFormSubmit.bind(this)}
-            handleInputChange={this.handleInputChange.bind(this)}
+          <div id="resultsID">
+          <Result
+            localResult={this.state.localResult}
+            moreResults={this.state.moreResults}
+            saveHospital={this.saveHospital}
           />
+          </div>
+
         </div>
-
-        {/* <div id="resultsID"> */}
-        <Result
-          localResult={this.state.localResult}
-          moreResults={this.state.moreResults}
-          saveHospital={this.saveHospital}
-        />
-        {/* </div> */}
-        {/* </div> */}
-
         <Footer />
       </div>
     );

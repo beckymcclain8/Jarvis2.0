@@ -10,9 +10,7 @@ require("./services/passport");
 mongoose.connect(keys.mongoURI);
 
 const app = express();
-const mapRoutes = require("./search-routes");
-app.use(mapRoutes);
-// require("./models/Markers");
+
 app.use(
   cookieSession({
     maxAge: 30 * 24 * 60 * 60 * 1000,
