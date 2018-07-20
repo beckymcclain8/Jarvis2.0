@@ -94,36 +94,35 @@ class Search extends Component {
     API.getDistance(userAddress, hospitalAddress).then(res =>
       this.setState({ distance: res.data.distance })
     );
- 
+
   render() {
     return (
       <div className="container">
         <Navbar />
         <Header />
+        <div className="searchGrid">
+          <div id="formID">
+            <FormInput
+              address={this.state.address}
+              city={this.state.city}
+              state={this.state.state}
+              zipCode={this.state.zipCode}
+              radius={this.state.radius}
+              procedure={this.state.procedure.value}
+              handleFormSubmit={this.handleFormSubmit.bind(this)}
+              handleInputChange={this.handleInputChange.bind(this)}
+            />
+          </div>
 
-        {/* <div className="searchGrid" > */}
-        <div id="formID">
-          <FormInput
-            address={this.state.address}
-            city={this.state.city}
-            state={this.state.state}
-            zipCode={this.state.zipCode}
-            radius={this.state.radius}
-            procedure={this.state.procedure.value}
-            handleFormSubmit={this.handleFormSubmit.bind(this)}
-            handleInputChange={this.handleInputChange.bind(this)}
+          <div id="resultsID">
+          <Result
+            localResult={this.state.localResult}
+            moreResults={this.state.moreResults}
+            saveHospital={this.saveHospital}
           />
+          </div>
+
         </div>
-
-        {/* <div id="resultsID"> */}
-        <Result
-          localResult={this.state.localResult}
-          moreResults={this.state.moreResults}
-          saveHospital={this.saveHospital}
-        />
-        {/* </div> */}
-        {/* </div> */}
-
         <Footer />
       </div>
     );

@@ -1,36 +1,32 @@
-/* body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  overflow: hidden;
-}
-
-.container {
-  display: grid;
-  grid-gap: 3px;
-
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-}
-
-.navbar {
-  grid-column: 5/-1;
-  grid-row: 1/2;
-}
-
-.header {
-  grid-column: 1/5;
-  grid-row: 1/2;
-}
-
-.carousel-about {
-  grid-column: 1 / 9;
-  grid-row: 2 / 9;
-}
-
-footer {
+.about {
   grid-column: 1/-1;
-  grid-row: 9/10;
+  grid-row: 2/10;
+  background-image: url("http://www.trapx.com/wp-content/uploads/2015/07/hospital-background.jpg");
+  background-size: cover;
+}
+
+.aboutText {
+  padding: 5% 60% 0% 2%;
+
+}
+
+.aboutText h2 {
+  color: white;
+  padding-top: 5px;
+text-align: center;
+}
+
+.aboutText h1{
+  color: white;
+  padding-bottom: 5px;
+text-align: center;
+font-weight: bolder;
+}
+/* .container {
+  background-image: url("https://www.istockphoto.com/photo/doctor-with-stethoscope-in-hand-on-hospital-background-gm695337976-128552041");
 } */
 
-
+/* body {
+  background-image: url("https://static1.squarespace.com/static/5502b54de4b01348a7aec456/t/557a9035e4b0214e9bc915a8/1434095671336/in-store-wellness-hospital.jpg?format=1500w");
+  background-size: cover;
+} */

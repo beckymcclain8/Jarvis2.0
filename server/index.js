@@ -18,6 +18,8 @@ app.use(bodyParser.json());
 
 mongoose.connect(keys.mongoURI, { useNewUrlParser: true });
 
+const app = express();
+
 app.use(
   cookieSession({
     maxAge: 30 * 24 * 60 * 60 * 1000,
