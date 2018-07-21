@@ -13,12 +13,12 @@ module.exports = app => {
       .catch(err => console.log(err));
   });
 
-  app.post("/api/save_hospital", (req, res) => {
+  app.get("/api/delete_hospital", (req, res) => {
     console.log(req.user);
     console.log(req.body);
     db.User.findOneAndUpdate(
       { _id: req.user },
-      { $pull: { hospitals: { provider_id: req.body.provider_id } } },
+      { $pull: { hospitals: req.body.hospital } },
       { multi: true }
     )
       .then(res => console.log("You have deleted the hospital"))
