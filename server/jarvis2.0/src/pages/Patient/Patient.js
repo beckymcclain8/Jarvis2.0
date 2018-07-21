@@ -11,13 +11,36 @@ import Footer from "../../StaticComponents/Footer";
 import StarVote from "../../components/StarVotes";
 import API from "../../../src/utils/API";
 import PatientResult from "../../../../jarvis2.0/src/components/PatientResult";
+import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
 
 class Patient extends Component {
-  state = {
-    date: new Date(),
-    results: [],
-    driveCost: 0
-  };
+  constructor() {
+    super();
+
+    this.state = {
+      date: new Date(),
+      results: [],
+      driveCost: 0
+    };
+  }
+
+  // state = {
+
+  // };
+
+  componentDidMount() {
+    API.getHospitals()
+      .then(res => {
+        console.log(res);
+        this.setState({ results: res.data[0].hospitals });
+      })
+      .catch(err =>
+        console.log(
+          "There was an error trying to get the current users saved hospitals: ",
+          err
+        )
+      );
+  }
 
   matches = () => {
     //go to /search page
@@ -79,6 +102,13 @@ class Patient extends Component {
             deleteHospital={this.deleteHospital}
             revealTotalCost={this.revealTotalCost}
           />
+          {/* {this.state.results.map(result => {
+            <Card key={result.id}>
+              <CardHeader>
+                <h4> {result.provider_name} </h4>
+              </CardHeader>
+            </Card>;
+          })} */}
         </div>
         <Footer />
       </div>

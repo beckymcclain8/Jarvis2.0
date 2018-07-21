@@ -13,27 +13,27 @@ module.exports = app => {
       .catch(err => console.log(err));
   });
 
-  app.get("/api/save_hospital", (req, res) => {
-    console.log(req.user);
-    db.User.find({ _id: req.user })
-      .then(dbUser => res.json(dbUser))
-      .catch(err => console.log(err));
-  });
+  // app.get("/api/save_hospital", (req, res) => {
+  //   console.log(req.user);
+  //   db.User.find({ _id: req.user })
+  //     .then(dbUser => res.json(dbUser))
+  //     .catch(err => console.log(err));
+  // });
 
-// Retrieve data from the db
-app.get("/api/save_hospital", function(req, res) {
-  // Find all results from the scrapedData collection in the db
-  db.User.find({ _id: req.user }, function(error, found) {
-    // Throw any errors to the console
-    if (error) {
-      console.log(error);
-    }
-    // If there are no errors, send the data to the browser as json
-    else {
-      res.json(found);
-    }
+  // Retrieve data from the db
+  app.get("/api/save_hospital", function(req, res) {
+    // Find all results from the scrapedData collection in the db
+    db.User.find({ _id: req.user }, function(error, found) {
+      // Throw any errors to the console
+      if (error) {
+        console.log(error);
+      }
+      // If there are no errors, send the data to the browser as json
+      else {
+        res.json(found);
+      }
+    });
   });
-});
 };
 
 // module.exports = app => {
