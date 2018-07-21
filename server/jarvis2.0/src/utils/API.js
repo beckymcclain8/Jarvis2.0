@@ -79,10 +79,10 @@ export default {
 
   deleteHospital: function(hospital) {
     return axios({
-      method: "UPDATE",
-      url: "/api/save_hospital",
+      method: "GET",
+      url: "/api/delete_hospital",
       data: {
-        provider_id
+        hospital
       }
     });
   },
