@@ -1,6 +1,5 @@
 import React from "react";
-import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
-import SubmitBtn from "../SubmitBtn";
+import { Card, CardHeader, CardBody } from "react-simple-card";
 import "../../App.css";
 import "../../index.css";
 
@@ -15,9 +14,6 @@ const CardsProvider = props => (
       <h3> { props.cityState } </h3>
 
     </CardBody>
-    {/* <CardFooter>
-        Save Button
-    </CardFooter> */}
   </Card>
 );
 

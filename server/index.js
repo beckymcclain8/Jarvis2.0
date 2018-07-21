@@ -34,8 +34,10 @@ app.use(passport.session());
 // require("./routes/authRoutes")(app);
 // router.use("/save_hospital", saveRoutes);
 
+
 require("./routes/saveRoutes")(app);
 require("./routes/authRoutes")(app);
+
 
 if (process.env.NODE.ENV === "production") {
 
