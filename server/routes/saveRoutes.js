@@ -18,7 +18,7 @@ module.exports = app => {
     console.log(req.body);
     db.User.findOneAndUpdate(
       { _id: req.user },
-      { $pull: { hospitals: "Provider id here" } },
+      { $pull: { hospitals: { provider_id: req.body.provider_id } } },
       { multi: true }
     )
       .then(res => console.log("You have deleted the hospital"))

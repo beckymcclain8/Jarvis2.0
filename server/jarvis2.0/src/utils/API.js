@@ -82,7 +82,7 @@ export default {
       method: "UPDATE",
       url: "/api/save_hospital",
       data: {
-        provideridgoeshere
+        provider_id
       }
     });
   },
