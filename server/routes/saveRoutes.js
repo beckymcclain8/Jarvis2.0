@@ -2,7 +2,7 @@ const db = require("../models");
 
 module.exports = app => {
   app.post("/api/save_hospital", (req, res) => {
-    console.log(req.user);
+    // console.log(req.user);
     console.log(req.body);
     db.User.findOneAndUpdate(
       { _id: req.user },
@@ -13,12 +13,15 @@ module.exports = app => {
       .catch(err => console.log(err));
   });
 
-  app.get("/api/delete_hospital", (req, res) => {
-    console.log(req.user);
+
+
+  app.post("/api/delete_hospital", (req, res) => {
+    // console.log(req.user);
+
     console.log(req.body);
     db.User.findOneAndUpdate(
       { _id: req.user },
-      { $pull: { hospitals: req.body.hospital } },
+      { $pull: { hospitals: req.body.hospital }},
       { multi: true }
     )
       .then(res => console.log("You have deleted the hospital"))

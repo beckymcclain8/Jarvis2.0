@@ -5,7 +5,7 @@ import "../../App.css";
 import "../../index.css";
 
 const PatientResult = props => (
-  <div className="list-group" className="flex-container">
+  <div className="list-group flex-container">
     {props.results.map(result => (
       // <h4>Below is your lowest cost local result:</h4>
       <div>
