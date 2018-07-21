@@ -25,7 +25,6 @@ class Patient extends Component {
       name: "",
 
       distance: 0
-
     };
   }
 
@@ -55,22 +54,20 @@ class Patient extends Component {
     return console.log("See some matches");
   };
 
-
-//im not sure where to put this function. 
- getDistance = () => {
-    API.getDistance((result.provider_street_address + " " + result.provider_zip_code), 
-    (props.address+ " " + props.zipCode))
-    .then( res => {this.setState({ distance: res.data.route.distance})}
-    )
-  }
+  //im not sure where to put this function.
+  //  getDistance = () => {
+  //     API.getDistance((result.provider_street_address + " " + result.provider_zip_code),
+  //     (props.address+ " " + props.zipCode))
+  //     .then( res => {this.setState({ distance: res.data.route.distance})}
+  //     )
+  //   }
 
   revealTotalCost = () => {
-    const totalCost = ((this.distance * .545) * 2).toFixed(2)
+    const totalCost = (this.distance * 0.545 * 2).toFixed(2);
     console.log(totalCost);
-    this.setState({ driveCost: totalCost})
+    this.setState({ driveCost: totalCost });
     return console.log("here is your drive cost", this.state.driveCost);
-  }
-
+  };
 
   getHospitals = () => {
     console.log("Getting hospitals...");
@@ -89,7 +86,6 @@ class Patient extends Component {
         )
       );
   };
-
 
   deleteHospital = id => {
     this.state.results.map(hospital => {
