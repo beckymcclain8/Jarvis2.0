@@ -33,7 +33,7 @@ export default {
     );
   },
 
-  getLocalHospitals: function(zipRadius) { 
+  getLocalHospitals: function(zipRadius) {
     return axios.get(
       CMSBASEURL +
         " in(" +
@@ -74,6 +74,13 @@ export default {
       data: {
         hospital
       }
+    });
+  },
+
+  getHospitals: function() {
+    return axios({
+      method: "GET",
+      url: "/api/save_hospital"
     });
   }
 
