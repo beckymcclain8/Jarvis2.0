@@ -14,7 +14,7 @@ const PatientResult = props => (
             <h4> {result.provider_name} </h4>
           </CardHeader>
           <CardBody>
-            {/* <h4> {result.provider_street_address} </h4> */}
+            <h4> {result.provider_street_address} </h4>
             <h5>
               {" "}
               {result.provider_city}, {result.provider_state}{" "}

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { connect } from "react-redux";
 import Calendar from "react-calendar";
 import "./Patient.css";
 import "./PatientStyle.css";
@@ -11,7 +12,6 @@ import Footer from "../../StaticComponents/Footer";
 import StarVote from "../../components/StarVotes";
 import API from "../../../src/utils/API";
 import PatientResult from "../../../../jarvis2.0/src/components/PatientResult";
-import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
 
 class Patient extends Component {
   constructor() {
@@ -20,7 +20,8 @@ class Patient extends Component {
     this.state = {
       date: new Date(),
       results: [],
-      driveCost: 0
+      driveCost: 0,
+      name: ""
     };
   }
 
@@ -32,7 +33,10 @@ class Patient extends Component {
     API.getHospitals()
       .then(res => {
         console.log(res);
-        this.setState({ results: res.data[0].hospitals });
+        this.setState({
+          results: res.data[0].hospitals,
+          name: res.data[0].googleName
+        });
       })
       .catch(err =>
         console.log(
@@ -56,7 +60,10 @@ class Patient extends Component {
     API.getHospital()
       .then(res => {
         console.log(res);
-        this.setState({ results: res.data.hospitals });
+        this.setState({
+          results: res.data[0].hospitals,
+          name: res.data[0].googleName
+        });
       })
       .catch(err =>
         console.log(
@@ -93,22 +100,17 @@ class Patient extends Component {
         <Navbar />
         <Header />
         <h1 id="fav">Your Favorites</h1>
-        {/* <h1 id="greeting">Hello!</h1> */}
+        <h1 id="greeting">
+          Welcome Back {this.state.name.split(" ").shift()} !
+        </h1>
         <Calendar onChange={this.onChange} value={this.state.date} />
         <StarVote className={"starVote"} />
-        <div id="resultsID">
+        <div id="patientResultsID">
           <PatientResult
             results={this.state.results}
             deleteHospital={this.deleteHospital}
             revealTotalCost={this.revealTotalCost}
           />
-          {/* {this.state.results.map(result => {
-            <Card key={result.id}>
-              <CardHeader>
-                <h4> {result.provider_name} </h4>
-              </CardHeader>
-            </Card>;
-          })} */}
         </div>
         <Footer />
       </div>
@@ -116,4 +118,7 @@ class Patient extends Component {
   }
 }
 
-export default Patient;
+function mapStateToProps({ auth }) {
+  return { auth };
+}
+export default connect(mapStateToProps)(Patient);
