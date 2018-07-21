@@ -1,6 +1,5 @@
 import React from "react";
-import { Card, CardHeader, CardBody, CardFooter } from "react-simple-card";
-import SubmitBtn from "../SubmitBtn";
+import { Card, CardHeader, CardBody } from "react-simple-card";
 import "../../App.css";
 import "../../index.css";
 
@@ -18,9 +17,6 @@ const Cards = props => (
       <hr />
       <h2 id="totalCost"> Total Cost: {props.totalCost} </h2>
     </CardBody>
-    {/* <CardFooter>
-      Save Button
-    </CardFooter> */} 
   </Card>
 );
 
