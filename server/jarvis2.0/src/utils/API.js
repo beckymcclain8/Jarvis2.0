@@ -52,19 +52,7 @@ export default {
   },
 
   getDistance: function(userAddress, hospitalAddress) {
-    return axios(
-      CORS +
-        MQURL +
-        MQAPIKey +
-        "&from=3322 E Mariposa St Phoenix AZ 85018&to=2528 E Campbell Ave Phoenix AZ 85016)",
-      {
-        method: "GET",
-        headers: {
-          "x-requested-with": "whatevs",
-          "Content-Type": "application/json"
-        }
-      }
-    );
+    return axios.get(MQURL + MQAPIKey +"&from="+userAddress+"&to="+hospitalAddress)
   },
 
   saveHospital: function(hospital) {
