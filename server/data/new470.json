@@ -1,4 +1,4 @@
-{
+[{
   "type": "Feature",
   "location": {
     "type": "Point",
@@ -63249,3 +63249,4 @@
     "averagemedicarepayments": 19961.33
   }
 }
+]
