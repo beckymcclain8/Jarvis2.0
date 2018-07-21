@@ -1,7 +1,7 @@
-// const db = require("../models");
+const db = require("../models");
 
 module.exports = app => {
-  app.put("/saved_hospital", (req, res) => {
+  app.post("/api/save_hospital", (req, res) => {
     console.log(req.user);
     console.log(req.body);
     db.User.findOneAndUpdate(

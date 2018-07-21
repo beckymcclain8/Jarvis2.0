@@ -69,8 +69,8 @@ export default {
 
   saveHospital: function(hospital) {
     return axios({
-      method: "put",
-      url: "/save_hospital",
+      method: "POST",
+      url: "/api/save_hospital",
       data: {
         hospital
       }
