@@ -77,6 +77,16 @@ export default {
     });
   },
 
+  deleteHospital: function(hospital) {
+    return axios({
+      method: "GET",
+      url: "/api/delete_hospital",
+      data: {
+        hospital
+      }
+    });
+  },
+
   getHospitals: function() {
     return axios({
       method: "GET",

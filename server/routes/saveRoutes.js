@@ -13,12 +13,20 @@ module.exports = app => {
       .catch(err => console.log(err));
   });
 
-  // app.get("/api/save_hospital", (req, res) => {
-  //   console.log(req.user);
-  //   db.User.find({ _id: req.user })
-  //     .then(dbUser => res.json(dbUser))
-  //     .catch(err => console.log(err));
-  // });
+
+  app.get("/api/delete_hospital", (req, res) => {
+    console.log(req.user);
+    console.log(req.body);
+    db.User.findOneAndUpdate(
+      { _id: req.user },
+      { $pull: { hospitals: req.body.hospital } },
+      { multi: true }
+    )
+      .then(res => console.log("You have deleted the hospital"))
+      .catch(err => console.log(err));
+  });
+
+ 
 
   // Retrieve data from the db
   app.get("/api/save_hospital", function(req, res) {
