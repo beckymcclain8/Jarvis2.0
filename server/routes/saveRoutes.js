@@ -5,7 +5,7 @@ module.exports = app => {
     console.log(req.user);
     console.log(req.body);
     db.User.findOneAndUpdate(
-      { _id: { $oid: req.user } },
+      { _id: req.user },
       { $addToSet: { hospitals: req.body.hospital } },
       { new: true }
     ).then(res => console.log("You have saved the article"));
