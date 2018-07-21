@@ -56,7 +56,9 @@ class Search extends Component {
   // }
   saveHospital = id => {
     this.state.moreResults.map(hospital => {
-      console.log("this is the current user ID:" + this.props.auth._id);
+      console.log(
+        "this is the current user ID:" + JSON.stringify(this.props.auth)
+      );
       if (hospital.provider_id === id) {
         API.saveHospital(hospital).then(res => console.log(res));
       }
@@ -97,8 +99,6 @@ class Search extends Component {
       this.setState({ distance: res.data.distance })
     );
 
-
-
   render() {
     return (
       <div className="container">
@@ -110,26 +110,26 @@ class Search extends Component {
           id="instructions"
           testimonial="Fill in your information to find the lowest cost hospital options."
         />
-          <div id="formID">
-            <FormInput
-              address={this.state.address}
-              city={this.state.city}
-              state={this.state.state}
-              zipCode={this.state.zipCode}
-              radius={this.state.radius}
-              procedure={this.state.procedure.value}
-              handleFormSubmit={this.handleFormSubmit.bind(this)}
-              handleInputChange={this.handleInputChange.bind(this)}
-            />
-          </div>
+        <div id="formID">
+          <FormInput
+            address={this.state.address}
+            city={this.state.city}
+            state={this.state.state}
+            zipCode={this.state.zipCode}
+            radius={this.state.radius}
+            procedure={this.state.procedure.value}
+            handleFormSubmit={this.handleFormSubmit.bind(this)}
+            handleInputChange={this.handleInputChange.bind(this)}
+          />
+        </div>
 
-          <div id="resultsID">
+        <div id="resultsID">
           <Result
             localResult={this.state.localResult}
             moreResults={this.state.moreResults}
             saveHospital={this.saveHospital}
           />
-          </div>
+        </div>
 
         {/* </div> */}
         <Footer />
