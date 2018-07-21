@@ -10,6 +10,21 @@ module.exports = app => {
       { new: true }
     ).then(res => console.log("You have saved the article"));
   });
+
+// Retrieve data from the db
+app.get("/api/save_hospital", function(req, res) {
+  // Find all results from the scrapedData collection in the db
+  db.User.find({ _id: req.user }, function(error, found) {
+    // Throw any errors to the console
+    if (error) {
+      console.log(error);
+    }
+    // If there are no errors, send the data to the browser as json
+    else {
+      res.json(found);
+    }
+  });
+});
 };
 
 // module.exports = app => {
