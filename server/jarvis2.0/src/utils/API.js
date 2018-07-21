@@ -77,6 +77,16 @@ export default {
     });
   },
 
+  deleteHospital: function(hospital) {
+    return axios({
+      method: "UPDATE",
+      url: "/api/save_hospital",
+      data: {
+        provideridgoeshere
+      }
+    });
+  },
+
   getHospitals: function() {
     return axios({
       method: "GET",
