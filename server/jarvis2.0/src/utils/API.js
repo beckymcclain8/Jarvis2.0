@@ -67,7 +67,7 @@ export default {
 
   deleteHospital: function(hospital) {
     return axios({
-      method: "GET",
+      method: "POST",
       url: "/api/delete_hospital",
       data: {
         hospital

@@ -80,6 +80,7 @@ class Patient extends Component {
       );
   };
 
+
   deleteHospital = id => {
     this.state.results.map(hospital => {
       console.log(
