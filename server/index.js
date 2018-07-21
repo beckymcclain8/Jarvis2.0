@@ -31,10 +31,10 @@ app.use(passport.initialize());
 app.use(passport.session());
 // app.use(express.static("client/build"));
 
-require("./routes/authRoutes")(app);
+// require("./routes/authRoutes")(app);
 // router.use("/save_hospital", saveRoutes);
 
-
+require("./routes/saveRoutes")(app);
 require("./routes/authRoutes")(app);
 
 if (process.env.NODE.ENV === "production") {
