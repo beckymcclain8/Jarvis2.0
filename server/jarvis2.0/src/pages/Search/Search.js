@@ -10,7 +10,6 @@ import FormInput from "../../components/FormInput/FormInput";
 import API from "../../../src/utils/API";
 import Result from "../../../../jarvis2.0/src/components/Result";
 import Testimonial from "../../components/Testimonial";
-import axios from "axios";
 
 class Search extends Component {
   state = {

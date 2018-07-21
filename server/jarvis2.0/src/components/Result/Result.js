@@ -5,12 +5,11 @@ import "../../App.css";
 import "../../index.css";
 
 const Result = props => (
-  <div className="list-group" className= "flex-container" >
-
-      {props.localResult.map(result => (
-        // <h4>Below is your lowest cost local result:</h4>
-        <div>
-        <Card key={result.id} >
+  <div className="list-group" className="flex-container">
+    {props.localResult.map(result => (
+      // <h4>Below is your lowest cost local result:</h4>
+      <div>
+        <Card key={result.id}>
           <CardHeader>
             <h4> {result.provider_name} </h4>
           </CardHeader>
@@ -36,14 +35,14 @@ const Result = props => (
             </button>
           </CardFooter>
         </Card>
-        </div>
-      ))}
- 
+      </div>
+    ))}
+
     {/* <h4>Below are lower cost options if you choose to travel:</h4> */}
 
-      {props.moreResults.map(result => (
-        <div>
-        <Card className="list-group-item" key={result.id} >
+    {props.moreResults.map(result => (
+      <div>
+        <Card className="list-group-item" key={result.id}>
           <CardHeader>
             <h4>{result.provider_name}</h4>
           </CardHeader>
@@ -69,9 +68,9 @@ const Result = props => (
             </button>
           </CardFooter>
         </Card>
-        </div>
-      ))}
-    </div>
+      </div>
+    ))}
+  </div>
 );
 
 export default Result;
