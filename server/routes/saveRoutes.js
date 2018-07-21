@@ -8,7 +8,16 @@ module.exports = app => {
       { _id: req.user },
       { $addToSet: { hospitals: req.body.hospital } },
       { new: true }
-    ).then(res => console.log("You have saved the article"));
+    )
+      .then(res => console.log("You have saved the article"))
+      .catch(err => console.log(err));
+  });
+
+  app.get("/api/save_hospital", (req, res) => {
+    console.log(req.user);
+    db.User.find({ _id: req.user })
+      .then(dbUser => res.json(dbUser))
+      .catch(err => console.log(err));
   });
 };
 
