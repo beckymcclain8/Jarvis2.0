@@ -93,17 +93,18 @@ class Patient extends Component {
         "this is the current user ID:" + JSON.stringify(this.props.auth)
       );
       if (hospital.provider_id === id) {
-        API.deleteHospital(hospital)
-          .then(res => {
-            console.log(res);
-            this.getHospitals();
-          })
-          .catch(err =>
-            console.log(
-              "There was an error trying to delete the hospital: ",
-              err
-            )
-          );
+        API.deleteHospital(hospital);
+        window.location.reload();
+          // .then(res => {
+          //   console.log(res);
+          //   this.getHospitals();
+          // })
+          // .catch(err =>
+          //   console.log(
+          //     "There was an error trying to delete the hospital: ",
+          //     err
+          //   )
+          // );
       }
     });
   };
