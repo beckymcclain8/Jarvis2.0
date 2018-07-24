@@ -39,7 +39,7 @@ require("./routes/saveRoutes")(app);
 require("./routes/authRoutes")(app);
 
 
-if (process.env.NODE.ENV === "production") {
+if (process.env.NODE_ENV === "production") {
 
   //express will serve up production assets
   //like out main.js file, or main.css file
