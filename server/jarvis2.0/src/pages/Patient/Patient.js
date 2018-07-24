@@ -69,23 +69,23 @@ class Patient extends Component {
     return console.log("here is your drive cost", this.state.driveCost);
   };
 
-  getHospitals = () => {
-    console.log("Getting hospitals...");
-    API.getHospital()
-      .then(res => {
-        console.log(res);
-        this.setState({
-          results: res.data[0].hospitals,
-          name: res.data[0].googleName
-        });
-      })
-      .catch(err =>
-        console.log(
-          "There was an error trying to get the current users saved hospitals: ",
-          err
-        )
-      );
-  };
+  // getHospitals = () => {
+  //   console.log("Getting hospitals...");
+  //   API.getHospital()
+  //     .then(res => {
+  //       console.log(res);
+  //       this.setState({
+  //         results: res.data[0].hospitals,
+  //         name: res.data[0].googleName
+  //       });
+  //     })
+  //     .catch(err =>
+  //       console.log(
+  //         "There was an error trying to get the current users saved hospitals: ",
+  //         err
+  //       )
+  //     );
+  // };
 
   deleteHospital = id => {
     this.state.results.map(hospital => {
@@ -93,17 +93,18 @@ class Patient extends Component {
         "this is the current user ID:" + JSON.stringify(this.props.auth)
       );
       if (hospital.provider_id === id) {
-        API.deleteHospital(hospital)
-          .then(res => {
-            console.log(res);
-            this.getHospitals();
-          })
-          .catch(err =>
-            console.log(
-              "There was an error trying to delete the hospital: ",
-              err
-            )
-          );
+        API.deleteHospital(hospital);
+        window.location.reload();
+          // .then(res => {
+          //   console.log(res);
+          //   this.getHospitals();
+          // })
+          // .catch(err =>
+          //   console.log(
+          //     "There was an error trying to delete the hospital: ",
+          //     err
+          //   )
+          // );
       }
     });
   };

@@ -10,10 +10,10 @@ export function receiveHospitals(json) {
 
 //Need to write axios statement to get
 //Hospitals from the API - TODO
-export function getHospitals() {
-  //   axios.get("/search",{
-  //       params:{}
-  //   }).then(function(res){
-  //       res.json
-  //   }
-}
+// export function getHospitals() {
+//   //   axios.get("/search",{
+//   //       params:{}
+//   //   }).then(function(res){
+//   //       res.json
+//   //   }
+// }
